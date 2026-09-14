@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>8076 Wazirpur Enclave B-44FINAL.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>8076 Wazirpur Enclave B-44</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						76.91484721755893,28.42236445560324,0 76.91482828138687,28.4218818281291,0 76.91481825313524,28.42141746099041,0 76.91517167206,28.42142318886877,0 76.91516284505938,28.42161822100483,0 76.91548568439634,28.42160571813939,0 76.91547712393188,28.42247055454957,0 76.91559152488568,28.42247112075162,0 76.9159904991309,28.42244834524472,0 76.91598728790569,28.42198999872306,0 76.91604069611074,28.42199003197293,0 76.91620661844063,28.42199599150545,0 76.91620368513713,28.42218960242737,0 76.91639889162481,28.42218593726856,0 76.91639941105443,28.4223427523423,0 76.91629234455964,28.42234523777982,0 76.91629753739343,28.42243208692654,0 76.91649470423165,28.42243216707672,0 76.91649414623666,28.42256128089592,0 76.9165549117569,28.42256301116674,0 76.91655638684983,28.42337873842239,0 76.91655402255806,28.42408351656027,0 76.91618546588315,28.42407105520139,0 76.91620075015989,28.42350405455554,0 76.9155000339523,28.4234738405011,0 76.91549898362236,28.42372243628233,0 76.914813736197,28.4237129950161,0 76.91484721755893,28.42236445560324,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
