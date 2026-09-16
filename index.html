@@ -120,7 +120,7 @@
       if (!id || renderedAssetIds.has(id)) return;
       renderedAssetIds.add(id);
       const key = isPrivate ? code + ':private' : code;
-      if (!assetLayers[key]) assetLayers[key] = L.layerGroup().addTo(map);
+      if (!assetLayers[key]) assetLayers[key] = L.layerGroup();
       const style = isPrivate
         ? { color: colorForClass(code), weight: 4, opacity: .95, dashArray: '6,6' }
         : { color: colorForClass(code), weight: 5, opacity: .9 };
@@ -139,7 +139,7 @@
         const code = isPrivate ? key.slice(0, -8) : key;
         const label = (ASSET_CLASSES[code] || [null, code])[1] + (isPrivate ? ' (private)' : '');
         const swatch = isPrivate ? '<span class="swatch dashed"></span>' : '<span class="swatch" style="background:' + colorForClass(code) + '"></span>';
-        return '<label class="legend-item"><input type="checkbox" data-legend-key="' + key + '" checked>' + swatch + ' ' + label + '</label>';
+        return '<label class="legend-item"><input type="checkbox" data-legend-key="' + key + '">' + swatch + ' ' + label + '</label>';
       }).join('') : '<p class="note" style="margin-top:0">No assets published yet.</p>';
       legend.querySelectorAll('[data-legend-key]').forEach(input => input.addEventListener('change', () => {
         const layer = assetLayers[input.dataset.legendKey];
