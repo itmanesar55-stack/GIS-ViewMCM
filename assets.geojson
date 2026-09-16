@@ -66,28 +66,6 @@
           ]
         ]
       }
-    },
-    {
-      "properties": {
-        "assetClass": "RD",
-        "assetName": "Auto Publish Test Road",
-        "assetId": "MCM-RD-777777",
-        "createdBy": "admin"
-      },
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            76.9,
-            28.35
-          ],
-          [
-            76.91,
-            28.36
-          ]
-        ],
-        "type": "LineString"
-      }
     }
   ]
 }
