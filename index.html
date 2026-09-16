@@ -11,7 +11,7 @@
   * { box-sizing: border-box; }
   body { margin: 0; font-family: 'DM Sans', sans-serif; color: var(--ink); }
   header { display: flex; align-items: center; gap: 12px; padding: 0 20px; height: 54px; background: var(--ink); color: #fff; position: relative; z-index: 20; }
-  header .mark { width: 28px; height: 28px; display: grid; place-items: center; background: #d84d35; border-radius: 7px; font: 700 12px 'Space Grotesk', sans-serif; }
+  header .mark { height: 30px; width: auto; border-radius: 4px; }
   header strong { font: 700 16px 'Space Grotesk', sans-serif; }
   header span.tag { color: #aebbb4; font-size: 12px; margin-left: 4px; }
   .auth-area { margin-left: auto; position: relative; }
@@ -39,7 +39,7 @@
 </head>
 <body>
   <header>
-    <div class="mark">AM</div><strong>Asset Mark GIS</strong><span class="tag">MC Manesar — public view</span>
+    <img class="mark" src="mcm-logo.png" alt="Municipal Corporation Manesar"><strong>Municipal Corporation Manesar</strong><span class="tag">Asset Mark GIS — public view</span>
     <div class="auth-area">
       <button class="signin-button" id="signin-button">Sign in to view private assets</button>
       <div class="signed-in-badge" id="signed-in-badge" style="display:none"></div>
