@@ -10,22 +10,22 @@
   :root { --ink:#17221f; --muted:#687570; --line:#d8e0db; }
   * { box-sizing: border-box; }
   body { margin: 0; font-family: 'DM Sans', sans-serif; color: var(--ink); }
-  header { display: flex; align-items: center; gap: 12px; padding: 0 20px; height: 54px; background: var(--ink); color: #fff; position: relative; z-index: 20; }
-  header .mark { height: 30px; width: auto; border-radius: 4px; }
-  header strong { font: 700 16px 'Space Grotesk', sans-serif; }
+  header { display: flex; align-items: center; gap: 16px; padding: 12px 24px; min-height: 84px; background: var(--ink); color: #fff; position: relative; z-index: 20; }
+  header .mark { height: 56px; width: auto; border-radius: 5px; }
+  header strong { font: 700 18px 'Space Grotesk', sans-serif; }
   header span.tag { color: #aebbb4; font-size: 12px; margin-left: 4px; }
   .auth-area { margin-left: auto; position: relative; }
   .signin-button { min-height: 32px; padding: 0 12px; border: 1px solid #465a51; border-radius: 6px; background: transparent; color: #fff; font: 600 12px 'DM Sans', sans-serif; cursor: pointer; }
   .signin-button:hover { background: #263832; }
   .signed-in-badge { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #cfe0d9; }
   .signed-in-badge button { min-height: 28px; padding: 0 9px; border: 1px solid #465a51; border-radius: 5px; background: transparent; color: #fff; font-size: 11px; cursor: pointer; }
-  .login-popover { display: none; position: fixed; top: 62px; right: 16px; width: 280px; max-width: calc(100vw - 32px); padding: 16px; background: #fff; color: var(--ink); border-radius: 8px; box-shadow: 0 18px 44px rgba(0,0,0,.35); z-index: 999999; isolation: isolate; }
+  .login-popover { display: none; position: fixed; top: 92px; right: 16px; width: 280px; max-width: calc(100vw - 32px); padding: 16px; background: #fff; color: var(--ink); border-radius: 8px; box-shadow: 0 18px 44px rgba(0,0,0,.35); z-index: 999999; isolation: isolate; }
   .login-popover.open { display: block; }
   .login-popover label { display: block; font-size: 11px; font-weight: 600; color: var(--muted); margin: 10px 0 5px; }
   .login-popover input { width: 100%; height: 34px; padding: 0 9px; border: 1px solid var(--line); border-radius: 5px; font-size: 13px; }
   .login-popover button[type="submit"] { width: 100%; margin-top: 12px; min-height: 34px; background: #1469df; color: #fff; border: 0; border-radius: 6px; font: 600 12px 'DM Sans', sans-serif; cursor: pointer; }
   .login-error { min-height: 14px; margin-top: 6px; color: #b83232; font-size: 11px; }
-  .layout { display: grid; grid-template-columns: 1fr 250px; height: calc(100vh - 54px); }
+  .layout { display: grid; grid-template-columns: 1fr 250px; height: calc(100vh - 84px); }
   #map { height: 100%; }
   aside { padding: 16px; border-left: 1px solid var(--line); overflow-y: auto; }
   aside h3 { margin: 0 0 10px; font: 600 13px 'Space Grotesk', sans-serif; }
