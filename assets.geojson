@@ -66,6 +66,29 @@
           ]
         ]
       }
+    },
+    {
+      "properties": {
+        "visibility": "public",
+        "assetClass": "RD",
+        "assetName": "Public Test Road",
+        "assetId": "MCM-RD-111111",
+        "createdBy": "admin"
+      },
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            76.9,
+            28.35
+          ],
+          [
+            76.91,
+            28.36
+          ]
+        ],
+        "type": "LineString"
+      }
     }
   ]
 }
