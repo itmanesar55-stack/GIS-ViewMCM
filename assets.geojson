@@ -89,6 +89,29 @@
         ],
         "type": "LineString"
       }
+    },
+    {
+      "properties": {
+        "visibility": "public",
+        "assetClass": "RD",
+        "assetName": "Permission Test Road Edited",
+        "assetId": "MCM-RD-555555",
+        "createdBy": "surveyor"
+      },
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            76.9,
+            28.35
+          ],
+          [
+            76.91,
+            28.36
+          ]
+        ],
+        "type": "LineString"
+      }
     }
   ]
 }
