@@ -71,6 +71,48 @@
           ]
         ]
       }
+    },
+    {
+      "properties": {
+        "assetName": "PDF Fix Test Road",
+        "ownership": "ULB-built",
+        "assetClass": "RD",
+        "ward": "6",
+        "confidence": "High",
+        "lifecycleData": {
+          "workName": "werftghb",
+          "hewpId": "sdfg"
+        },
+        "sector": "5",
+        "lengthM": "984.87",
+        "visibility": "public",
+        "status": "Active",
+        "assetId": "MCM-RD-777888",
+        "featureData": {
+          "feature_1": "Two-lane",
+          "feature_2": "Asphalt",
+          "feature_0": "Arterial"
+        },
+        "createdBy": "admin"
+      },
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            76.9,
+            28.35
+          ],
+          [
+            76.91,
+            28.36
+          ],
+          [
+            76.92,
+            28.37
+          ]
+        ],
+        "type": "LineString"
+      }
     }
   ]
 }
