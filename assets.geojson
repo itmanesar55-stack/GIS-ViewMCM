@@ -1,4 +1,76 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000017",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "rrftgh",
+        "ward": "6",
+        "sector": "5",
+        "ownership": "ULB-built",
+        "status": "Active",
+        "confidence": "High",
+        "lengthM": "984.87",
+        "featureData": {
+          "feature_0": "edf",
+          "feature_1": "drfv",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "2",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {
+          "hewpId": "",
+          "workName": "werftghb",
+          "tenderId": "ewrfgv",
+          "tenderName": "wserfgb",
+          "tenderDate": "",
+          "estimatedAmount": "",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "",
+          "remarks": ""
+        },
+        "createdBy": "admin",
+        "updatedAt": "2026-09-16T14:32:20.838Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.904704,
+            28.365174
+          ],
+          [
+            76.913311,
+            28.365098
+          ],
+          [
+            76.9133,
+            28.363815
+          ]
+        ]
+      }
+    }
+  ]
 }
