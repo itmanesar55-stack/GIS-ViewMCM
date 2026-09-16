@@ -71,6 +71,33 @@
           ]
         ]
       }
+    },
+    {
+      "properties": {
+        "visibility": "public",
+        "assetClass": "RD",
+        "assetName": "Map In PDF Test",
+        "assetId": "MCM-RD-999555",
+        "createdBy": "admin"
+      },
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            76.9,
+            28.35
+          ],
+          [
+            76.91,
+            28.36
+          ],
+          [
+            76.92,
+            28.37
+          ]
+        ],
+        "type": "LineString"
+      }
     }
   ]
 }
