@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-009998",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "assetName": "End to End GIS Test Road",
+        "ward": "9",
+        "sector": "Test",
+        "ownership": "ULB-built",
+        "status": "Active",
+        "confidence": "High",
+        "lengthM": "819.14",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {
+          "hewpId": "",
+          "workName": "",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "",
+          "remarks": ""
+        },
+        "createdBy": "admin",
+        "updatedAt": "2026-09-16T07:35:22.004Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.896233,
+            28.372589
+          ],
+          [
+            76.904603,
+            28.372438
+          ]
+        ]
+      }
+    }
+  ]
+}

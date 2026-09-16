@@ -1,190 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Map Viewer</title>
-
-<!-- Leaflet (map library) -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
-<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
-<!-- Omnivore: reads .kml files into Leaflet layers -->
-<script src="https://cdn.jsdelivr.net/npm/@mapbox/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asset Mark GIS — MC Manesar</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 <style>
-  :root {
-    --ink: #1b2430;
-    --panel: #ffffff;
-    --line: #dfe4ea;
-    --muted: #6b7684;
-    --accent: #2f6f4e;
-  }
+  :root { --ink:#17221f; --muted:#687570; --line:#d8e0db; }
   * { box-sizing: border-box; }
-  html, body { height: 100%; margin: 0; }
-  body {
-    font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
-    color: var(--ink);
-  }
-  #map { position: absolute; inset: 0; z-index: 1; }
-
-  /* Title bar */
-  .titlebar {
-    position: absolute; top: 14px; left: 14px; z-index: 1000;
-    background: var(--panel); border: 1px solid var(--line);
-    border-radius: 10px; padding: 10px 14px;
-    box-shadow: 0 2px 10px rgba(27,36,48,.12);
-    max-width: 260px;
-  }
-  .titlebar h1 { font-size: 15px; margin: 0; letter-spacing: .2px; }
-  .titlebar p { margin: 3px 0 0; font-size: 12px; color: var(--muted); }
-
-  /* Loading / error notice */
-  .notice {
-    position: absolute; bottom: 18px; left: 14px; z-index: 1000;
-    background: var(--panel); border: 1px solid var(--line);
-    border-left: 3px solid var(--accent);
-    border-radius: 8px; padding: 8px 12px; font-size: 12.5px;
-    color: var(--muted); box-shadow: 0 2px 10px rgba(27,36,48,.12);
-    max-width: 320px; display: none;
-  }
-  .leaflet-control-layers { border-radius: 10px !important; }
-  .leaflet-control-layers-list { font-size: 13px; }
-
-  /* Legend */
-  .legend {
-    background: var(--panel); border: 1px solid var(--line);
-    border-radius: 10px; padding: 10px 12px;
-    box-shadow: 0 2px 10px rgba(27,36,48,.12);
-    font-size: 13px; line-height: 1.5; color: var(--ink);
-  }
-  .legend h2 {
-    font-size: 12px; margin: 0 0 6px; text-transform: uppercase;
-    letter-spacing: .6px; color: var(--muted); font-weight: 600;
-  }
-  .legend .row { display: flex; align-items: center; gap: 8px; }
-  .legend .swatch {
-    width: 16px; height: 16px; border-radius: 3px; flex: none;
-    border: 1px solid rgba(0,0,0,.25);
-  }
+  body { margin: 0; font-family: 'DM Sans', sans-serif; color: var(--ink); }
+  header { display: flex; align-items: center; gap: 12px; padding: 0 20px; height: 54px; background: var(--ink); color: #fff; }
+  header .mark { width: 28px; height: 28px; display: grid; place-items: center; background: #d84d35; border-radius: 7px; font: 700 12px 'Space Grotesk', sans-serif; }
+  header strong { font: 700 16px 'Space Grotesk', sans-serif; }
+  header span { color: #aebbb4; font-size: 12px; margin-left: 4px; }
+  .layout { display: grid; grid-template-columns: 1fr 250px; height: calc(100vh - 54px); }
+  #map { height: 100%; }
+  aside { padding: 16px; border-left: 1px solid var(--line); overflow-y: auto; }
+  aside h3 { margin: 0 0 10px; font: 600 13px 'Space Grotesk', sans-serif; }
+  .legend-item { display: flex; align-items: center; gap: 8px; margin: 9px 0; font-size: 12px; }
+  .legend-item input { width: 15px; height: 15px; }
+  .swatch { width: 20px; height: 5px; border-radius: 3px; }
+  .note { margin-top: 16px; padding: 10px; background: #f5f7f3; border-radius: 6px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+  @media (max-width: 760px) { .layout { grid-template-columns: 1fr; grid-template-rows: 60vh 1fr; } aside { border-left: 0; border-top: 1px solid var(--line); } }
 </style>
 </head>
 <body>
+  <header><div class="mark">AM</div><strong>Asset Mark GIS</strong><span>MC Manesar — public view</span></header>
+  <div class="layout">
+    <div id="map"></div>
+    <aside>
+      <h3>Municipal KML layers</h3>
+      <div id="kml-legend"></div>
+      <h3 style="margin-top:18px">Marked assets</h3>
+      <div id="asset-legend"></div>
+      <div class="note">This is a read-only view. New assets are marked and saved by municipal staff on the internal portal, then published here.</div>
+    </aside>
+  </div>
 
-<div class="titlebar">
-  <h1>Map Viewer</h1>
-  <p>Toggle layers using the control in the top-right corner.</p>
-</div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mapbox/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
+  <script>
+    const map = L.map('map', { zoomControl: false }).setView([28.36, 76.94], 13);
+    L.control.zoom({ position: 'bottomright' }).addTo(map);
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: 'Tiles &copy; Esri' }).addTo(map);
 
-<div id="map"></div>
-<div class="notice" id="notice"></div>
-
-<script>
-/* =======================================================================
-   1. YOUR MAP LAYERS
-   -----------------------------------------------------------------------
-   Each entry is ONE legend heading + ONE on/off toggle.
-   - "name"  : the label shown in the legend and the toggle box
-   - "color" : the colour used for every shape in this group
-   - "show"  : true = visible on load, false = starts hidden
-   - "files" : one OR MORE .kml filenames that belong under this heading
-               (all uploaded next to this index.html)
-   To add another authorized colony later, just add its filename to the
-   "files" list of "Authorized Colonies" — nothing else changes.
-   ======================================================================= */
-const KML_LAYERS = [
-  { name: "Municipal Boundary",  color: "#e6194b", show: true, files: ["FINALMCM.kml"] },
-  { name: "Authorized Colonies", color: "#0072b2", show: true, files: [
-      "Bhangrola_B-7954.kml",
-      "Wazirpur_Enclave_B-44.kml",
-      "Saheed_Bagat_Singh_Colony.kml"
-  ] },
-  { name: "Lal Dora",            color: "#f58231", show: true, files: ["ManesarLalDora.kml"] },
-  { name: "Zones",               color: "#911eb4", show: true, files: ["MCM_ZONE_KML.kml"] },
-  { name: "Village Boundary",    color: "#3cb44b", show: true,  files: ["village_boundary.kml"] },
-  { name: "Roads",               color: "#333333", show: true,  files: ["Municipal_Corporation_Manesar.kml"] },
-];
-/* ===================================================================== */
-
-// Base map
-const map = L.map("map", { center: [20, 0], zoom: 2 });
-
-const streets = L.tileLayer(
-  "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-  { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }
-).addTo(map);
-
-const satellite = L.tileLayer(
-  "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-  { maxZoom: 19, attribution: "Imagery &copy; Esri" }
-);
-
-const baseMaps = { "Streets": streets, "Satellite": satellite };
-const overlays = {};
-
-const notice = document.getElementById("notice");
-function showNotice(msg) { notice.textContent = msg; notice.style.display = "block"; }
-
-let allBounds = null;
-let pending = 0;
-KML_LAYERS.forEach(function (g) { pending += g.files.length; });
-
-KML_LAYERS.forEach(function (grp) {
-  const style = { color: grp.color, weight: 2.5, opacity: 0.95, fillColor: grp.color, fillOpacity: 0.2 };
-  const group = L.featureGroup();          // holds all files under this heading
-
-  grp.files.forEach(function (file) {
-    omnivore.kml(file)
-      .on("ready", function () {
-        this.setStyle && this.setStyle(style);
-        this.eachLayer(function (l) {
-          if (l.setStyle) l.setStyle(style);
-          const p = l.feature && l.feature.properties;
-          if (p && (p.name || p.description)) {
-            let html = "<b>" + grp.name + "</b>";
-            if (p.name) html += "<br>" + p.name;
-            if (p.description) html += "<br>" + p.description;
-            l.bindPopup(html, { maxWidth: 320 });
-          }
-        });
-        this.addTo(group);
-        try {
-          const b = this.getBounds();
-          if (b.isValid()) allBounds = allBounds ? allBounds.extend(b) : L.latLngBounds(b);
-        } catch (e) {}
-        finishOne();
-      })
-      .on("error", function () {
-        showNotice("Could not load \"" + file + "\". Check the filename is exact and sits next to index.html.");
-        finishOne();
+    const KML_LAYERS = [
+      { name: 'Municipal Boundary', color: '#e6194b', show: true, files: ['FINALMCM.kml'] },
+      { name: 'Authorized Colonies', color: '#0072b2', show: true, files: ['Bhangrola_B-7954.kml', 'Wazirpur_Enclave_B-44.kml', 'Saheed_Bagat_Singh_Colony.kml'] },
+      { name: 'Lal Dora', color: '#f58231', show: true, files: ['ManesarLalDora.kml'] },
+      { name: 'Zones', color: '#911eb4', show: true, files: ['MCM_ZONE_KML.kml'] },
+      { name: 'Village Boundary', color: '#3cb44b', show: true, files: ['village_boundary.kml'] },
+      { name: 'Roads', color: '#333333', show: true, files: ['Municipal_Corporation_Manesar.kml'] }
+    ];
+    const kmlGroupLayers = {};
+    let boundaryFitted = false;
+    KML_LAYERS.forEach(group => {
+      const layerGroup = L.layerGroup();
+      group.files.forEach(file => {
+        omnivore.kml(file)
+          .on('ready', function () {
+            this.eachLayer(layer => { if (layer.setStyle) layer.setStyle({ color: group.color, weight: 3, fillOpacity: 0.04 }); });
+            this.addTo(layerGroup);
+            if (group.name === 'Municipal Boundary' && !boundaryFitted) { boundaryFitted = true; map.fitBounds(this.getBounds(), { padding: [20, 20] }); }
+          })
+          .on('error', () => console.warn('KML load failed for ' + file));
       });
-  });
+      kmlGroupLayers[group.name] = layerGroup;
+      if (group.show) layerGroup.addTo(map);
+    });
+    document.getElementById('kml-legend').innerHTML = KML_LAYERS.map(group =>
+      '<label class="legend-item"><input type="checkbox" data-kml-group="' + group.name + '" checked><span class="swatch" style="background:' + group.color + '"></span> ' + group.name + '</label>'
+    ).join('');
+    document.querySelectorAll('[data-kml-group]').forEach(input => input.addEventListener('change', () => {
+      const layer = kmlGroupLayers[input.dataset.kmlGroup];
+      if (input.checked) layer.addTo(map); else map.removeLayer(layer);
+    }));
 
-  overlays[grp.name] = group;
-  if (grp.show) group.addTo(map);
-});
-
-function finishOne() {
-  pending--;
-  if (pending === 0 && allBounds && allBounds.isValid()) {
-    map.fitBounds(allBounds, { padding: [40, 40] });
-  }
-}
-
-L.control.layers(baseMaps, overlays, { collapsed: false }).addTo(map);
-
-// Legend — built automatically from KML_LAYERS
-const legend = L.control({ position: "bottomright" });
-legend.onAdd = function () {
-  const div = L.DomUtil.create("div", "legend");
-  let html = "<h2>Legend</h2>";
-  KML_LAYERS.forEach(function (cfg) {
-    html += '<div class="row"><span class="swatch" style="background:' +
-            cfg.color + '"></span>' + cfg.name + '</div>';
-  });
-  div.innerHTML = html;
-  return div;
-};
-legend.addTo(map);
-</script>
+    const ASSET_CLASSES = { RD: ['#e33d2f', 'Roads'], DR: ['#1573c8', 'Drains / Sewer'], WL: ['#0c9b9b', 'Water supply'], SD: ['#7b4bb7', 'Storm water'], SL: ['#f0a51a', 'Streetlights'], PK: ['#369d55', 'Parks'] };
+    function colorForClass(code) { return (ASSET_CLASSES[code] || ['#d84d35'])[0]; }
+    const assetLayers = {};
+    fetch('assets.geojson').then(r => r.json()).then(collection => {
+      (collection.features || []).forEach(feature => {
+        const code = feature.properties && feature.properties.assetClass;
+        if (!assetLayers[code]) assetLayers[code] = L.layerGroup().addTo(map);
+        L.geoJSON(feature, {
+          style: { color: colorForClass(code), weight: 5, opacity: .9 },
+          pointToLayer: (_f, latlng) => L.circleMarker(latlng, { radius: 7, color: '#fff', weight: 2, fillColor: colorForClass(code), fillOpacity: 1 })
+        }).bindPopup('<strong>' + (feature.properties.assetName || feature.properties.assetId) + '</strong><br>' + feature.properties.assetId + '<br>' + code)
+          .addTo(assetLayers[code]);
+      });
+      const legend = document.getElementById('asset-legend');
+      const used = Object.keys(assetLayers);
+      legend.innerHTML = used.length ? used.map(code => {
+        const label = (ASSET_CLASSES[code] || [null, code])[1];
+        return '<label class="legend-item"><input type="checkbox" data-asset-class="' + code + '" checked><span class="swatch" style="background:' + colorForClass(code) + '"></span> ' + label + '</label>';
+      }).join('') : '<p class="note" style="margin-top:0">No assets published yet.</p>';
+      legend.querySelectorAll('[data-asset-class]').forEach(input => input.addEventListener('change', () => {
+        const layer = assetLayers[input.dataset.assetClass];
+        if (input.checked) layer.addTo(map); else map.removeLayer(layer);
+      }));
+    }).catch(() => { document.getElementById('asset-legend').innerHTML = '<p class="note" style="margin-top:0">No assets published yet.</p>'; });
+  </script>
 </body>
 </html>
