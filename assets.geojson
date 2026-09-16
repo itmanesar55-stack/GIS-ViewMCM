@@ -71,6 +71,29 @@
           ]
         ]
       }
+    },
+    {
+      "properties": {
+        "visibility": "public",
+        "assetClass": "RD",
+        "assetName": "Details View Test",
+        "assetId": "MCM-RD-444444",
+        "createdBy": "admin"
+      },
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            76.9,
+            28.35
+          ],
+          [
+            76.91,
+            28.36
+          ]
+        ],
+        "type": "LineString"
+      }
     }
   ]
 }
