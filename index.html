@@ -10,10 +10,21 @@
   :root { --ink:#17221f; --muted:#687570; --line:#d8e0db; }
   * { box-sizing: border-box; }
   body { margin: 0; font-family: 'DM Sans', sans-serif; color: var(--ink); }
-  header { display: flex; align-items: center; gap: 12px; padding: 0 20px; height: 54px; background: var(--ink); color: #fff; }
+  header { display: flex; align-items: center; gap: 12px; padding: 0 20px; height: 54px; background: var(--ink); color: #fff; position: relative; z-index: 20; }
   header .mark { width: 28px; height: 28px; display: grid; place-items: center; background: #d84d35; border-radius: 7px; font: 700 12px 'Space Grotesk', sans-serif; }
   header strong { font: 700 16px 'Space Grotesk', sans-serif; }
-  header span { color: #aebbb4; font-size: 12px; margin-left: 4px; }
+  header span.tag { color: #aebbb4; font-size: 12px; margin-left: 4px; }
+  .auth-area { margin-left: auto; position: relative; }
+  .signin-button { min-height: 32px; padding: 0 12px; border: 1px solid #465a51; border-radius: 6px; background: transparent; color: #fff; font: 600 12px 'DM Sans', sans-serif; cursor: pointer; }
+  .signin-button:hover { background: #263832; }
+  .signed-in-badge { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #cfe0d9; }
+  .signed-in-badge button { min-height: 28px; padding: 0 9px; border: 1px solid #465a51; border-radius: 5px; background: transparent; color: #fff; font-size: 11px; cursor: pointer; }
+  .login-popover { display: none; position: absolute; top: 44px; right: 0; width: 260px; padding: 16px; background: #fff; color: var(--ink); border-radius: 8px; box-shadow: 0 18px 44px rgba(0,0,0,.28); }
+  .login-popover.open { display: block; }
+  .login-popover label { display: block; font-size: 11px; font-weight: 600; color: var(--muted); margin: 10px 0 5px; }
+  .login-popover input { width: 100%; height: 34px; padding: 0 9px; border: 1px solid var(--line); border-radius: 5px; font-size: 13px; }
+  .login-popover button[type="submit"] { width: 100%; margin-top: 12px; min-height: 34px; background: #1469df; color: #fff; border: 0; border-radius: 6px; font: 600 12px 'DM Sans', sans-serif; cursor: pointer; }
+  .login-error { min-height: 14px; margin-top: 6px; color: #b83232; font-size: 11px; }
   .layout { display: grid; grid-template-columns: 1fr 250px; height: calc(100vh - 54px); }
   #map { height: 100%; }
   aside { padding: 16px; border-left: 1px solid var(--line); overflow-y: auto; }
@@ -21,12 +32,28 @@
   .legend-item { display: flex; align-items: center; gap: 8px; margin: 9px 0; font-size: 12px; }
   .legend-item input { width: 15px; height: 15px; }
   .swatch { width: 20px; height: 5px; border-radius: 3px; }
+  .swatch.dashed { background: none; border-top: 3px dashed #a93424; }
   .note { margin-top: 16px; padding: 10px; background: #f5f7f3; border-radius: 6px; color: var(--muted); font-size: 11px; line-height: 1.5; }
   @media (max-width: 760px) { .layout { grid-template-columns: 1fr; grid-template-rows: 60vh 1fr; } aside { border-left: 0; border-top: 1px solid var(--line); } }
 </style>
 </head>
 <body>
-  <header><div class="mark">AM</div><strong>Asset Mark GIS</strong><span>MC Manesar — public view</span></header>
+  <header>
+    <div class="mark">AM</div><strong>Asset Mark GIS</strong><span class="tag">MC Manesar — public view</span>
+    <div class="auth-area">
+      <button class="signin-button" id="signin-button">Sign in to view private assets</button>
+      <div class="signed-in-badge" id="signed-in-badge" style="display:none"></div>
+      <form class="login-popover" id="login-popover">
+        <div class="eyebrow" style="font-size:11px;font-weight:700;color:var(--muted)">STAFF LOGIN</div>
+        <label for="login-id">Login ID</label>
+        <input id="login-id" autocomplete="username" required>
+        <label for="login-password">Password</label>
+        <input id="login-password" type="password" autocomplete="current-password" required>
+        <div class="login-error" id="login-error"></div>
+        <button type="submit">Sign in</button>
+      </form>
+    </div>
+  </header>
   <div class="layout">
     <div id="map"></div>
     <aside>
@@ -34,6 +61,7 @@
       <div id="kml-legend"></div>
       <h3 style="margin-top:18px">Marked assets</h3>
       <div id="asset-legend"></div>
+      <div class="note" id="private-note" style="display:none">Dashed outline = private asset, visible only to you because you're signed in.</div>
       <div class="note">This is a read-only view. New assets are marked and saved by municipal staff on the internal portal, then published here.</div>
     </aside>
   </div>
@@ -41,6 +69,10 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script src="https://cdn.jsdelivr.net/npm/@mapbox/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
   <script>
+    // Set this to your server's public address once port forwarding / dynamic DNS is set up.
+    // Example: 'https://gis-portal.mcmanesar.in' or 'https://<your-ddns-name>.duckdns.org:3100'
+    const BACKEND_URL = 'https://REPLACE-WITH-YOUR-SERVER-ADDRESS';
+
     const map = L.map('map', { zoomControl: false }).setView([28.36, 76.94], 13);
     L.control.zoom({ position: 'bottomright' }).addTo(map);
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: 'Tiles &copy; Esri' }).addTo(map);
@@ -80,27 +112,106 @@
     const ASSET_CLASSES = { RD: ['#e33d2f', 'Roads'], DR: ['#1573c8', 'Drains / Sewer'], WL: ['#0c9b9b', 'Water supply'], SD: ['#7b4bb7', 'Storm water'], SL: ['#f0a51a', 'Streetlights'], PK: ['#369d55', 'Parks'] };
     function colorForClass(code) { return (ASSET_CLASSES[code] || ['#d84d35'])[0]; }
     const assetLayers = {};
-    fetch('assets.geojson').then(r => r.json()).then(collection => {
-      (collection.features || []).forEach(feature => {
-        const code = feature.properties && feature.properties.assetClass;
-        if (!assetLayers[code]) assetLayers[code] = L.layerGroup().addTo(map);
-        L.geoJSON(feature, {
-          style: { color: colorForClass(code), weight: 5, opacity: .9 },
-          pointToLayer: (_f, latlng) => L.circleMarker(latlng, { radius: 7, color: '#fff', weight: 2, fillColor: colorForClass(code), fillOpacity: 1 })
-        }).bindPopup('<strong>' + (feature.properties.assetName || feature.properties.assetId) + '</strong><br>' + feature.properties.assetId + '<br>' + code)
-          .addTo(assetLayers[code]);
-      });
+    const renderedAssetIds = new Set();
+
+    function renderAssetFeature(feature, isPrivate) {
+      const code = feature.properties && feature.properties.assetClass;
+      const id = feature.properties && feature.properties.assetId;
+      if (!id || renderedAssetIds.has(id)) return;
+      renderedAssetIds.add(id);
+      const key = isPrivate ? code + ':private' : code;
+      if (!assetLayers[key]) assetLayers[key] = L.layerGroup().addTo(map);
+      const style = isPrivate
+        ? { color: colorForClass(code), weight: 4, opacity: .95, dashArray: '6,6' }
+        : { color: colorForClass(code), weight: 5, opacity: .9 };
+      L.geoJSON(feature, {
+        style,
+        pointToLayer: (_f, latlng) => L.circleMarker(latlng, { radius: 7, color: '#fff', weight: 2, fillColor: colorForClass(code), fillOpacity: 1, dashArray: isPrivate ? '3,3' : null })
+      }).bindPopup('<strong>' + (feature.properties.assetName || id) + '</strong><br>' + id + '<br>' + code + (isPrivate ? '<br><em>Private</em>' : ''))
+        .addTo(assetLayers[key]);
+    }
+
+    function rebuildAssetLegend() {
       const legend = document.getElementById('asset-legend');
-      const used = Object.keys(assetLayers);
-      legend.innerHTML = used.length ? used.map(code => {
-        const label = (ASSET_CLASSES[code] || [null, code])[1];
-        return '<label class="legend-item"><input type="checkbox" data-asset-class="' + code + '" checked><span class="swatch" style="background:' + colorForClass(code) + '"></span> ' + label + '</label>';
+      const keys = Object.keys(assetLayers);
+      legend.innerHTML = keys.length ? keys.map(key => {
+        const isPrivate = key.endsWith(':private');
+        const code = isPrivate ? key.slice(0, -8) : key;
+        const label = (ASSET_CLASSES[code] || [null, code])[1] + (isPrivate ? ' (private)' : '');
+        const swatch = isPrivate ? '<span class="swatch dashed"></span>' : '<span class="swatch" style="background:' + colorForClass(code) + '"></span>';
+        return '<label class="legend-item"><input type="checkbox" data-legend-key="' + key + '" checked>' + swatch + ' ' + label + '</label>';
       }).join('') : '<p class="note" style="margin-top:0">No assets published yet.</p>';
-      legend.querySelectorAll('[data-asset-class]').forEach(input => input.addEventListener('change', () => {
-        const layer = assetLayers[input.dataset.assetClass];
+      legend.querySelectorAll('[data-legend-key]').forEach(input => input.addEventListener('change', () => {
+        const layer = assetLayers[input.dataset.legendKey];
         if (input.checked) layer.addTo(map); else map.removeLayer(layer);
       }));
+    }
+
+    fetch('assets.geojson').then(r => r.json()).then(collection => {
+      (collection.features || []).forEach(feature => renderAssetFeature(feature, false));
+      rebuildAssetLegend();
     }).catch(() => { document.getElementById('asset-legend').innerHTML = '<p class="note" style="margin-top:0">No assets published yet.</p>'; });
+
+    // ---- Staff login: fetches private assets live from the internal server (never published as static files) ----
+    let authToken = sessionStorage.getItem('publicview:token');
+    let authUser = sessionStorage.getItem('publicview:user');
+    const signinButton = document.getElementById('signin-button');
+    const signedBadge = document.getElementById('signed-in-badge');
+    const popover = document.getElementById('login-popover');
+    const loginError = document.getElementById('login-error');
+
+    function applyAuthUi() {
+      if (authToken) {
+        signinButton.style.display = 'none';
+        popover.classList.remove('open');
+        signedBadge.style.display = 'flex';
+        signedBadge.innerHTML = 'Signed in: ' + authUser + ' <button id="signout-button" type="button">Sign out</button>';
+        document.getElementById('signout-button').addEventListener('click', () => {
+          authToken = null; authUser = null;
+          sessionStorage.removeItem('publicview:token'); sessionStorage.removeItem('publicview:user');
+          window.location.reload();
+        });
+      } else {
+        signinButton.style.display = 'inline-block';
+        signedBadge.style.display = 'none';
+      }
+    }
+
+    async function loadPrivateAssets() {
+      try {
+        const response = await fetch(BACKEND_URL + '/api/public/assets', { headers: { Authorization: 'Bearer ' + authToken } });
+        if (!response.ok) throw new Error('Server returned ' + response.status);
+        const all = await response.json();
+        const privateOnes = all.filter(item => item.properties && item.properties.visibility === 'private' && item.geometry);
+        privateOnes.forEach(feature => renderAssetFeature(feature, true));
+        rebuildAssetLegend();
+        document.getElementById('private-note').style.display = privateOnes.length ? 'block' : 'none';
+      } catch (error) {
+        loginError.textContent = 'Signed in, but could not reach the private data server: ' + error.message;
+      }
+    }
+
+    signinButton.addEventListener('click', () => popover.classList.toggle('open'));
+    document.getElementById('login-popover').addEventListener('submit', async event => {
+      event.preventDefault();
+      const loginId = document.getElementById('login-id').value.trim();
+      const password = document.getElementById('login-password').value;
+      loginError.textContent = '';
+      try {
+        const response = await fetch(BACKEND_URL + '/api/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ loginId, password }) });
+        if (!response.ok) throw new Error('Invalid login ID or password.');
+        const session = await response.json();
+        authToken = session.token; authUser = session.user.loginId;
+        sessionStorage.setItem('publicview:token', authToken); sessionStorage.setItem('publicview:user', authUser);
+        applyAuthUi();
+        await loadPrivateAssets();
+      } catch (error) {
+        loginError.textContent = error.message.includes('fetch') ? 'Could not reach the private data server. It may be offline right now.' : error.message;
+      }
+    });
+
+    applyAuthUi();
+    if (authToken) loadPrivateAssets();
   </script>
 </body>
 </html>
