@@ -71,6 +71,93 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000024",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "serf",
+        "ward": "3",
+        "sector": "3",
+        "ownership": "ULB-built",
+        "status": "Active",
+        "confidence": "High",
+        "lengthM": "797.22",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {
+          "hewpId": "",
+          "workName": "",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "",
+          "remarks": ""
+        },
+        "createdBy": "admin",
+        "updatedAt": "2026-09-17T05:03:02.607Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.895834,
+            28.40337
+          ],
+          [
+            76.898066,
+            28.403294
+          ],
+          [
+            76.901339,
+            28.40336
+          ],
+          [
+            76.902767,
+            28.403341
+          ],
+          [
+            76.902799,
+            28.403785
+          ],
+          [
+            76.903207,
+            28.403879
+          ],
+          [
+            76.903357,
+            28.404096
+          ]
+        ]
+      }
     }
   ]
 }
