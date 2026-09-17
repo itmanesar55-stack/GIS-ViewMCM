@@ -161,25 +161,11 @@
     },
     {
       "properties": {
-        "assetName": "Test Public Road",
-        "ownership": "ULB-built",
-        "assetClass": "RD",
-        "ward": "3",
-        "confidence": "High",
-        "lifecycleData": {
-          "remarks": "test",
-          "hewpId": "HEWP1"
-        },
-        "sector": "Test Sector",
-        "lengthM": "120.5",
         "visibility": "public",
-        "status": "Active",
+        "assetClass": "RD",
+        "assetName": "Test Public Road EDITED",
         "assetId": "TEST-RD-000001",
-        "featureData": {
-          "feature_0": "Arterial",
-          "feature_1": "Two-lane"
-        },
-        "createdBy": "admin"
+        "createdBy": "surveyor"
       },
       "type": "Feature",
       "geometry": {
