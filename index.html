@@ -106,6 +106,22 @@
     const assetLayers = {};
     const renderedAssetIds = new Set();
 
+    function escapeHtml(value) { return String(value == null ? '' : value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+    function prettifyKey(key) { return String(key).replace(/^feature_(\d+)$/, (_m, n) => 'Feature ' + (Number(n) + 1)).replace(/([a-z])([A-Z])/g, '$1 $2').replace(/^./, c => c.toUpperCase()); }
+    function assetDetailsHtml(properties) {
+      const code = properties.assetClass;
+      const rows = [
+        ['Asset ID', properties.assetId], ['Asset Name', properties.assetName], ['Asset Class', (ASSET_CLASSES[code] || [null, code])[1]],
+        ['ULB', properties.ulb], ['Ward', properties.ward], ['Sector', properties.sector],
+        ['Ownership', properties.ownership], ['Status', properties.status], ['Confidence', properties.confidence],
+        ['Length (m)', properties.lengthM], ['Created By', properties.createdBy]
+      ];
+      Object.entries(properties.featureData || {}).forEach(([key, value]) => { if (value) rows.push([prettifyKey(key), value]); });
+      Object.entries(properties.lifecycleData || {}).forEach(([key, value]) => { if (value) rows.push([prettifyKey(key), value]); });
+      const trs = rows.filter(([, v]) => v !== undefined && v !== null && v !== '')
+        .map(([k, v]) => '<tr><td style="font-weight:bold;padding:2px 10px 2px 0;white-space:nowrap">' + escapeHtml(k) + '</td><td style="padding:2px">' + escapeHtml(v) + '</td></tr>').join('');
+      return '<table>' + trs + '</table>';
+    }
     function renderAssetFeature(feature) {
       const code = feature.properties && feature.properties.assetClass;
       const id = feature.properties && feature.properties.assetId;
@@ -115,7 +131,7 @@
       L.geoJSON(feature, {
         style: { color: colorForClass(code), weight: 5, opacity: .9 },
         pointToLayer: (_f, latlng) => L.circleMarker(latlng, { radius: 7, color: '#fff', weight: 2, fillColor: colorForClass(code), fillOpacity: 1 })
-      }).bindPopup('<strong>' + (feature.properties.assetName || id) + '</strong><br>' + id + '<br>' + code)
+      }).bindPopup('<strong>' + escapeHtml(feature.properties.assetName || id) + '</strong>' + assetDetailsHtml(feature.properties), { maxWidth: 300, maxHeight: 260 })
         .addTo(assetLayers[code]);
     }
 
