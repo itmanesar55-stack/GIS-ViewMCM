@@ -158,6 +158,84 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-PD-000012",
+        "ulb": "MCM",
+        "assetClass": "PD",
+        "visibility": "public",
+        "assetName": "pond og nakhrola",
+        "ward": "1",
+        "sector": "3",
+        "ownership": "ULB-built",
+        "status": "Active",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "wreefdc",
+          "feature_1": "1",
+          "feature_2": "7784",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": ""
+        },
+        "lifecycleData": {
+          "hewpId": "dsfgtjunbv",
+          "workName": "fhgfkijmhy",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "876543",
+          "workStartDate": "2026-09-10",
+          "completionDate": "2026-09-23",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "",
+          "remarks": ""
+        },
+        "createdBy": "admin",
+        "updatedAt": "2026-09-17T10:42:08.061Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.928818,
+              28.388781
+            ],
+            [
+              76.92952,
+              28.388805
+            ],
+            [
+              76.929515,
+              28.388323
+            ],
+            [
+              76.928823,
+              28.388309
+            ],
+            [
+              76.928818,
+              28.388781
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
