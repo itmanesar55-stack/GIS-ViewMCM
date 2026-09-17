@@ -22,10 +22,10 @@
   .legend-item input { width: 15px; height: 15px; }
   .swatch { width: 20px; height: 5px; border-radius: 3px; }
   .note { margin-top: 16px; padding: 10px; background: #f5f7f3; border-radius: 6px; color: var(--muted); font-size: 11px; line-height: 1.5; }
-  .leaflet-popup-content { margin: 10px 14px; width: auto !important; }
+  .leaflet-popup-content { margin: 8px 10px; }
   .leaflet-popup-content table { width: 100%; table-layout: fixed; border-collapse: collapse; }
-  .leaflet-popup-content table td { word-break: break-word; white-space: normal !important; vertical-align: top; font-size: 12px; }
-  .leaflet-popup-content table td:first-child { width: 42%; }
+  .leaflet-popup-content table td { word-break: break-word; white-space: normal !important; vertical-align: top; font-size: 11px; padding: 3px 0 !important; }
+  .leaflet-popup-content table td:first-child { width: 44%; }
   .dropdown-check { position: relative; }
   .dropdown-check-toggle { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 9px 11px; background: #fff; border: 1px solid var(--line); border-radius: 6px; font: 600 12px 'DM Sans', sans-serif; color: var(--ink); cursor: pointer; text-align: left; }
   .dropdown-check-toggle .chev { color: var(--muted); font-size: 10px; }
@@ -135,7 +135,7 @@
       L.geoJSON(feature, {
         style: { color: colorForClass(code), weight: 5, opacity: .9 },
         pointToLayer: (_f, latlng) => L.circleMarker(latlng, { radius: 7, color: '#fff', weight: 2, fillColor: colorForClass(code), fillOpacity: 1 })
-      }).bindPopup('<strong>' + escapeHtml(feature.properties.assetName || id) + '</strong>' + assetDetailsHtml(feature.properties), { maxWidth: 320, minWidth: 240, maxHeight: 280 })
+      }).bindPopup('<strong>' + escapeHtml(feature.properties.assetName || id) + '</strong>' + assetDetailsHtml(feature.properties), { maxWidth: 220, minWidth: 180, maxHeight: 260 })
         .addTo(assetLayers[code]);
     }
 
