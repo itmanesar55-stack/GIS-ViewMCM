@@ -34,6 +34,13 @@
   .swatch { width: 20px; height: 5px; border-radius: 3px; }
   .swatch.dashed { background: none; border-top: 3px dashed #a93424; }
   .note { margin-top: 16px; padding: 10px; background: #f5f7f3; border-radius: 6px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+  .dropdown-check { position: relative; }
+  .dropdown-check-toggle { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 9px 11px; background: #fff; border: 1px solid var(--line); border-radius: 6px; font: 600 12px 'DM Sans', sans-serif; color: var(--ink); cursor: pointer; text-align: left; }
+  .dropdown-check-toggle .chev { color: var(--muted); font-size: 10px; }
+  .dropdown-check-panel { position: absolute; top: calc(100% + 4px); left: 0; right: 0; z-index: 20; background: #fff; border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 18px 44px rgba(0,0,0,.2); max-height: 260px; overflow-y: auto; padding: 6px; }
+  .dropdown-check-item { display: flex; align-items: center; gap: 8px; padding: 6px 7px; font-size: 12px; color: var(--ink); border-radius: 4px; cursor: pointer; }
+  .dropdown-check-item:hover { background: #f5f7f3; }
+  .dropdown-check-item input { width: 15px; height: 15px; flex-shrink: 0; }
   @media (max-width: 760px) { .layout { grid-template-columns: 1fr; grid-template-rows: 60vh 1fr; } aside { border-left: 0; border-top: 1px solid var(--line); } }
 </style>
 </head>
@@ -60,7 +67,13 @@
       <h3>Municipal KML layers</h3>
       <div id="kml-legend"></div>
       <h3 style="margin-top:18px">Marked assets</h3>
-      <div id="asset-legend"></div>
+      <div class="dropdown-check" id="asset-class-dropdown">
+        <button type="button" class="dropdown-check-toggle" id="asset-class-toggle">All asset types <span class="chev">&#9662;</span></button>
+        <div class="dropdown-check-panel" id="asset-class-panel" hidden>
+          <label class="dropdown-check-item"><input type="checkbox" value="ALL" checked> All asset types</label>
+          <div id="asset-class-options"></div>
+        </div>
+      </div>
       <div class="note" id="private-note" style="display:none">Dashed outline = private asset, visible only to you because you're signed in.</div>
       <div class="note">This is a read-only view. New assets are marked and saved by municipal staff on the internal portal, then published here.</div>
     </aside>
@@ -110,7 +123,16 @@
     }));
 
     const ASSET_CLASSES = { RD: ['#e33d2f', 'Roads'], DR: ['#1573c8', 'Drains / Sewer'], WL: ['#0c9b9b', 'Water supply'], SD: ['#7b4bb7', 'Storm water'], SL: ['#f0a51a', 'Streetlights'], PK: ['#369d55', 'Parks'] };
-    function colorForClass(code) { return (ASSET_CLASSES[code] || ['#d84d35'])[0]; }
+    const CLASS_COLOR_PALETTE = ['#e33d2f', '#1573c8', '#0c9b9b', '#7b4bb7', '#f0a51a', '#369d55', '#d6499a', '#5b6bd6', '#c77c1f', '#2e9e7a', '#a5388d', '#4a7d1f'];
+    const classColorCache = {};
+    function colorForClass(code) {
+      if (ASSET_CLASSES[code]) return ASSET_CLASSES[code][0];
+      if (!classColorCache[code]) {
+        let hash = 0; for (const ch of code) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
+        classColorCache[code] = CLASS_COLOR_PALETTE[hash % CLASS_COLOR_PALETTE.length];
+      }
+      return classColorCache[code];
+    }
     const assetLayers = {};
     const renderedAssetIds = new Set();
 
@@ -131,26 +153,56 @@
         .addTo(assetLayers[key]);
     }
 
+    const classToggle = document.getElementById('asset-class-toggle');
+    const classPanel = document.getElementById('asset-class-panel');
+    const classOptionsBox = document.getElementById('asset-class-options');
+    const allCheckbox = classPanel.querySelector('input[value="ALL"]');
+    classToggle.addEventListener('click', () => { classPanel.hidden = !classPanel.hidden; });
+    document.addEventListener('click', event => { if (!classPanel.hidden && !document.getElementById('asset-class-dropdown').contains(event.target)) classPanel.hidden = true; });
+    function updateClassToggleLabel() {
+      const checked = [...classPanel.querySelectorAll('input[type="checkbox"]:checked')];
+      let label = 'All asset types';
+      if (!checked.some(box => box.value === 'ALL')) {
+        label = checked.length === 0 ? 'No asset types' : checked.length === 1 ? checked[0].parentElement.textContent.trim() : checked.length + ' asset types selected';
+      }
+      classToggle.firstChild.textContent = label + ' ';
+    }
+    function renderAssetVisibility() {
+      const selected = new Set([...classPanel.querySelectorAll('input[type="checkbox"]:checked')].map(box => box.value));
+      Object.entries(assetLayers).forEach(([key, layer]) => { if (selected.has('ALL') || selected.has(key)) layer.addTo(map); else map.removeLayer(layer); });
+    }
+    classPanel.addEventListener('change', event => {
+      if (!event.target.matches('input[type="checkbox"]')) return;
+      const target = event.target;
+      const boxes = [...classPanel.querySelectorAll('input[type="checkbox"]')];
+      if (target === allCheckbox && target.checked) boxes.forEach(box => { if (box !== allCheckbox) box.checked = false; });
+      else if (target !== allCheckbox && target.checked) allCheckbox.checked = false;
+      if (!boxes.some(box => box.checked)) allCheckbox.checked = true;
+      updateClassToggleLabel();
+      renderAssetVisibility();
+    });
     function rebuildAssetLegend() {
-      const legend = document.getElementById('asset-legend');
       const keys = Object.keys(assetLayers);
-      legend.innerHTML = keys.length ? keys.map(key => {
+      const previousSelection = [...classPanel.querySelectorAll('input[type="checkbox"]:checked')].map(box => box.value);
+      if (!keys.length) { classOptionsBox.innerHTML = '<p class="note" style="margin-top:0">No assets published yet.</p>'; return; }
+      classOptionsBox.innerHTML = keys.map(key => {
         const isPrivate = key.endsWith(':private');
         const code = isPrivate ? key.slice(0, -8) : key;
         const label = (ASSET_CLASSES[code] || [null, code])[1] + (isPrivate ? ' (private)' : '');
         const swatch = isPrivate ? '<span class="swatch dashed"></span>' : '<span class="swatch" style="background:' + colorForClass(code) + '"></span>';
-        return '<label class="legend-item"><input type="checkbox" data-legend-key="' + key + '">' + swatch + ' ' + label + '</label>';
-      }).join('') : '<p class="note" style="margin-top:0">No assets published yet.</p>';
-      legend.querySelectorAll('[data-legend-key]').forEach(input => input.addEventListener('change', () => {
-        const layer = assetLayers[input.dataset.legendKey];
-        if (input.checked) layer.addTo(map); else map.removeLayer(layer);
-      }));
+        return '<label class="dropdown-check-item"><input type="checkbox" value="' + key + '">' + swatch + ' ' + label + '</label>';
+      }).join('');
+      const keptSelection = previousSelection.filter(value => value === 'ALL' || keys.includes(value));
+      [...classPanel.querySelectorAll('input[type="checkbox"]')].forEach(box => { box.checked = keptSelection.includes(box.value); });
+      if (!keptSelection.length) allCheckbox.checked = true;
+      updateClassToggleLabel();
+      renderAssetVisibility();
     }
 
     fetch('assets.geojson').then(r => r.json()).then(collection => {
       (collection.features || []).forEach(feature => renderAssetFeature(feature, false));
       rebuildAssetLegend();
-    }).catch(() => { document.getElementById('asset-legend').innerHTML = '<p class="note" style="margin-top:0">No assets published yet.</p>'; });
+    }).catch(() => { classOptionsBox.innerHTML = '<p class="note" style="margin-top:0">No assets published yet.</p>'; });
 
     // ---- Staff login: fetches private assets live from the internal server (never published as static files) ----
     let authToken = sessionStorage.getItem('publicview:token');
