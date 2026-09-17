@@ -14,17 +14,6 @@
   header .mark { height: 56px; width: auto; border-radius: 5px; }
   header strong { font: 700 18px 'Space Grotesk', sans-serif; }
   header span.tag { color: #aebbb4; font-size: 12px; margin-left: 4px; }
-  .auth-area { margin-left: auto; position: relative; }
-  .signin-button { min-height: 32px; padding: 0 12px; border: 1px solid #465a51; border-radius: 6px; background: transparent; color: #fff; font: 600 12px 'DM Sans', sans-serif; cursor: pointer; }
-  .signin-button:hover { background: #263832; }
-  .signed-in-badge { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #cfe0d9; }
-  .signed-in-badge button { min-height: 28px; padding: 0 9px; border: 1px solid #465a51; border-radius: 5px; background: transparent; color: #fff; font-size: 11px; cursor: pointer; }
-  .login-popover { display: none; position: fixed; top: 92px; right: 16px; width: 280px; max-width: calc(100vw - 32px); padding: 16px; background: #fff; color: var(--ink); border-radius: 8px; box-shadow: 0 18px 44px rgba(0,0,0,.35); z-index: 999999; isolation: isolate; }
-  .login-popover.open { display: block; }
-  .login-popover label { display: block; font-size: 11px; font-weight: 600; color: var(--muted); margin: 10px 0 5px; }
-  .login-popover input { width: 100%; height: 34px; padding: 0 9px; border: 1px solid var(--line); border-radius: 5px; font-size: 13px; }
-  .login-popover button[type="submit"] { width: 100%; margin-top: 12px; min-height: 34px; background: #1469df; color: #fff; border: 0; border-radius: 6px; font: 600 12px 'DM Sans', sans-serif; cursor: pointer; }
-  .login-error { min-height: 14px; margin-top: 6px; color: #b83232; font-size: 11px; }
   .layout { display: grid; grid-template-columns: 1fr 250px; height: calc(100vh - 84px); }
   #map { height: 100%; }
   aside { padding: 16px; border-left: 1px solid var(--line); overflow-y: auto; }
@@ -32,7 +21,6 @@
   .legend-item { display: flex; align-items: center; gap: 8px; margin: 9px 0; font-size: 12px; }
   .legend-item input { width: 15px; height: 15px; }
   .swatch { width: 20px; height: 5px; border-radius: 3px; }
-  .swatch.dashed { background: none; border-top: 3px dashed #a93424; }
   .note { margin-top: 16px; padding: 10px; background: #f5f7f3; border-radius: 6px; color: var(--muted); font-size: 11px; line-height: 1.5; }
   .dropdown-check { position: relative; }
   .dropdown-check-toggle { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 9px 11px; background: #fff; border: 1px solid var(--line); border-radius: 6px; font: 600 12px 'DM Sans', sans-serif; color: var(--ink); cursor: pointer; text-align: left; }
@@ -47,20 +35,7 @@
 <body>
   <header>
     <img class="mark" src="mcm-logo.png" alt="Municipal Corporation Manesar"><strong>Municipal Corporation Manesar</strong><span class="tag">Asset Portal — public view</span>
-    <div class="auth-area">
-      <button class="signin-button" id="signin-button">Sign in to view private assets</button>
-      <div class="signed-in-badge" id="signed-in-badge" style="display:none"></div>
-    </div>
   </header>
-  <form class="login-popover" id="login-popover">
-    <div class="eyebrow" style="font-size:11px;font-weight:700;color:var(--muted)">STAFF LOGIN</div>
-    <label for="login-id">Login ID</label>
-    <input id="login-id" autocomplete="username" required>
-    <label for="login-password">Password</label>
-    <input id="login-password" type="password" autocomplete="current-password" required>
-    <div class="login-error" id="login-error"></div>
-    <button type="submit">Sign in</button>
-  </form>
   <div class="layout">
     <div id="map"></div>
     <aside>
@@ -74,7 +49,6 @@
           <div id="asset-class-options"></div>
         </div>
       </div>
-      <div class="note" id="private-note" style="display:none">Dashed outline = private asset, visible only to you because you're signed in.</div>
       <div class="note">This is a read-only view. New assets are marked and saved by municipal staff on the internal portal, then published here.</div>
     </aside>
   </div>
@@ -82,10 +56,6 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script src="https://cdn.jsdelivr.net/npm/@mapbox/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
   <script>
-    // Set this to your server's public address once port forwarding / dynamic DNS is set up.
-    // Example: 'https://gis-portal.mcmanesar.in' or 'https://<your-ddns-name>.duckdns.org:3100'
-    const BACKEND_URL = 'https://REPLACE-WITH-YOUR-SERVER-ADDRESS';
-
     const map = L.map('map', { zoomControl: false }).setView([28.36, 76.94], 13);
     L.control.zoom({ position: 'bottomright' }).addTo(map);
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: 'Tiles &copy; Esri' }).addTo(map);
@@ -136,21 +106,17 @@
     const assetLayers = {};
     const renderedAssetIds = new Set();
 
-    function renderAssetFeature(feature, isPrivate) {
+    function renderAssetFeature(feature) {
       const code = feature.properties && feature.properties.assetClass;
       const id = feature.properties && feature.properties.assetId;
       if (!id || renderedAssetIds.has(id)) return;
       renderedAssetIds.add(id);
-      const key = isPrivate ? code + ':private' : code;
-      if (!assetLayers[key]) assetLayers[key] = L.layerGroup();
-      const style = isPrivate
-        ? { color: colorForClass(code), weight: 4, opacity: .95, dashArray: '6,6' }
-        : { color: colorForClass(code), weight: 5, opacity: .9 };
+      if (!assetLayers[code]) assetLayers[code] = L.layerGroup();
       L.geoJSON(feature, {
-        style,
-        pointToLayer: (_f, latlng) => L.circleMarker(latlng, { radius: 7, color: '#fff', weight: 2, fillColor: colorForClass(code), fillOpacity: 1, dashArray: isPrivate ? '3,3' : null })
-      }).bindPopup('<strong>' + (feature.properties.assetName || id) + '</strong><br>' + id + '<br>' + code + (isPrivate ? '<br><em>Private</em>' : ''))
-        .addTo(assetLayers[key]);
+        style: { color: colorForClass(code), weight: 5, opacity: .9 },
+        pointToLayer: (_f, latlng) => L.circleMarker(latlng, { radius: 7, color: '#fff', weight: 2, fillColor: colorForClass(code), fillOpacity: 1 })
+      }).bindPopup('<strong>' + (feature.properties.assetName || id) + '</strong><br>' + id + '<br>' + code)
+        .addTo(assetLayers[code]);
     }
 
     const classToggle = document.getElementById('asset-class-toggle');
@@ -185,12 +151,10 @@
       const keys = Object.keys(assetLayers);
       const previousSelection = [...classPanel.querySelectorAll('input[type="checkbox"]:checked')].map(box => box.value);
       if (!keys.length) { classOptionsBox.innerHTML = '<p class="note" style="margin-top:0">No assets published yet.</p>'; return; }
-      classOptionsBox.innerHTML = keys.map(key => {
-        const isPrivate = key.endsWith(':private');
-        const code = isPrivate ? key.slice(0, -8) : key;
-        const label = (ASSET_CLASSES[code] || [null, code])[1] + (isPrivate ? ' (private)' : '');
-        const swatch = isPrivate ? '<span class="swatch dashed"></span>' : '<span class="swatch" style="background:' + colorForClass(code) + '"></span>';
-        return '<label class="dropdown-check-item"><input type="checkbox" value="' + key + '">' + swatch + ' ' + label + '</label>';
+      classOptionsBox.innerHTML = keys.map(code => {
+        const label = (ASSET_CLASSES[code] || [null, code])[1];
+        const swatch = '<span class="swatch" style="background:' + colorForClass(code) + '"></span>';
+        return '<label class="dropdown-check-item"><input type="checkbox" value="' + code + '">' + swatch + ' ' + label + '</label>';
       }).join('');
       const keptSelection = previousSelection.filter(value => value === 'ALL' || keys.includes(value));
       [...classPanel.querySelectorAll('input[type="checkbox"]')].forEach(box => { box.checked = keptSelection.includes(box.value); });
@@ -200,70 +164,9 @@
     }
 
     fetch('assets.geojson').then(r => r.json()).then(collection => {
-      (collection.features || []).forEach(feature => renderAssetFeature(feature, false));
+      (collection.features || []).forEach(feature => renderAssetFeature(feature));
       rebuildAssetLegend();
     }).catch(() => { classOptionsBox.innerHTML = '<p class="note" style="margin-top:0">No assets published yet.</p>'; });
-
-    // ---- Staff login: fetches private assets live from the internal server (never published as static files) ----
-    let authToken = sessionStorage.getItem('publicview:token');
-    let authUser = sessionStorage.getItem('publicview:user');
-    const signinButton = document.getElementById('signin-button');
-    const signedBadge = document.getElementById('signed-in-badge');
-    const popover = document.getElementById('login-popover');
-    const loginError = document.getElementById('login-error');
-
-    function applyAuthUi() {
-      if (authToken) {
-        signinButton.style.display = 'none';
-        popover.classList.remove('open');
-        signedBadge.style.display = 'flex';
-        signedBadge.innerHTML = 'Signed in: ' + authUser + ' <button id="signout-button" type="button">Sign out</button>';
-        document.getElementById('signout-button').addEventListener('click', () => {
-          authToken = null; authUser = null;
-          sessionStorage.removeItem('publicview:token'); sessionStorage.removeItem('publicview:user');
-          window.location.reload();
-        });
-      } else {
-        signinButton.style.display = 'inline-block';
-        signedBadge.style.display = 'none';
-      }
-    }
-
-    async function loadPrivateAssets() {
-      try {
-        const response = await fetch(BACKEND_URL + '/api/public/assets', { headers: { Authorization: 'Bearer ' + authToken } });
-        if (!response.ok) throw new Error('Server returned ' + response.status);
-        const all = await response.json();
-        const privateOnes = all.filter(item => item.properties && item.properties.visibility === 'private' && item.geometry);
-        privateOnes.forEach(feature => renderAssetFeature(feature, true));
-        rebuildAssetLegend();
-        document.getElementById('private-note').style.display = privateOnes.length ? 'block' : 'none';
-      } catch (error) {
-        loginError.textContent = 'Signed in, but could not reach the private data server: ' + error.message;
-      }
-    }
-
-    signinButton.addEventListener('click', () => popover.classList.toggle('open'));
-    document.getElementById('login-popover').addEventListener('submit', async event => {
-      event.preventDefault();
-      const loginId = document.getElementById('login-id').value.trim();
-      const password = document.getElementById('login-password').value;
-      loginError.textContent = '';
-      try {
-        const response = await fetch(BACKEND_URL + '/api/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ loginId, password }) });
-        if (!response.ok) throw new Error('Invalid login ID or password.');
-        const session = await response.json();
-        authToken = session.token; authUser = session.user.loginId;
-        sessionStorage.setItem('publicview:token', authToken); sessionStorage.setItem('publicview:user', authUser);
-        applyAuthUi();
-        await loadPrivateAssets();
-      } catch (error) {
-        loginError.textContent = error.message.includes('fetch') ? 'Could not reach the private data server. It may be offline right now.' : error.message;
-      }
-    });
-
-    applyAuthUi();
-    if (authToken) loadPrivateAssets();
   </script>
 </body>
 </html>
