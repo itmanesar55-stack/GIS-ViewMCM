@@ -262,6 +262,64 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SF-000012",
+        "ulb": "MCM",
+        "assetClass": "SF",
+        "visibility": "public",
+        "assetName": "jhghghjv",
+        "ward": "99",
+        "sector": "999",
+        "ownership": "ULB-built",
+        "status": "Active",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "fb",
+          "feature_1": "fbv x",
+          "feature_2": "kljuj",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Yes",
+          "feature_7": ""
+        },
+        "lifecycleData": {
+          "hewpId": "kjuigyivyhvhvhy",
+          "workName": "",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "2026-09-03",
+          "estimatedAmount": "",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "",
+          "remarks": ""
+        },
+        "createdBy": "admin",
+        "updatedAt": "2026-09-18T06:19:43.878Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.896465,
+          28.410021
+        ]
+      }
     }
   ]
 }
