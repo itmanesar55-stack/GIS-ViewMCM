@@ -124,6 +124,10 @@
       ];
       Object.entries(properties.featureData || {}).forEach(([key, value]) => { if (value) rows.push([prettifyKey(key), value]); });
       Object.entries(properties.lifecycleData || {}).forEach(([key, value]) => { if (value) rows.push([prettifyKey(key), value]); });
+      if (properties.workId) rows.push(['Work ID', properties.workId]);
+      if (Array.isArray(properties.workHistory) && properties.workHistory.length) {
+        rows.push(['Prior Works', properties.workHistory.map(w => (w.workId || '?') + ' (' + (w.completionDate || 'completed date n/a') + ')').join('; ')]);
+      }
       const rowsHtml = rows.filter(([, v]) => v !== undefined && v !== null && v !== '')
         .map(([k, v]) => '<div class="popup-row"><span class="popup-label">' + escapeHtml(k) + '</span><span class="popup-value">' + escapeHtml(v) + '</span></div>').join('');
       return '<div class="popup-details">' + rowsHtml + '</div>';
