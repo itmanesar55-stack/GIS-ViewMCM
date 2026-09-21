@@ -208,6 +208,64 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-PK-000001",
+        "ulb": "MCM",
+        "assetClass": "PK",
+        "visibility": "public",
+        "assetName": "Dada Bhaiya Park, Village Sehrawan",
+        "ward": "9",
+        "sector": "7",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "244.13",
+        "featureData": {
+          "feature_0": "park",
+          "feature_1": "3210",
+          "feature_2": "Open Gym, Playing equipments, track",
+          "feature_3": "yes",
+          "feature_4": "Brick boundary",
+          "feature_5": "Water Supply line",
+          "feature_6": "MC Manesar",
+          "feature_7": "Good"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-21T11:23:27.825Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.917996,
+            28.342531,
+            0
+          ],
+          [
+            76.918653,
+            28.342531
+          ],
+          [
+            76.918621,
+            28.34172
+          ],
+          [
+            76.91861,
+            28.34164
+          ],
+          [
+            76.918105,
+            28.342212,
+            0
+          ]
+        ]
+      }
     }
   ]
 }
