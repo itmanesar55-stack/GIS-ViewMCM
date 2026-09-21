@@ -17,13 +17,13 @@
         "featureData": {
           "feature_0": "Local",
           "feature_1": "",
-          "feature_2": "IPB Tiles",
+          "feature_2": "Unpaved",
           "feature_3": "5",
           "feature_4": "1",
           "feature_5": "",
           "feature_6": "No",
           "feature_7": "NO",
-          "feature_8": "Fair",
+          "feature_8": "Poor",
           "feature_9": "",
           "feature_10": ""
         },
@@ -31,7 +31,7 @@
         "workId": "",
         "workHistory": [],
         "createdBy": "admin",
-        "updatedAt": "2026-09-21T10:44:30.187Z",
+        "updatedAt": "2026-09-21T10:45:24.380Z",
         "photos": []
       },
       "geometry": {
