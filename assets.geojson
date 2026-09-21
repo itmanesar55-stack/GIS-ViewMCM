@@ -132,6 +132,82 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000003",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "Revenue road From GMDA road  near Shyam Mandir ward no-19, Sikanderpur near Genesis Hospital",
+        "ward": "19",
+        "sector": "Sector-84",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "148.60",
+        "featureData": {
+          "feature_0": "local",
+          "feature_1": "",
+          "feature_2": "Unpaved",
+          "feature_3": "5",
+          "feature_4": "1",
+          "feature_5": "",
+          "feature_6": "No",
+          "feature_7": "no",
+          "feature_8": "Poor",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/350524",
+          "workName": "laying of IPB tiles on revenue road near shyam mandir, ward 19, under MC Manesar",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "laying of IPB tiles on revenue road near shyam mandir, ward 19, under MC Manesar",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": ""
+        },
+        "workId": "MCM-RD-000003-W1",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-21T11:00:23.109Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.956458,
+            28.408473
+          ],
+          [
+            76.957254,
+            28.408446
+          ],
+          [
+            76.957223,
+            28.407811
+          ]
+        ]
+      }
     }
   ]
 }
