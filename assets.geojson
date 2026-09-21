@@ -340,6 +340,58 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000012",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "ttrt42fr",
+        "ward": "3",
+        "sector": "5",
+        "ownership": "ULB-built",
+        "confidence": "Medium",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "4fesdc",
+          "feature_1": "",
+          "feature_2": "4",
+          "feature_3": "3",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "jjhgg",
+          "feature_7": "65656",
+          "feature_8": "666",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-21T09:36:51.467Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            76.9257252,
+            28.3969847
+          ],
+          [
+            76.92758896703047,
+            28.39789760238705
+          ],
+          [
+            76.92892701213539,
+            28.39876594920651
+          ]
+        ]
+      }
     }
   ]
 }
