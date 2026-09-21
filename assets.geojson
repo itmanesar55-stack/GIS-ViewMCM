@@ -1,4 +1,112 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000002",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "Revenue road starts Dwarka Expressway via SS Cendena to Vatika 24 mtr sector 84",
+        "ward": "19",
+        "sector": "Sector-84",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "639.78",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "IPB Tiles",
+          "feature_3": "5",
+          "feature_4": "1",
+          "feature_5": "",
+          "feature_6": "No",
+          "feature_7": "NO",
+          "feature_8": "Fair",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-21T10:44:30.187Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.973327,
+            28.396912
+          ],
+          [
+            76.973439,
+            28.39712
+          ],
+          [
+            76.973938,
+            28.397681
+          ],
+          [
+            76.974362,
+            28.398124
+          ],
+          [
+            76.974534,
+            28.398421
+          ],
+          [
+            76.974738,
+            28.398723
+          ],
+          [
+            76.97492,
+            28.39903
+          ],
+          [
+            76.975253,
+            28.399652
+          ],
+          [
+            76.975473,
+            28.400067
+          ],
+          [
+            76.975602,
+            28.400265
+          ],
+          [
+            76.975736,
+            28.400501
+          ],
+          [
+            76.975897,
+            28.400629
+          ],
+          [
+            76.976138,
+            28.400812
+          ],
+          [
+            76.976358,
+            28.400954
+          ],
+          [
+            76.976605,
+            28.40118
+          ],
+          [
+            76.976777,
+            28.40136
+          ],
+          [
+            76.977009,
+            28.401586
+          ]
+        ]
+      }
+    }
+  ]
 }
