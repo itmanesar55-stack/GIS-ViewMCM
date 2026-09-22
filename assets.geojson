@@ -631,6 +631,49 @@
           28.334599
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000005",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Near Purana Kua",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Nainwal",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "160",
+          "feature_2": "12000",
+          "feature_3": "vertical",
+          "feature_4": "12.5",
+          "feature_5": "250",
+          "feature_6": "DHBVN Electricity Connection",
+          "feature_7": "Good",
+          "feature_8": "",
+          "feature_9": "Pipeline",
+          "feature_10": "2026",
+          "feature_11": "Working"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-22T12:05:56.694Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.948388,
+          28.336554
+        ]
+      }
     }
   ]
 }
