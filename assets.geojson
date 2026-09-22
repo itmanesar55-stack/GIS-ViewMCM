@@ -422,6 +422,54 @@
           28.336582
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-WL-000002",
+        "ulb": "MCM",
+        "assetClass": "WL",
+        "visibility": "public",
+        "assetName": "Khoh Village Ward 13",
+        "ward": "13",
+        "sector": "",
+        "villageName": "Khoh",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "108.34",
+        "featureData": {
+          "feature_0": "DI Pipe",
+          "feature_1": "100",
+          "feature_2": "1",
+          "feature_3": "",
+          "feature_4": "5",
+          "feature_5": "205",
+          "feature_6": "2026"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-22T11:17:54.373Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.923202,
+            28.35753
+          ],
+          [
+            76.923094,
+            28.357091
+          ],
+          [
+            76.922912,
+            28.35659
+          ]
+        ]
+      }
     }
   ]
 }
