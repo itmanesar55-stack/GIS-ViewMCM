@@ -295,6 +295,65 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SM-000001",
+        "ulb": "MCM",
+        "assetClass": "SM",
+        "visibility": "public",
+        "assetName": "Sikhopur Stadium",
+        "ward": "17",
+        "sector": "",
+        "villageName": "Sikohpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "Outdoor",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "No",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-22T10:17:04.033Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.985016,
+              28.371818
+            ],
+            [
+              76.985622,
+              28.371502
+            ],
+            [
+              76.984587,
+              28.370511
+            ],
+            [
+              76.984152,
+              28.370747
+            ],
+            [
+              76.985016,
+              28.371818
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
