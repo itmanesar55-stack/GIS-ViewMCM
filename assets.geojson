@@ -379,6 +379,49 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000001",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Nainwal",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Nainwal",
+        "ownership": "ULB-built",
+        "confidence": "Unknown",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "155",
+          "feature_2": "12000",
+          "feature_3": "vertical",
+          "feature_4": "12.5",
+          "feature_5": "250",
+          "feature_6": "DHBVN",
+          "feature_7": "Good",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "2026",
+          "feature_11": "Working"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-22T10:56:26.212Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.948221,
+          28.336582
+        ]
+      }
     }
   ]
 }
