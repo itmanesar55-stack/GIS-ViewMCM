@@ -295,64 +295,6 @@
           ]
         ]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-RD-000022",
-        "ulb": "MCM",
-        "assetClass": "RD",
-        "visibility": "public",
-        "assetName": "FGFHGHH",
-        "ward": "",
-        "sector": "",
-        "villageName": "",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "708.56",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "5",
-          "feature_5": "",
-          "feature_6": "",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-22T06:28:56.475Z",
-        "photos": []
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              76.879706,
-              28.392127
-            ],
-            [
-              76.879642,
-              28.390183
-            ],
-            [
-              76.880093,
-              28.390191
-            ],
-            [
-              76.879706,
-              28.392127
-            ]
-          ]
-        ]
-      }
     }
   ]
 }
