@@ -499,74 +499,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000001",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Nainwal Munsi Dhani Chaupal",
-        "ward": "16",
-        "sector": "",
-        "villageName": "Nainwal",
-        "ownership": "ULB-built",
-        "confidence": "Unknown",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "155",
-          "feature_2": "12000",
-          "feature_3": "vertical",
-          "feature_4": "12.5",
-          "feature_5": "250",
-          "feature_6": "DHBVN",
-          "feature_7": "Good",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "2026",
-          "feature_11": "Working"
-        },
-        "lifecycleData": {
-          "hewpId": "",
-          "workName": "Provision of 6 no tubewell by Reverse Rotary Machine in Village Nainal, Ward-16, Div-2 Under MC Manesar.",
-          "workCategory": "Water Supply",
-          "componentWorked": "",
-          "workType": "Tube Well Boring / Drilling",
-          "workDescription": "Provision of 6 no tubewell by Reverse Rotary Machine in Village Nainal, Ward-16, Div-2 Under MC Manesar.",
-          "tenderId": "2026_HRY_509271_1",
-          "tenderName": "Provision of 6 no tubewell by Reverse Rotary Machine in Village Nainal, Ward-16, Div-2 Under MC Manesar.",
-          "tenderDate": "",
-          "estimatedAmount": "",
-          "agencyName": "The Anand Co-op",
-          "workOrderDate": "2026-04-21",
-          "agreementAmount": "5743208",
-          "workStartDate": "2026-04-22",
-          "completionDate": "2026-09-08",
-          "actualExpenditure": "5642724",
-          "timeExtension": "No",
-          "extendedUpto": "",
-          "testingStatus": "Passed",
-          "dlpPeriod": "3",
-          "dlpStartDate": "2026-09-08",
-          "dlpEndDate": "2029-09-08",
-          "fundSource": "CFC Fund",
-          "remarks": ""
-        },
-        "workId": "MCM-TW-000001-W1",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-22T11:46:25.731Z",
-        "photos": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.948221,
-          28.336582
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-TW-000004",
         "ulb": "MCM",
         "assetClass": "TW",
@@ -833,6 +765,74 @@
         "coordinates": [
           76.942701,
           28.327036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000001",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Nainwal Munsi Dhani Chaupal",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Nainwal",
+        "ownership": "ULB-built",
+        "confidence": "Unknown",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "155",
+          "feature_2": "12000",
+          "feature_3": "vertical",
+          "feature_4": "12.5",
+          "feature_5": "250",
+          "feature_6": "DHBVN",
+          "feature_7": "Good",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "2026",
+          "feature_11": "Working"
+        },
+        "lifecycleData": {
+          "hewpId": "",
+          "workName": "Provision of 6 no tubewell by Reverse Rotary Machine in Village Nainal, Ward-16, Div-2 Under MC Manesar.",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Tube Well Boring / Drilling",
+          "workDescription": "Provision of 6 no tubewell by Reverse Rotary Machine in Village Nainal, Ward-16, Div-2 Under MC Manesar.",
+          "tenderId": "2026_HRY_509271_1",
+          "tenderName": "Provision of 6 no tubewell by Reverse Rotary Machine in Village Nainal, Ward-16, Div-2 Under MC Manesar.",
+          "tenderDate": "",
+          "estimatedAmount": "",
+          "agencyName": "The Anand Co-op",
+          "workOrderDate": "2026-04-21",
+          "agreementAmount": "5743208",
+          "workStartDate": "2026-04-22",
+          "completionDate": "2026-09-08",
+          "actualExpenditure": "5642724",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "3",
+          "dlpStartDate": "2026-09-08",
+          "dlpEndDate": "2029-09-08",
+          "fundSource": "CFC Fund",
+          "remarks": ""
+        },
+        "workId": "MCM-TW-000001-W1",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-22T12:23:34.880Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.948221,
+          28.336582
         ]
       }
     }
