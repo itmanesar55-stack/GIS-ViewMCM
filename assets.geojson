@@ -1717,62 +1717,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-RD-000004",
-        "ulb": "MCM",
-        "assetClass": "RD",
-        "visibility": "public",
-        "assetName": "Sikanderpur Revenue road from Orris to Godrej society",
-        "ward": "19",
-        "sector": "",
-        "villageName": "Sikanderpur",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "338.82",
-        "featureData": {
-          "feature_0": "Local",
-          "feature_1": "",
-          "feature_2": "IPB Tiles",
-          "feature_3": "5",
-          "feature_4": "1",
-          "feature_5": "NA",
-          "feature_6": "No",
-          "feature_7": "NA",
-          "feature_8": "Poor",
-          "feature_9": "",
-          "feature_10": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-24T10:12:19.819Z",
-        "photos": []
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.948897,
-            28.403376
-          ],
-          [
-            76.948923,
-            28.40414
-          ],
-          [
-            76.949594,
-            28.404079
-          ],
-          [
-            76.94964,
-            28.405768
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-TW-000011",
         "ulb": "MCM",
         "assetClass": "TW",
@@ -1834,6 +1778,87 @@
         "coordinates": [
           76.902275,
           28.311488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000004",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "Sikanderpur Revenue road from Orris to Godrej society",
+        "ward": "19",
+        "sector": "",
+        "villageName": "Sikanderpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "338.82",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "IPB Tiles",
+          "feature_3": "5",
+          "feature_4": "1",
+          "feature_5": "NA",
+          "feature_6": "No",
+          "feature_7": "NA",
+          "feature_8": "Poor",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/350524",
+          "workName": "Construction of drain and laying of IPB tiles on revenue road near Orris society ward no 19 under MC Manesar",
+          "workCategory": "Civil",
+          "componentWorked": "Road work",
+          "workType": "Renovation",
+          "workDescription": "Construction of drain and laying of IPB tiles on revenue road near Orris society ward no 19 under MC Manesar",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "2282928",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": ""
+        },
+        "workId": "MCM-RD-000004-W1",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T10:16:53.490Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.948897,
+            28.403376
+          ],
+          [
+            76.948923,
+            28.40414
+          ],
+          [
+            76.949594,
+            28.404079
+          ],
+          [
+            76.94964,
+            28.405768
+          ]
         ]
       }
     }
