@@ -2289,6 +2289,78 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000008",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "Revenue Road starts from Dwarka Expressway Via SS Cendena to Vatika 24 mtr Sector-84.",
+        "ward": "19",
+        "sector": "",
+        "villageName": "Sihi",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "640.97",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "Unpaved",
+          "feature_3": "5",
+          "feature_4": "1",
+          "feature_5": "`",
+          "feature_6": "No",
+          "feature_7": "no",
+          "feature_8": "Poor",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T11:06:08.737Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.976964,
+            28.401609
+          ],
+          [
+            76.976492,
+            28.40109
+          ],
+          [
+            76.976062,
+            28.400722
+          ],
+          [
+            76.975655,
+            28.400382
+          ],
+          [
+            76.974893,
+            28.398938
+          ],
+          [
+            76.974539,
+            28.398401
+          ],
+          [
+            76.974077,
+            28.397721
+          ],
+          [
+            76.973359,
+            28.396853
+          ]
+        ]
+      }
     }
   ]
 }
