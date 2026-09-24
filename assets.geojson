@@ -1933,6 +1933,66 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000006",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "NAWADA FATEHPUR",
+        "ward": "20",
+        "sector": "",
+        "villageName": "NAWADA FATEHPUR",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "461.93",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "IPB",
+          "feature_3": "4",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "No",
+          "feature_7": "",
+          "feature_8": "Good",
+          "feature_9": "2026",
+          "feature_10": "2023"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T10:25:24.843Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.938407,
+            28.394459
+          ],
+          [
+            76.93724,
+            28.394412
+          ],
+          [
+            76.936754,
+            28.394402
+          ],
+          [
+            76.936016,
+            28.394364
+          ],
+          [
+            76.933688,
+            28.394303
+          ]
+        ]
+      }
     }
   ]
 }
