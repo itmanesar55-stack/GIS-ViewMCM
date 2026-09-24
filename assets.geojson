@@ -2134,7 +2134,7 @@
           "timeExtension": "Yes",
           "extendedUpto": "2026-08-31",
           "testingStatus": "",
-          "dlpPeriod": "06",
+          "dlpPeriod": "6",
           "dlpStartDate": "2026-06-12",
           "dlpEndDate": "2026-12-12",
           "fundSource": "MC Fund",
@@ -2143,7 +2143,7 @@
         "workId": "MCM-RD-000007-W1",
         "workHistory": [],
         "createdBy": "admin",
-        "updatedAt": "2026-09-24T10:45:35.341Z",
+        "updatedAt": "2026-09-24T10:46:04.826Z",
         "photos": []
       },
       "geometry": {
