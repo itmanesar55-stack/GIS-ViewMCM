@@ -2507,6 +2507,60 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SW-000003",
+        "ulb": "MCM",
+        "assetClass": "SW",
+        "visibility": "public",
+        "assetName": "Dagar Public School to main road Khoh",
+        "ward": "13",
+        "sector": "",
+        "villageName": "Khoh",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "407.51",
+        "featureData": {
+          "feature_0": "RCC",
+          "feature_1": "400",
+          "feature_2": "2",
+          "feature_3": "",
+          "feature_4": "Gravity",
+          "feature_5": "32",
+          "feature_6": "Yes",
+          "feature_7": "",
+          "feature_8": "Poor"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T11:39:44.177Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.925009,
+            28.355873
+          ],
+          [
+            76.927735,
+            28.355835
+          ],
+          [
+            76.927713,
+            28.355571
+          ],
+          [
+            76.92885,
+            28.35559
+          ]
+        ]
+      }
     }
   ]
 }
