@@ -2386,6 +2386,102 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000009",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "GAURAV JEWELERS TO MAHESH RAGHAV HOUSE GALI BADHA",
+        "ward": "",
+        "sector": "",
+        "villageName": "NAWADA FATEHPUR",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "249.46",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "IPB",
+          "feature_3": "4",
+          "feature_4": "1",
+          "feature_5": "",
+          "feature_6": "No",
+          "feature_7": "YES",
+          "feature_8": "Good",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T11:19:41.447Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.945077,
+            28.403021
+          ],
+          [
+            76.944756,
+            28.403315
+          ],
+          [
+            76.944729,
+            28.403344
+          ],
+          [
+            76.944579,
+            28.403471
+          ],
+          [
+            76.94442,
+            28.403605
+          ],
+          [
+            76.944286,
+            28.40366
+          ],
+          [
+            76.944246,
+            28.403617
+          ],
+          [
+            76.944163,
+            28.403568
+          ],
+          [
+            76.943843,
+            28.403742
+          ],
+          [
+            76.943924,
+            28.403853
+          ],
+          [
+            76.943787,
+            28.404009
+          ],
+          [
+            76.943678,
+            28.404216
+          ],
+          [
+            76.943771,
+            28.404304
+          ],
+          [
+            76.943841,
+            28.404429
+          ]
+        ]
+      }
     }
   ]
 }
