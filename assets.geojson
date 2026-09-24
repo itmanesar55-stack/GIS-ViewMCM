@@ -1717,48 +1717,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000011",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "BUCCHA COLONY FAZILWAS",
-        "ward": "9",
-        "sector": "",
-        "villageName": "Sehrwan",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "519.39",
-        "featureData": {
-          "feature_0": "200",
-          "feature_1": "500",
-          "feature_2": "KSB",
-          "feature_3": "12.50",
-          "feature_4": "203.2",
-          "feature_5": "Electrical connection",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "2026",
-          "feature_10": "Working"
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-24T10:10:52.128Z",
-        "photos": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.902275,
-          28.311488
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RD-000004",
         "ulb": "MCM",
         "assetClass": "RD",
@@ -1809,6 +1767,73 @@
             76.94964,
             28.405768
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000011",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "BUCCHA COLONY FAZILWAS",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Sehrwan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "519.39",
+        "featureData": {
+          "feature_0": "200",
+          "feature_1": "500",
+          "feature_2": "KSB",
+          "feature_3": "12.50",
+          "feature_4": "203.2",
+          "feature_5": "Electrical connection",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "2026",
+          "feature_10": "Working"
+        },
+        "lifecycleData": {
+          "hewpId": "ulb/2026-27/319851",
+          "workName": "Drilling of 4 nos Deep tubewell by DTH machine for supply of drinking water in village of ward no.9 Division 2 under juridiction of mcm",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Tube Well Boring / Drilling",
+          "workDescription": "Drilling of 4 nos Deep tubewell by DTH machine for supply of drinking water in village of ward no.9 Division 2 under juridiction of mcm",
+          "tenderId": "2026_HRY_537369_1",
+          "tenderName": "Drilling of 4 nos Deep tubewell by DTH machine for supply of drinking water in village of ward no.9 Division 2 under juridiction of mcm",
+          "tenderDate": "",
+          "estimatedAmount": "4956094",
+          "agencyName": "The Basti Ram Cooperative Labour and Construction Society Limited",
+          "workOrderDate": "2026-08-27",
+          "agreementAmount": "3229862",
+          "workStartDate": "2026-08-30",
+          "completionDate": "0026-09-02",
+          "actualExpenditure": "3216865",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "36",
+          "dlpStartDate": "2026-08-30",
+          "dlpEndDate": "2029-08-30",
+          "fundSource": "MC Fund",
+          "remarks": ""
+        },
+        "workId": "MCM-TW-000011-W1",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T10:13:19.290Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.902275,
+          28.311488
         ]
       }
     }
