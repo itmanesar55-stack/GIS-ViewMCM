@@ -1425,6 +1425,48 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000008",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Borewell Near Santa Sarpunch Sehrawan",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Sehrwan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "519.39",
+        "featureData": {
+          "feature_0": "200",
+          "feature_1": "500",
+          "feature_2": "KSB",
+          "feature_3": "12.50",
+          "feature_4": "203.2",
+          "feature_5": "Electrical connection",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "Yes",
+          "feature_9": "2026",
+          "feature_10": "Working"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T09:35:20.471Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.916174,
+          28.346104
+        ]
+      }
     }
   ]
 }
