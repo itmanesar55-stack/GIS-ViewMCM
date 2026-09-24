@@ -1289,6 +1289,54 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000001",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "Providing and laying interlocking tiles from PWD Road to Coralwood Society",
+        "ward": "19",
+        "sector": "Sector 84",
+        "villageName": "Sihi",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "276.03",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "IPB",
+          "feature_3": "3.5",
+          "feature_4": "1",
+          "feature_5": "0",
+          "feature_6": "No",
+          "feature_7": "No",
+          "feature_8": "Good",
+          "feature_9": "2026",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T08:50:04.280Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.966922,
+            28.409496
+          ],
+          [
+            76.9641,
+            28.409524
+          ]
+        ]
+      }
     }
   ]
 }
