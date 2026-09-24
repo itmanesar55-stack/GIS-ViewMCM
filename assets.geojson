@@ -1646,6 +1646,48 @@
           28.335477
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000010",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "KUKROLA",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Sehrwan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "519.39",
+        "featureData": {
+          "feature_0": "200",
+          "feature_1": "500",
+          "feature_2": "KSB",
+          "feature_3": "12.50",
+          "feature_4": "203.2",
+          "feature_5": "Electrical connection",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "2026",
+          "feature_10": "Working"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T09:59:55.884Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.897608,
+          28.318142
+        ]
+      }
     }
   ]
 }
