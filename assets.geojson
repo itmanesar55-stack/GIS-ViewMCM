@@ -1755,6 +1755,62 @@
           28.311488
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000004",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "Sikanderpur Revenue road from Orris to Godrej society",
+        "ward": "19",
+        "sector": "",
+        "villageName": "Sikanderpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "338.82",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "IPB Tiles",
+          "feature_3": "5",
+          "feature_4": "1",
+          "feature_5": "NA",
+          "feature_6": "No",
+          "feature_7": "NA",
+          "feature_8": "Poor",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T10:12:19.819Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.948897,
+            28.403376
+          ],
+          [
+            76.948923,
+            28.40414
+          ],
+          [
+            76.949594,
+            28.404079
+          ],
+          [
+            76.94964,
+            28.405768
+          ]
+        ]
+      }
     }
   ]
 }
