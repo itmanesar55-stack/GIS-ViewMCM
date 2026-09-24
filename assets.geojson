@@ -1696,14 +1696,14 @@
           "testingStatus": "Passed",
           "dlpPeriod": "36",
           "dlpStartDate": "2026-09-02",
-          "dlpEndDate": "2026-02-09",
+          "dlpEndDate": "2029-02-09",
           "fundSource": "MC Fund",
           "remarks": ""
         },
         "workId": "MCM-TW-000009-W1",
         "workHistory": [],
         "createdBy": "admin",
-        "updatedAt": "2026-09-24T10:06:07.016Z",
+        "updatedAt": "2026-09-24T10:08:02.063Z",
         "photos": []
       },
       "geometry": {
