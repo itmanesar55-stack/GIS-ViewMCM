@@ -1492,6 +1492,68 @@
           28.346104
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SW-000002",
+        "ulb": "MCM",
+        "assetClass": "SW",
+        "visibility": "public",
+        "assetName": "Sewerline of Sikandperpur",
+        "ward": "19",
+        "sector": "",
+        "villageName": "SIkandeepur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "379.93",
+        "featureData": {
+          "feature_0": "NP3",
+          "feature_1": "450",
+          "feature_2": "2",
+          "feature_3": "",
+          "feature_4": "Gravity",
+          "feature_5": "23",
+          "feature_6": "NA",
+          "feature_7": "2026",
+          "feature_8": "Good"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T09:47:13.876Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.955074,
+            28.405957
+          ],
+          [
+            76.955121,
+            28.407987
+          ],
+          [
+            76.95555,
+            28.407987
+          ],
+          [
+            76.955565,
+            28.408488
+          ],
+          [
+            76.955965,
+            28.408498
+          ],
+          [
+            76.95611,
+            28.408587
+          ]
+        ]
+      }
     }
   ]
 }
