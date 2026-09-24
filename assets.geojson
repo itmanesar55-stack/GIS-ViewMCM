@@ -2303,7 +2303,7 @@
         "villageName": "NAWADA FATEHPUR",
         "ownership": "ULB-built",
         "confidence": "High",
-        "lengthM": "9.06",
+        "lengthM": "53.22",
         "featureData": {
           "feature_0": "Local",
           "feature_1": "",
@@ -2321,19 +2321,19 @@
         "workId": "",
         "workHistory": [],
         "createdBy": "admin",
-        "updatedAt": "2026-09-24T11:07:10.745Z",
+        "updatedAt": "2026-09-24T11:07:24.715Z",
         "photos": []
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            76.942885,
-            28.394333
+            76.943146,
+            28.394302
           ],
           [
-            76.942913,
-            28.394411
+            76.942607,
+            28.394366
           ]
         ]
       }
