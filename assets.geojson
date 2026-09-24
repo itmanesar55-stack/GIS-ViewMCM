@@ -2561,6 +2561,71 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000012",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "nawada valmiki gali",
+        "ward": "20",
+        "sector": "",
+        "villageName": "nawada fatehpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "68.44",
+        "featureData": {
+          "feature_0": "local",
+          "feature_1": "",
+          "feature_2": "ipb",
+          "feature_3": "",
+          "feature_4": "1",
+          "feature_5": "2",
+          "feature_6": "No",
+          "feature_7": "yes",
+          "feature_8": "Fair",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "ITM",
+        "updatedAt": "2026-09-24T11:45:40.849Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              76.943136,
+              28.394289
+            ],
+            [
+              76.942579,
+              28.394381
+            ],
+            [
+              76.942582,
+              28.394377
+            ]
+          ],
+          [
+            [
+              76.942914,
+              28.394439
+            ],
+            [
+              76.942908,
+              28.394327
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
