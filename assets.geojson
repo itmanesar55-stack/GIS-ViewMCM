@@ -1997,74 +1997,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-DR-000001",
-        "ulb": "MCM",
-        "assetClass": "DR",
-        "visibility": "public",
-        "assetName": "Sikanderpur Monu halwai to Yadav Service station Drain",
-        "ward": "19",
-        "sector": "",
-        "villageName": "Sikanderpur",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "974.23",
-        "featureData": {
-          "feature_0": "Covered",
-          "feature_1": "Box type",
-          "feature_2": "RCC",
-          "feature_3": "0.9",
-          "feature_4": "0.9",
-          "feature_5": "Slab",
-          "feature_6": "Good"
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-24T10:29:52.530Z",
-        "photos": []
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.954106,
-            28.402573
-          ],
-          [
-            76.954857,
-            28.40204
-          ],
-          [
-            76.956515,
-            28.400766
-          ],
-          [
-            76.956901,
-            28.400412
-          ],
-          [
-            76.958366,
-            28.402139
-          ],
-          [
-            76.959278,
-            28.403186
-          ],
-          [
-            76.959552,
-            28.403819
-          ],
-          [
-            76.960667,
-            28.404724
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RD-000007",
         "ulb": "MCM",
         "assetClass": "RD",
@@ -2206,6 +2138,99 @@
           [
             76.934842,
             28.408631
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-DR-000001",
+        "ulb": "MCM",
+        "assetClass": "DR",
+        "visibility": "public",
+        "assetName": "Sikanderpur Monu halwai to Yadav Service station Drain",
+        "ward": "19",
+        "sector": "",
+        "villageName": "Sikanderpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "974.23",
+        "featureData": {
+          "feature_0": "Covered",
+          "feature_1": "Box type",
+          "feature_2": "RCC",
+          "feature_3": "0.9",
+          "feature_4": "0.9",
+          "feature_5": "Slab",
+          "feature_6": "Good"
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/344108",
+          "workName": "Construction of RCC Box type drain  from Monu Halwai to Yadav service station in village Sikanderpur Badha Ward 19 under MC Manesar.",
+          "workCategory": "Civil",
+          "componentWorked": "Drain work",
+          "workType": "New Construction",
+          "workDescription": "Construction of RCC Box type drain  from Monu Halwai to Yadav service station in village Sikanderpur Badha Ward 19 under MC Manesar.",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "9520602",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": ""
+        },
+        "workId": "MCM-DR-000001-W1",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T10:34:11.218Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.954106,
+            28.402573
+          ],
+          [
+            76.954857,
+            28.40204
+          ],
+          [
+            76.956515,
+            28.400766
+          ],
+          [
+            76.956901,
+            28.400412
+          ],
+          [
+            76.958366,
+            28.402139
+          ],
+          [
+            76.959278,
+            28.403186
+          ],
+          [
+            76.959552,
+            28.403819
+          ],
+          [
+            76.960667,
+            28.404724
           ]
         ]
       }
