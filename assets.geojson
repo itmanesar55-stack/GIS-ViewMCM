@@ -2131,54 +2131,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-RD-000006",
-        "ulb": "MCM",
-        "assetClass": "RD",
-        "visibility": "public",
-        "assetName": "RK FARM GALI",
-        "ward": "20",
-        "sector": "",
-        "villageName": "NAWADA FATEHPUR",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "461.93",
-        "featureData": {
-          "feature_0": "Local",
-          "feature_1": "",
-          "feature_2": "IPB",
-          "feature_3": "4",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "No",
-          "feature_7": "",
-          "feature_8": "Good",
-          "feature_9": "0",
-          "feature_10": "2023"
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-24T10:50:37.461Z",
-        "photos": []
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.933688,
-            28.394303
-          ],
-          [
-            76.938407,
-            28.394459
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RD-000005",
         "ulb": "MCM",
         "assetClass": "RD",
@@ -2244,6 +2196,54 @@
           [
             76.943206,
             28.39293
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000006",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "RK FARM GALI Nawada Fatehpur",
+        "ward": "20",
+        "sector": "",
+        "villageName": "NAWADA FATEHPUR",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "IPB",
+          "feature_3": "4",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "No",
+          "feature_7": "",
+          "feature_8": "Good",
+          "feature_9": "0",
+          "feature_10": "2023"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T10:52:17.607Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.933688,
+            28.394303
+          ],
+          [
+            76.938407,
+            28.394459
           ]
         ]
       }
