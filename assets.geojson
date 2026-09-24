@@ -1861,6 +1861,78 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000005",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "NAWADA",
+        "ward": "20",
+        "sector": "",
+        "villageName": "NAWADA",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "890.45",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "IPB",
+          "feature_3": "7",
+          "feature_4": "1",
+          "feature_5": "",
+          "feature_6": "No",
+          "feature_7": "",
+          "feature_8": "Good",
+          "feature_9": "2026",
+          "feature_10": "2023"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T10:21:39.534Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.940931,
+            28.3992
+          ],
+          [
+            76.941044,
+            28.397464
+          ],
+          [
+            76.941092,
+            28.396412
+          ],
+          [
+            76.941763,
+            28.396393
+          ],
+          [
+            76.9418,
+            28.395157
+          ],
+          [
+            76.942938,
+            28.395166
+          ],
+          [
+            76.943125,
+            28.395152
+          ],
+          [
+            76.943206,
+            28.39293
+          ]
+        ]
+      }
     }
   ]
 }
