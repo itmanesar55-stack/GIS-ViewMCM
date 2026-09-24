@@ -2511,60 +2511,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-SW-000003",
-        "ulb": "MCM",
-        "assetClass": "SW",
-        "visibility": "public",
-        "assetName": "Dagar Public School to main road Khoh",
-        "ward": "13",
-        "sector": "",
-        "villageName": "Khoh",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "407.51",
-        "featureData": {
-          "feature_0": "RCC",
-          "feature_1": "400",
-          "feature_2": "2",
-          "feature_3": "",
-          "feature_4": "Gravity",
-          "feature_5": "32",
-          "feature_6": "Yes",
-          "feature_7": "",
-          "feature_8": "Poor"
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-24T11:39:44.177Z",
-        "photos": []
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.925009,
-            28.355873
-          ],
-          [
-            76.927735,
-            28.355835
-          ],
-          [
-            76.927713,
-            28.355571
-          ],
-          [
-            76.92885,
-            28.35559
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RD-000012",
         "ulb": "MCM",
         "assetClass": "RD",
@@ -2648,6 +2594,85 @@
               76.942908,
               28.394327
             ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SW-000003",
+        "ulb": "MCM",
+        "assetClass": "SW",
+        "visibility": "public",
+        "assetName": "Dagar Public School to main road Khoh",
+        "ward": "13",
+        "sector": "",
+        "villageName": "Khoh",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "407.51",
+        "featureData": {
+          "feature_0": "RCC",
+          "feature_1": "400",
+          "feature_2": "2",
+          "feature_3": "",
+          "feature_4": "Gravity",
+          "feature_5": "32",
+          "feature_6": "Yes",
+          "feature_7": "",
+          "feature_8": "Poor"
+        },
+        "lifecycleData": {
+          "hewpId": "ulb/2025-26/311235",
+          "workName": "Laying of sewerline from dagar public school to main road in village khoh",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Laying of sewerline from dagar public school to main road in village khoh",
+          "tenderId": "2026_HRY_509927_1",
+          "tenderName": "Laying of sewerline from dagar public school to main road in village khoh",
+          "tenderDate": "2026-03-11",
+          "estimatedAmount": "1843462",
+          "agencyName": "The Green Fingers CO-Operative Labour And Construction Society Ltd",
+          "workOrderDate": "2026-04-21",
+          "agreementAmount": "1485705",
+          "workStartDate": "2026-04-23",
+          "completionDate": "2026-08-21",
+          "actualExpenditure": "1484535",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "12",
+          "dlpStartDate": "2026-08-21",
+          "dlpEndDate": "2027-08-20",
+          "fundSource": "MC Fund",
+          "remarks": ""
+        },
+        "workId": "MCM-SW-000003-W1",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T11:51:55.989Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.925009,
+            28.355873
+          ],
+          [
+            76.927735,
+            28.355835
+          ],
+          [
+            76.927713,
+            28.355571
+          ],
+          [
+            76.92885,
+            28.35559
           ]
         ]
       }
