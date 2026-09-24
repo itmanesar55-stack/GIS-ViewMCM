@@ -1583,73 +1583,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000009",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "SEHRAWAN KI DHANI",
-        "ward": "9",
-        "sector": "",
-        "villageName": "Sehrwan",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "519.39",
-        "featureData": {
-          "feature_0": "200",
-          "feature_1": "500",
-          "feature_2": "KSB",
-          "feature_3": "12.50",
-          "feature_4": "203.2",
-          "feature_5": "Electrical connection",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "Yes",
-          "feature_9": "2026",
-          "feature_10": "Working"
-        },
-        "lifecycleData": {
-          "hewpId": "ulb/2026-27/319851",
-          "workName": "Drilling of 4 nos Deep tubewell by DTH machine for supply of drinking water in village of ward no.9 Division 2 under juridiction of mcm",
-          "workCategory": "Civil",
-          "componentWorked": "",
-          "workType": "Tube Well Boring / Drilling",
-          "workDescription": "Drilling of 4 nos Deep tubewell by DTH machine for supply of drinking water in village of ward no.9 Division 2 under juridiction of mcm",
-          "tenderId": "2026_HRY_537369_1",
-          "tenderName": "",
-          "tenderDate": "2026-08-30",
-          "estimatedAmount": "4956094",
-          "agencyName": "The Basti Ram Cooperative Labour and Construction Society Limited",
-          "workOrderDate": "2026-08-30",
-          "agreementAmount": "3229862",
-          "workStartDate": "2026-08-30",
-          "completionDate": "2026-09-02",
-          "actualExpenditure": "3216865",
-          "timeExtension": "No",
-          "extendedUpto": "",
-          "testingStatus": "Passed",
-          "dlpPeriod": "36",
-          "dlpStartDate": "2026-09-02",
-          "dlpEndDate": "2026-02-09",
-          "fundSource": "MC Fund",
-          "remarks": ""
-        },
-        "workId": "MCM-TW-000009-W1",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-24T09:54:54.379Z",
-        "photos": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.907489,
-          28.335477
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-TW-000010",
         "ulb": "MCM",
         "assetClass": "TW",
@@ -1711,6 +1644,73 @@
         "coordinates": [
           76.897608,
           28.318142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000009",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "SEHRAWAN KI DHANI",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Sehrwan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "519.39",
+        "featureData": {
+          "feature_0": "200",
+          "feature_1": "500",
+          "feature_2": "KSB",
+          "feature_3": "12.50",
+          "feature_4": "203.2",
+          "feature_5": "Electrical connection",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "Yes",
+          "feature_9": "2026",
+          "feature_10": "Working"
+        },
+        "lifecycleData": {
+          "hewpId": "ulb/2026-27/319851",
+          "workName": "Drilling of 4 nos Deep tubewell by DTH machine for supply of drinking water in village of ward no.9 Division 2 under juridiction of mcm",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "Tube Well Boring / Drilling",
+          "workDescription": "Drilling of 4 nos Deep tubewell by DTH machine for supply of drinking water in village of ward no.9 Division 2 under juridiction of mcm",
+          "tenderId": "2026_HRY_537369_1",
+          "tenderName": "",
+          "tenderDate": "2026-08-30",
+          "estimatedAmount": "4956094",
+          "agencyName": "The Basti Ram Cooperative Labour and Construction Society Limited",
+          "workOrderDate": "2026-08-30",
+          "agreementAmount": "3229862",
+          "workStartDate": "2026-08-30",
+          "completionDate": "2026-09-02",
+          "actualExpenditure": "3216865",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "36",
+          "dlpStartDate": "2026-09-02",
+          "dlpEndDate": "2026-02-09",
+          "fundSource": "MC Fund",
+          "remarks": ""
+        },
+        "workId": "MCM-TW-000009-W1",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-24T10:06:01.065Z",
+        "photos": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.907489,
+          28.335477
         ]
       }
     }
