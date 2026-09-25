@@ -739,91 +739,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-WL-000001",
-        "ulb": "MCM",
-        "assetClass": "WL",
-        "visibility": "public",
-        "assetName": "Providing Laying IPB Interloking Tiles, Swerline and water Supply In reveue Rasta From House of Satyajeet House to GMDA Road Village Sikanderpur Ward 19 MCM",
-        "ward": "19",
-        "sector": "",
-        "villageName": "Sikanderpur",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "379.66",
-        "featureData": {
-          "feature_0": "DI",
-          "feature_1": "100",
-          "feature_2": "1",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "2026"
-        },
-        "lifecycleData": {
-          "hewpId": "ulb/2025-26/277816",
-          "workName": "Providing Laying IPB Interloking Tiles, Swerline and water Supply In reveue Rasta From House of Satyajeet House to GMDA Road Village Sikanderpur Ward 19 MCM",
-          "workCategory": "Civil",
-          "componentWorked": "",
-          "workType": "New Construction",
-          "workDescription": "Providing Laying IPB Interloking Tiles, Swerline and water Supply In reveue Rasta From House of Satyajeet House to GMDA Road Village Sikanderpur Ward 19 MCM",
-          "tenderId": "2025_HRY_481060_1",
-          "tenderName": "Providing Laying IPB Interloking Tiles, Swerline and water Supply In reveue Rasta From House of Satyajeet House to GMDA Road Village Sikanderpur Ward 19 MCM",
-          "tenderDate": "2025-10-04",
-          "estimatedAmount": "5037004",
-          "agencyName": "m/s Vijender Kumar Contractor",
-          "workOrderDate": "2025-11-27",
-          "agreementAmount": "3730458",
-          "workStartDate": "2025-11-30",
-          "completionDate": "",
-          "actualExpenditure": "",
-          "timeExtension": "Yes",
-          "extendedUpto": "2026-10-30",
-          "testingStatus": "Passed",
-          "dlpPeriod": "",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "MC Fund",
-          "remarks": ""
-        },
-        "workId": "MCM-WL-000001-W1",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-24T09:17:29.335Z",
-        "photos": []
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.955056,
-            28.405998
-          ],
-          [
-            76.955099,
-            28.407944
-          ],
-          [
-            76.955582,
-            28.407962
-          ],
-          [
-            76.95556,
-            28.408462
-          ],
-          [
-            76.955957,
-            28.408481
-          ],
-          [
-            76.956118,
-            28.408613
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RD-000003",
         "ulb": "MCM",
         "assetClass": "RD",
@@ -4166,6 +4081,93 @@
               28.355872,
               0
             ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-WL-000001",
+        "ulb": "MCM",
+        "assetClass": "WL",
+        "visibility": "public",
+        "assetName": "Reveue Rasta From House of Satyajeet House to GMDA Road Village Sikanderpur Ward 19 MCM",
+        "ward": "19",
+        "sector": "",
+        "villageName": "Sikanderpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "DI",
+          "feature_1": "100",
+          "feature_2": "1",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "2026",
+          "feature_7": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ulb/2025-26/277816",
+          "workName": "Providing Laying IPB Interloking Tiles, Swerline and water Supply In reveue Rasta From House of Satyajeet House to GMDA Road Village Sikanderpur Ward 19 MCM",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Providing Laying IPB Interloking Tiles, Swerline and water Supply In reveue Rasta From House of Satyajeet House to GMDA Road Village Sikanderpur Ward 19 MCM",
+          "tenderId": "2025_HRY_481060_1",
+          "tenderName": "Providing Laying IPB Interloking Tiles, Swerline and water Supply In reveue Rasta From House of Satyajeet House to GMDA Road Village Sikanderpur Ward 19 MCM",
+          "tenderDate": "2025-10-04",
+          "estimatedAmount": "5037004",
+          "agencyName": "m/s Vijender Kumar Contractor",
+          "workOrderDate": "2025-11-27",
+          "agreementAmount": "3730458",
+          "workStartDate": "2025-11-30",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "Yes",
+          "extendedUpto": "2026-10-30",
+          "testingStatus": "Passed",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": ""
+        },
+        "workId": "MCM-WL-000001-W1",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-25T10:08:55.916Z",
+        "photos": [],
+        "updatedBy": "ITM"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.955056,
+            28.405998
+          ],
+          [
+            76.955099,
+            28.407944
+          ],
+          [
+            76.955582,
+            28.407962
+          ],
+          [
+            76.95556,
+            28.408462
+          ],
+          [
+            76.955957,
+            28.408481
+          ],
+          [
+            76.956118,
+            28.408613
           ]
         ]
       }
