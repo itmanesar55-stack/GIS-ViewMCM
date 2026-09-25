@@ -3823,6 +3823,60 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000027",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "Revenue road from GMDA road to Shyam Mandir ward-19, Sikanderpur Near genesis Hospital",
+        "ward": "19",
+        "sector": "",
+        "villageName": "Sikanderpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "158.51",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "Unpaved",
+          "feature_3": "",
+          "feature_4": "1",
+          "feature_5": "NA",
+          "feature_6": "No",
+          "feature_7": "NO",
+          "feature_8": "Poor",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "ITM",
+        "updatedAt": "2026-09-25T11:28:04.213Z",
+        "photos": [],
+        "updatedBy": "ITM"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.956461,
+            28.408471
+          ],
+          [
+            76.957244,
+            28.408448
+          ],
+          [
+            76.957223,
+            28.407712
+          ]
+        ]
+      }
     }
   ]
 }
