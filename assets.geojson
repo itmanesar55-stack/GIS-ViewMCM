@@ -54,7 +54,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-22T05:16:06.004Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-21T11:20:36.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Polygon",
@@ -142,7 +144,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-22T10:36:34.804Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-22T09:47:37.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Polygon",
@@ -229,7 +233,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-22T11:43:33.658Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-22T11:27:30.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Point",
@@ -296,7 +302,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-22T11:57:56.591Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-22T11:50:27.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Point",
@@ -363,7 +371,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-22T12:09:06.568Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-22T12:01:03.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +440,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-22T12:16:31.599Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-22T12:11:02.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Point",
@@ -497,7 +509,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-22T12:21:42.424Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-22T12:18:08.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Point",
@@ -564,7 +578,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-22T12:23:34.880Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-22T10:49:09.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Point",
@@ -631,7 +647,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T08:55:59.248Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T08:47:23.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -704,7 +722,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T09:10:44.860Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-21T10:39:16.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -793,7 +813,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T09:30:05.111Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-21T10:53:52.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -890,7 +912,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T09:49:04.503Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T09:34:38.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Point",
@@ -955,7 +979,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T09:53:41.860Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T09:45:58.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -1044,7 +1070,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T10:05:44.476Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T09:56:30.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Point",
@@ -1111,7 +1139,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T10:08:45.313Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T09:48:37.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Point",
@@ -1178,7 +1208,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T10:13:19.290Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T10:09:59.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "Point",
@@ -1245,7 +1277,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T10:16:53.490Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T10:09:26.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -1322,7 +1356,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T10:34:11.218Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T10:28:23.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -1419,7 +1455,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T10:48:20.760Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T10:29:12.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -1592,7 +1630,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T11:16:43.295Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T11:01:19.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -1689,7 +1729,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T11:21:37.405Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T11:16:33.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -1766,7 +1808,7 @@
         "villageName": "NAWADA FATEHPUR",
         "ownership": "ULB-built",
         "confidence": "High",
-        "lengthM": "",
+        "lengthM": "461.93",
         "featureData": {
           "feature_0": "Local",
           "feature_1": "",
@@ -1810,7 +1852,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T11:28:20.796Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T10:24:27.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -1839,7 +1883,7 @@
         "villageName": "NAWADA",
         "ownership": "ULB-built",
         "confidence": "High",
-        "lengthM": "",
+        "lengthM": "890.37",
         "featureData": {
           "feature_0": "Local",
           "feature_1": "",
@@ -1883,7 +1927,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T11:28:46.503Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T10:18:45.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -1973,7 +2019,9 @@
         "workHistory": [],
         "createdBy": "ITM",
         "updatedAt": "2026-09-24T11:51:10.274Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T11:43:01.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "MultiLineString",
@@ -2060,7 +2108,9 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-24T11:51:55.989Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-24T11:35:47.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -2142,7 +2192,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T05:15:16.815Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T05:00:59.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -2216,7 +2267,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T05:15:26.884Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T04:43:48.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -2290,7 +2342,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T05:16:08.270Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T05:10:23.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -2372,7 +2425,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T05:23:16.312Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T05:17:02.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -2474,7 +2528,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T05:31:19.737Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T05:24:46.000Z"
       },
       "geometry": {
         "type": "MultiLineString",
@@ -2586,7 +2641,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T05:36:05.750Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T05:32:59.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -2660,7 +2716,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T05:42:20.004Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T05:37:18.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -2750,7 +2807,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T05:48:16.939Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T05:43:58.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -2848,7 +2906,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T05:53:15.408Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T05:50:04.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -2922,7 +2981,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T05:59:50.455Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T05:55:31.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -2971,7 +3031,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T06:18:53.878Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T06:17:03.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -3020,7 +3081,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T06:20:07.686Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T06:12:18.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -3073,7 +3135,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T06:21:28.673Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T06:14:57.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -3105,112 +3168,6 @@
           [
             76.94085,
             28.412584
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-SW-000004",
-        "ulb": "MCM",
-        "assetClass": "SW",
-        "visibility": "public",
-        "assetName": "Swerline",
-        "ward": "Ward No. 16",
-        "sector": "",
-        "villageName": "Nainwal",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "RCC",
-          "feature_1": "600",
-          "feature_2": "2.5",
-          "feature_3": "",
-          "feature_4": "Gravity",
-          "feature_5": "78",
-          "feature_6": "Yes",
-          "feature_7": "",
-          "feature_8": "Good",
-          "feature_9": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ulb/2025-26/094185",
-          "workName": "Reparing of existing manholes",
-          "workCategory": "Civil",
-          "componentWorked": "",
-          "workType": "Repair",
-          "workDescription": "Reparing of existing manholes",
-          "tenderId": "2025_HRY_481990_1",
-          "tenderName": "Providing sewerage manhole Cover repair of slab for ward no.16",
-          "tenderDate": "",
-          "estimatedAmount": "3.71",
-          "agencyName": "The Renuka Coop. Lc Society",
-          "workOrderDate": "2025-11-27",
-          "agreementAmount": "303358",
-          "workStartDate": "2025-11-30",
-          "completionDate": "2026-11-25",
-          "actualExpenditure": "305242",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "Passed",
-          "dlpPeriod": "",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "MC Fund",
-          "remarks": ""
-        },
-        "workId": "MCM-SW-000004-W1",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-25T06:34:37.690Z",
-        "photos": []
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              76.944187,
-              28.334055
-            ],
-            [
-              76.945132,
-              28.335632
-            ],
-            [
-              76.945164,
-              28.335726
-            ],
-            [
-              76.945561,
-              28.335821
-            ],
-            [
-              76.946183,
-              28.336104
-            ],
-            [
-              76.946881,
-              28.336925
-            ],
-            [
-              76.94952,
-              28.336982
-            ],
-            [
-              76.94966,
-              28.334442
-            ],
-            [
-              76.946859,
-              28.33195
-            ],
-            [
-              76.944187,
-              28.334055
-            ]
           ]
         ]
       }
@@ -3269,7 +3226,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T07:02:47.078Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T06:45:23.000Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -3357,7 +3315,8 @@
         "workHistory": [],
         "createdBy": "admin",
         "updatedAt": "2026-09-25T07:18:00.385Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T07:11:03.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -3380,7 +3339,7 @@
         "villageName": "Khoh",
         "ownership": "ULB-built",
         "confidence": "High",
-        "lengthM": "",
+        "lengthM": "1747.82",
         "featureData": {
           "feature_0": "DI Pipe",
           "feature_1": "100",
@@ -3422,7 +3381,9 @@
         "createdBy": "admin",
         "updatedAt": "2026-09-25T10:06:05.719Z",
         "photos": [],
-        "updatedBy": "ITM"
+        "updatedBy": "ITM",
+        "createdAt": "2026-09-22T09:53:40.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "MultiLineString",
@@ -3750,7 +3711,7 @@
         "villageName": "Sikanderpur",
         "ownership": "ULB-built",
         "confidence": "High",
-        "lengthM": "",
+        "lengthM": "379.76",
         "featureData": {
           "feature_0": "DI",
           "feature_1": "100",
@@ -3792,7 +3753,9 @@
         "createdBy": "admin",
         "updatedAt": "2026-09-25T10:08:55.916Z",
         "photos": [],
-        "updatedBy": "ITM"
+        "updatedBy": "ITM",
+        "createdAt": "2026-09-24T09:13:50.000Z",
+        "createdAtApprox": true
       },
       "geometry": {
         "type": "LineString",
@@ -3883,7 +3846,8 @@
         "createdBy": "ITM",
         "updatedAt": "2026-09-25T11:31:24.093Z",
         "photos": [],
-        "updatedBy": "ITM"
+        "updatedBy": "ITM",
+        "createdAt": "2026-09-25T11:27:06.000Z"
       },
       "geometry": {
         "type": "LineString",
@@ -4228,7 +4192,7 @@
         "villageName": "",
         "ownership": "ULB-built",
         "confidence": "High",
-        "lengthM": "",
+        "lengthM": "1747.82",
         "featureData": {
           "feature_0": "",
           "feature_1": "",
@@ -4248,7 +4212,9 @@
         "workHistory": [],
         "createdBy": "ITM",
         "updatedAt": "2026-09-25T08:41:01.000Z",
-        "photos": []
+        "photos": [],
+        "createdAt": "2026-09-25T08:41:01.000Z",
+        "createdAtApprox": true
       }
     }
   ]
