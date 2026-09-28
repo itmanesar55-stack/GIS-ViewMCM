@@ -4275,7 +4275,7 @@
         "villageName": "Nakhdola",
         "ownership": "ULB-built",
         "confidence": "High",
-        "lengthM": "5798.68",
+        "lengthM": "5881.16",
         "featureData": {
           "feature_0": "GI",
           "feature_1": "50",
@@ -4317,7 +4317,7 @@
         "workId": "MCM-WL-000004-W1",
         "workHistory": [],
         "createdBy": "admin",
-        "updatedAt": "2026-09-28T09:09:17.346Z",
+        "updatedAt": "2026-09-28T09:11:12.006Z",
         "photos": [],
         "updatedBy": "admin",
         "createdAt": "2026-09-28T07:30:28.139Z",
@@ -5027,6 +5027,16 @@
             [
               76.955003,
               28.378354
+            ]
+          ],
+          [
+            [
+              76.949972,
+              28.380113
+            ],
+            [
+              76.950743,
+              28.379813
             ]
           ]
         ]
