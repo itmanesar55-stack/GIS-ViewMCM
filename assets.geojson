@@ -4155,11 +4155,121 @@
     {
       "type": "Feature",
       "properties": {
+        "assetId": "MCM-CG-000003",
+        "ulb": "MCM",
+        "assetClass": "CG",
+        "visibility": "public",
+        "assetName": "Samshan Ghat Village Khoh",
+        "ward": "13",
+        "sector": "",
+        "villageName": "Khoh",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Wood",
+          "feature_1": "1",
+          "feature_2": "Yes",
+          "feature_3": "Bench",
+          "feature_4": "2900",
+          "feature_5": "Village-origin",
+          "feature_6": "Good",
+          "feature_7": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/099342",
+          "workName": "Laying of IPB in Samshan ghat village Khoh, ward-13, DIv-II, MC Manesar.",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "Renovation",
+          "workDescription": "Laying of IPB in Samshan ghat village Khoh, ward-13, DIv-II, MC Manesar.",
+          "tenderId": "2025_HRY_491163_1",
+          "tenderName": "Laying of IPB in Samshan ghat village Khoh, ward-13, DIv-II, MC Manesar.",
+          "tenderDate": "",
+          "estimatedAmount": "1579100",
+          "agencyName": "The Ramjilal Cooperative labour & construction society",
+          "workOrderDate": "2026-01-12",
+          "agreementAmount": "963519",
+          "workStartDate": "2026-01-15",
+          "completionDate": "2026-07-14",
+          "actualExpenditure": "962987",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "365",
+          "dlpStartDate": "2026-07-15",
+          "dlpEndDate": "2027-07-14",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-28T09:02:53.314Z",
+          "addedBy": "admin"
+        },
+        "workId": "MCM-CG-000003-W1",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-28T09:03:07.492Z",
+        "photos": [],
+        "updatedBy": "admin",
+        "createdAt": "2026-09-28T08:49:32.375Z",
+        "featureHistory": [],
+        "featuresReviewedForWork": "MCM-CG-000003-W1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.925353,
+              28.353139
+            ],
+            [
+              76.925176,
+              28.353129
+            ],
+            [
+              76.925176,
+              28.353063
+            ],
+            [
+              76.924768,
+              28.353063
+            ],
+            [
+              76.924763,
+              28.352846
+            ],
+            [
+              76.925095,
+              28.352846
+            ],
+            [
+              76.925058,
+              28.352478
+            ],
+            [
+              76.925047,
+              28.35236
+            ],
+            [
+              76.925353,
+              28.35236
+            ],
+            [
+              76.925353,
+              28.353139
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "assetId": "MCM-WL-000004",
         "ulb": "MCM",
         "assetClass": "WL",
         "visibility": "public",
-        "assetName": "Panchayat Raj Nakhdola Water line",
+        "assetName": "Village Nakhdola Water Supply line",
         "ward": "15",
         "sector": "",
         "villageName": "Nakhdola",
@@ -4169,12 +4279,12 @@
         "featureData": {
           "feature_0": "GI",
           "feature_1": "50",
-          "feature_2": "0",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
+          "feature_2": "00",
+          "feature_3": "NA",
+          "feature_4": "00",
+          "feature_5": "NA",
           "feature_6": "",
-          "feature_7": ""
+          "feature_7": "Panchyati Raj"
         },
         "lifecycleData": {
           "hewpId": "ulb/2026-27/322425",
@@ -4207,11 +4317,40 @@
         "workId": "MCM-WL-000004-W1",
         "workHistory": [],
         "createdBy": "admin",
-        "updatedAt": "2026-09-28T08:13:18.815Z",
+        "updatedAt": "2026-09-28T09:09:17.346Z",
         "photos": [],
         "updatedBy": "admin",
         "createdAt": "2026-09-28T07:30:28.139Z",
-        "featureHistory": []
+        "featureHistory": [
+          {
+            "featureData": {
+              "feature_0": "GI",
+              "feature_1": "50",
+              "feature_2": "0",
+              "feature_3": "",
+              "feature_4": "",
+              "feature_5": "",
+              "feature_6": "",
+              "feature_7": ""
+            },
+            "labels": [
+              "Pipe material (DI / CI / HDPE / PVC)",
+              "Diameter (mm)",
+              "Depth of laying (m)",
+              "Pressure zone",
+              "Number of valves",
+              "Connections",
+              "Year laid",
+              "Built by"
+            ],
+            "validFrom": "2026-09-28T07:30:28.139Z",
+            "validUntil": "2026-09-28T09:09:17.023Z",
+            "changedBy": "admin",
+            "reason": "Features edited"
+          }
+        ],
+        "featuresUpdatedAt": "2026-09-28T09:09:17.023Z",
+        "featuresUpdatedBy": "admin"
       },
       "geometry": {
         "type": "MultiLineString",
@@ -4888,116 +5027,6 @@
             [
               76.955003,
               28.378354
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-CG-000003",
-        "ulb": "MCM",
-        "assetClass": "CG",
-        "visibility": "public",
-        "assetName": "Samshan Ghat Village Khoh",
-        "ward": "13",
-        "sector": "",
-        "villageName": "Khoh",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "Wood",
-          "feature_1": "1",
-          "feature_2": "Yes",
-          "feature_3": "Bench",
-          "feature_4": "2900",
-          "feature_5": "Village-origin",
-          "feature_6": "Good",
-          "feature_7": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ULB/2026-27/099342",
-          "workName": "Laying of IPB in Samshan ghat village Khoh, ward-13, DIv-II, MC Manesar.",
-          "workCategory": "Civil",
-          "componentWorked": "",
-          "workType": "Renovation",
-          "workDescription": "Laying of IPB in Samshan ghat village Khoh, ward-13, DIv-II, MC Manesar.",
-          "tenderId": "2025_HRY_491163_1",
-          "tenderName": "Laying of IPB in Samshan ghat village Khoh, ward-13, DIv-II, MC Manesar.",
-          "tenderDate": "",
-          "estimatedAmount": "1579100",
-          "agencyName": "The Ramjilal Cooperative labour & construction society",
-          "workOrderDate": "2026-01-12",
-          "agreementAmount": "963519",
-          "workStartDate": "2026-01-15",
-          "completionDate": "2026-07-14",
-          "actualExpenditure": "962987",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "Passed",
-          "dlpPeriod": "365",
-          "dlpStartDate": "2026-07-15",
-          "dlpEndDate": "2027-07-14",
-          "fundSource": "MC Fund",
-          "remarks": "",
-          "addedAt": "2026-09-28T09:02:53.314Z",
-          "addedBy": "admin"
-        },
-        "workId": "MCM-CG-000003-W1",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-28T09:03:07.492Z",
-        "photos": [],
-        "updatedBy": "admin",
-        "createdAt": "2026-09-28T08:49:32.375Z",
-        "featureHistory": [],
-        "featuresReviewedForWork": "MCM-CG-000003-W1"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              76.925353,
-              28.353139
-            ],
-            [
-              76.925176,
-              28.353129
-            ],
-            [
-              76.925176,
-              28.353063
-            ],
-            [
-              76.924768,
-              28.353063
-            ],
-            [
-              76.924763,
-              28.352846
-            ],
-            [
-              76.925095,
-              28.352846
-            ],
-            [
-              76.925058,
-              28.352478
-            ],
-            [
-              76.925047,
-              28.35236
-            ],
-            [
-              76.925353,
-              28.35236
-            ],
-            [
-              76.925353,
-              28.353139
             ]
           ]
         ]
