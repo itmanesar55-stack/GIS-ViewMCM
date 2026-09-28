@@ -5692,17 +5692,31 @@
         "workId": "MCM-TW-000012-W1",
         "workHistory": [],
         "createdBy": "admin",
-        "updatedAt": "2026-09-28T10:37:22.184Z",
+        "updatedAt": "2026-09-28T10:53:13.568Z",
         "photos": [],
-        "updatedBy": "ITM",
+        "updatedBy": "admin",
         "createdAt": "2026-09-28T05:00:40.413Z",
         "featureHistory": []
       },
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          76.936404,
-          28.359276
+          [
+            76.936404,
+            28.359276
+          ],
+          [
+            76.936404,
+            28.359276
+          ],
+          [
+            76.936404,
+            28.359276
+          ],
+          [
+            76.936403,
+            28.359394
+          ]
         ]
       }
     }
