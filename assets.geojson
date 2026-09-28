@@ -4948,11 +4948,12 @@
         "workId": "MCM-CG-000003-W1",
         "workHistory": [],
         "createdBy": "admin",
-        "updatedAt": "2026-09-28T09:02:53.574Z",
+        "updatedAt": "2026-09-28T09:03:07.492Z",
         "photos": [],
         "updatedBy": "admin",
         "createdAt": "2026-09-28T08:49:32.375Z",
-        "featureHistory": []
+        "featureHistory": [],
+        "featuresReviewedForWork": "MCM-CG-000003-W1"
       },
       "geometry": {
         "type": "Polygon",
