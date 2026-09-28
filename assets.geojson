@@ -4383,79 +4383,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000012",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Operation and maintenance of water supply Tubewell in ward no. 8,9,10,11,12,13 MCM",
-        "ward": "8,9,10,11,12,13",
-        "sector": "",
-        "villageName": "",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "",
-          "feature_11": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ulb/2025-26/087223",
-          "workName": "Operationand maintenance of water supply tubewell in MCM",
-          "workCategory": "Civil",
-          "componentWorked": "",
-          "workType": "Tube Well Boring / Drilling",
-          "workDescription": "Operationand maintenance of water supply tubewell in ward No. 08,09,10,11,12,13 MCM",
-          "tenderId": "2025_HRY_466224_1",
-          "tenderName": "Operationand maintenance of water supply tubewell in ward No. 08,09,10,11,12,13 MCM",
-          "tenderDate": "",
-          "estimatedAmount": "8264880",
-          "agencyName": "M/s Bijay Singh",
-          "workOrderDate": "",
-          "agreementAmount": "",
-          "workStartDate": "2025-09-18",
-          "completionDate": "2026-09-13",
-          "actualExpenditure": "",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "",
-          "dlpPeriod": "",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "",
-          "remarks": "",
-          "addedAt": "2026-09-28T10:08:57.085Z",
-          "addedBy": "admin"
-        },
-        "workId": "MCM-TW-000012-W1",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-28T10:08:58.101Z",
-        "photos": [],
-        "updatedBy": "admin",
-        "createdAt": "2026-09-28T05:00:40.413Z",
-        "featureHistory": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.936404,
-          28.359276
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-WL-000004",
         "ulb": "MCM",
         "assetClass": "WL",
@@ -5703,6 +5630,79 @@
               28.37739125092622
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000012",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Operation and maintenance of water supply Tubewell in ward no. 8,9,10,11,12,13 MCM",
+        "ward": "8,9,10,11,12,13",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ulb/2025-26/087223",
+          "workName": "Operationand maintenance of water supply tubewell in MCM",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "Tube Well Boring / Drilling",
+          "workDescription": "Operationand maintenance of water supply tubewell in ward No. 08,09,10,11,12,13 MCM",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "Operationand maintenance of water supply tubewell in ward No. 08,09,10,11,12,13 MCM",
+          "tenderDate": "",
+          "estimatedAmount": "8264880",
+          "agencyName": "M/s Bijay Singh",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "",
+          "remarks": "",
+          "addedAt": "2026-09-28T10:08:57.085Z",
+          "addedBy": "admin"
+        },
+        "workId": "MCM-TW-000012-W1",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-28T10:16:09.363Z",
+        "photos": [],
+        "updatedBy": "admin",
+        "createdAt": "2026-09-28T05:00:40.413Z",
+        "featureHistory": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.936404,
+          28.359276
         ]
       }
     }
