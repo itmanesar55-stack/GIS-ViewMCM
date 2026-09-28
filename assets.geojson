@@ -4892,6 +4892,88 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-CG-000003",
+        "ulb": "MCM",
+        "assetClass": "CG",
+        "visibility": "public",
+        "assetName": "Samshan Ghat Village Khoh",
+        "ward": "13",
+        "sector": "",
+        "villageName": "Khoh",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Wood",
+          "feature_1": "1",
+          "feature_2": "Yes",
+          "feature_3": "Bench",
+          "feature_4": "2900",
+          "feature_5": "Village-origin",
+          "feature_6": "Good",
+          "feature_7": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-28T08:55:17.567Z",
+        "photos": [],
+        "updatedBy": "admin",
+        "createdAt": "2026-09-28T08:49:32.375Z",
+        "featureHistory": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.925353,
+              28.353139
+            ],
+            [
+              76.925176,
+              28.353129
+            ],
+            [
+              76.925176,
+              28.353063
+            ],
+            [
+              76.924768,
+              28.353063
+            ],
+            [
+              76.924763,
+              28.352846
+            ],
+            [
+              76.925095,
+              28.352846
+            ],
+            [
+              76.925058,
+              28.352478
+            ],
+            [
+              76.925047,
+              28.35236
+            ],
+            [
+              76.925353,
+              28.35236
+            ],
+            [
+              76.925353,
+              28.353139
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
