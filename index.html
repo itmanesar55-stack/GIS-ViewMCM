@@ -21,6 +21,8 @@
   .legend-item { display: flex; align-items: center; gap: 8px; margin: 9px 0; font-size: 12px; }
   .legend-item input { width: 15px; height: 15px; }
   .swatch { width: 20px; height: 5px; border-radius: 3px; }
+  .ward-label { background: none; border: none; }
+  .ward-label span { display: inline-block; transform: translate(-50%, -50%); white-space: nowrap; font: 700 12px/1 system-ui, sans-serif; color: #ffd400; text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 5px #000; pointer-events: none; }
   .note { margin-top: 16px; padding: 10px; background: #f5f7f3; border-radius: 6px; color: var(--muted); font-size: 11px; line-height: 1.5; }
   .leaflet-popup-content { margin: 10px 12px; }
   .popup-details { display: flex; flex-direction: column; }
@@ -78,8 +80,18 @@
       { name: 'Lal Dora', color: '#f58231', show: true, files: ['ManesarLalDora.kml'] },
       { name: 'Zones', color: '#911eb4', show: true, files: ['MCM_ZONE_KML.kml'] },
       { name: 'Village Boundary', color: '#3cb44b', show: true, files: ['village_boundary.kml'] },
-      { name: 'Roads', color: '#333333', show: true, files: ['Municipal_Corporation_Manesar.kml'] }
+      { name: 'Roads', color: '#333333', show: true, files: ['Municipal_Corporation_Manesar.kml'] },
+      { name: 'Ward Boundaries', color: '#ffd400', show: true, files: ['MCM_Wards.kml'], wardLabels: true }
     ];
+    // Ward number at the point deepest inside each ward (precomputed into the KML as labelLat/labelLng).
+    function addWardLabels(kmlLayer, layerGroup) {
+      kmlLayer.eachLayer(layer => {
+        const p = (layer.feature && layer.feature.properties) || {};
+        if (!p.ward) return;
+        const at = p.labelLat && p.labelLng ? [Number(p.labelLat), Number(p.labelLng)] : layer.getBounds().getCenter();
+        L.marker(at, { interactive: false, keyboard: false, icon: L.divIcon({ className: 'ward-label', html: '<span>Ward ' + p.ward + '</span>', iconSize: null }) }).addTo(layerGroup);
+      });
+    }
     const kmlGroupLayers = {};
     let boundaryFitted = false;
     KML_LAYERS.forEach(group => {
@@ -87,8 +99,9 @@
       group.files.forEach(file => {
         omnivore.kml(file)
           .on('ready', function () {
-            this.eachLayer(layer => { if (layer.setStyle) layer.setStyle({ color: group.color, weight: 3, fillOpacity: 0.04 }); });
+            this.eachLayer(layer => { if (layer.setStyle) layer.setStyle({ color: group.color, weight: group.wardLabels ? 2 : 3, fillOpacity: group.wardLabels ? 0 : 0.04, dashArray: group.wardLabels ? '6,4' : null }); });
             this.addTo(layerGroup);
+            if (group.wardLabels) addWardLabels(this, layerGroup);
             if (group.name === 'Municipal Boundary' && !boundaryFitted) { boundaryFitted = true; map.fitBounds(this.getBounds(), { padding: [20, 20] }); }
           })
           .on('error', () => console.warn('KML load failed for ' + file));
