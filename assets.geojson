@@ -52,6 +52,7 @@
         },
         "workId": "MCM-PK-000001-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-22T05:16:06.004Z",
         "photos": [],
         "createdAt": "2026-09-21T11:20:36.000Z",
@@ -141,6 +142,7 @@
         },
         "workId": "MCM-SM-000001-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-22T10:36:34.804Z",
         "photos": [],
         "createdAt": "2026-09-22T09:47:37.000Z",
@@ -229,6 +231,7 @@
         },
         "workId": "MCM-TW-000003-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-22T11:43:33.658Z",
         "photos": [],
         "createdAt": "2026-09-22T11:27:30.000Z",
@@ -297,6 +300,7 @@
         },
         "workId": "MCM-TW-000004-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-22T11:57:56.591Z",
         "photos": [],
         "createdAt": "2026-09-22T11:50:27.000Z",
@@ -365,6 +369,7 @@
         },
         "workId": "MCM-TW-000005-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-22T12:09:06.568Z",
         "photos": [],
         "createdAt": "2026-09-22T12:01:03.000Z",
@@ -433,6 +438,7 @@
         },
         "workId": "MCM-TW-000006-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-22T12:16:31.599Z",
         "photos": [],
         "createdAt": "2026-09-22T12:11:02.000Z",
@@ -501,6 +507,7 @@
         },
         "workId": "MCM-TW-000007-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-22T12:21:42.424Z",
         "photos": [],
         "createdAt": "2026-09-22T12:18:08.000Z",
@@ -569,6 +576,7 @@
         },
         "workId": "MCM-TW-000001-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-22T12:23:34.880Z",
         "photos": [],
         "createdAt": "2026-09-22T10:49:09.000Z",
@@ -637,6 +645,7 @@
         },
         "workId": "MCM-RD-000001-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T08:55:59.248Z",
         "photos": [],
         "createdAt": "2026-09-24T08:47:23.000Z",
@@ -711,6 +720,7 @@
         },
         "workId": "MCM-RD-000002-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T09:10:44.860Z",
         "photos": [],
         "createdAt": "2026-09-21T10:39:16.000Z",
@@ -801,6 +811,7 @@
         },
         "workId": "MCM-RD-000003-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T09:30:05.111Z",
         "photos": [],
         "createdAt": "2026-09-21T10:53:52.000Z",
@@ -899,6 +910,7 @@
         },
         "workId": "MCM-TW-000008-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T09:49:04.503Z",
         "photos": [],
         "createdAt": "2026-09-24T09:34:38.000Z",
@@ -965,6 +977,7 @@
         },
         "workId": "MCM-SW-000002-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T09:53:41.860Z",
         "photos": [],
         "createdAt": "2026-09-24T09:45:58.000Z",
@@ -1055,6 +1068,7 @@
         },
         "workId": "MCM-TW-000010-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T10:05:44.476Z",
         "photos": [],
         "createdAt": "2026-09-24T09:56:30.000Z",
@@ -1123,6 +1137,7 @@
         },
         "workId": "MCM-TW-000009-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T10:08:45.313Z",
         "photos": [],
         "createdAt": "2026-09-24T09:48:37.000Z",
@@ -1191,6 +1206,7 @@
         },
         "workId": "MCM-TW-000011-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T10:13:19.290Z",
         "photos": [],
         "createdAt": "2026-09-24T10:09:59.000Z",
@@ -1259,6 +1275,7 @@
         },
         "workId": "MCM-RD-000004-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T10:16:53.490Z",
         "photos": [],
         "createdAt": "2026-09-24T10:09:26.000Z",
@@ -1337,6 +1354,7 @@
         },
         "workId": "MCM-DR-000001-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T10:34:11.218Z",
         "photos": [],
         "createdAt": "2026-09-24T10:28:23.000Z",
@@ -1435,6 +1453,7 @@
         },
         "workId": "MCM-RD-000007-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T10:48:20.760Z",
         "photos": [],
         "createdAt": "2026-09-24T10:29:12.000Z",
@@ -1609,6 +1628,7 @@
         },
         "workId": "MCM-RD-000008-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T11:16:43.295Z",
         "photos": [],
         "createdAt": "2026-09-24T11:01:19.000Z",
@@ -1707,6 +1727,7 @@
         },
         "workId": "MCM-RD-000009-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T11:21:37.405Z",
         "photos": [],
         "createdAt": "2026-09-24T11:16:33.000Z",
@@ -1829,6 +1850,7 @@
         },
         "workId": "MCM-RD-000006-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T11:28:20.796Z",
         "photos": [],
         "createdAt": "2026-09-24T10:24:27.000Z",
@@ -1903,6 +1925,7 @@
         },
         "workId": "MCM-RD-000005-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T11:28:46.503Z",
         "photos": [],
         "createdAt": "2026-09-24T10:18:45.000Z",
@@ -1994,6 +2017,7 @@
         },
         "workId": "MCM-RD-000012-W1",
         "workHistory": [],
+        "createdBy": "ITM",
         "updatedAt": "2026-09-24T11:51:10.274Z",
         "photos": [],
         "createdAt": "2026-09-24T11:43:01.000Z",
@@ -2082,6 +2106,7 @@
         },
         "workId": "MCM-SW-000003-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-24T11:51:55.989Z",
         "photos": [],
         "createdAt": "2026-09-24T11:35:47.000Z",
@@ -2165,6 +2190,7 @@
         },
         "workId": "MCM-RD-000014-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T05:15:16.815Z",
         "photos": [],
         "createdAt": "2026-09-25T05:00:59.000Z"
@@ -2239,6 +2265,7 @@
         },
         "workId": "MCM-RD-000013-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T05:15:26.884Z",
         "photos": [],
         "createdAt": "2026-09-25T04:43:48.000Z"
@@ -2313,6 +2340,7 @@
         },
         "workId": "MCM-RD-000015-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T05:16:08.270Z",
         "photos": [],
         "createdAt": "2026-09-25T05:10:23.000Z"
@@ -2395,6 +2423,7 @@
         },
         "workId": "MCM-RD-000016-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T05:23:16.312Z",
         "photos": [],
         "createdAt": "2026-09-25T05:17:02.000Z"
@@ -2497,6 +2526,7 @@
         },
         "workId": "MCM-RD-000017-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T05:31:19.737Z",
         "photos": [],
         "createdAt": "2026-09-25T05:24:46.000Z"
@@ -2609,6 +2639,7 @@
         },
         "workId": "MCM-RD-000018-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T05:36:05.750Z",
         "photos": [],
         "createdAt": "2026-09-25T05:32:59.000Z"
@@ -2683,6 +2714,7 @@
         },
         "workId": "MCM-RD-000019-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T05:42:20.004Z",
         "photos": [],
         "createdAt": "2026-09-25T05:37:18.000Z"
@@ -2773,6 +2805,7 @@
         },
         "workId": "MCM-RD-000020-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T05:48:16.939Z",
         "photos": [],
         "createdAt": "2026-09-25T05:43:58.000Z"
@@ -2871,6 +2904,7 @@
         },
         "workId": "MCM-RD-000021-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T05:53:15.408Z",
         "photos": [],
         "createdAt": "2026-09-25T05:50:04.000Z"
@@ -2945,6 +2979,7 @@
         },
         "workId": "MCM-RD-000022-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T05:59:50.455Z",
         "photos": [],
         "createdAt": "2026-09-25T05:55:31.000Z"
@@ -2994,6 +3029,7 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T06:18:53.878Z",
         "photos": [],
         "createdAt": "2026-09-25T06:17:03.000Z"
@@ -3043,6 +3079,7 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T06:20:07.686Z",
         "photos": [],
         "createdAt": "2026-09-25T06:12:18.000Z"
@@ -3096,6 +3133,7 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T06:21:28.673Z",
         "photos": [],
         "createdAt": "2026-09-25T06:14:57.000Z"
@@ -3186,6 +3224,7 @@
         },
         "workId": "MCM-CG-000001-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T07:02:47.078Z",
         "photos": [],
         "createdAt": "2026-09-25T06:45:23.000Z"
@@ -3274,8 +3313,10 @@
         },
         "workId": "MCM-WL-000002-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T10:06:05.719Z",
         "photos": [],
+        "updatedBy": "ITM",
         "createdAt": "2026-09-22T09:53:40.000Z",
         "createdAtApprox": true
       },
@@ -3644,8 +3685,10 @@
         },
         "workId": "MCM-WL-000001-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-25T10:08:55.916Z",
         "photos": [],
+        "updatedBy": "ITM",
         "createdAt": "2026-09-24T09:13:50.000Z",
         "createdAtApprox": true
       },
@@ -3735,8 +3778,10 @@
         },
         "workId": "MCM-RD-000027-W1",
         "workHistory": [],
+        "createdBy": "ITM",
         "updatedAt": "2026-09-25T11:31:24.093Z",
         "photos": [],
+        "updatedBy": "ITM",
         "createdAt": "2026-09-25T11:27:06.000Z"
       },
       "geometry": {
@@ -4100,6 +4145,7 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
+        "createdBy": "ITM",
         "updatedAt": "2026-09-25T08:41:01.000Z",
         "photos": [],
         "createdAt": "2026-09-25T08:41:01.000Z",
@@ -4155,13 +4201,17 @@
           "dlpEndDate": "2027-07-14",
           "fundSource": "MC Fund",
           "remarks": "",
-          "addedAt": "2026-09-28T09:02:53.314Z"
+          "addedAt": "2026-09-28T09:02:53.314Z",
+          "addedBy": "admin"
         },
         "workId": "MCM-CG-000003-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-28T09:03:07.492Z",
         "photos": [],
+        "updatedBy": "admin",
         "createdAt": "2026-09-28T08:49:32.375Z",
+        "featureHistory": [],
         "featuresReviewedForWork": "MCM-CG-000003-W1"
       },
       "geometry": {
@@ -4261,14 +4311,46 @@
           "dlpEndDate": "",
           "fundSource": "MC Fund",
           "remarks": "",
-          "addedAt": "2026-09-28T09:31:10.038Z"
+          "addedAt": "2026-09-28T09:31:10.038Z",
+          "addedBy": "admin"
         },
         "workId": "MCM-CG-000002-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-28T09:39:38.025Z",
         "photos": [],
+        "updatedBy": "admin",
         "createdAt": "2026-09-28T06:44:16.380Z",
-        "featuresUpdatedAt": "2026-09-28T09:23:14.168Z"
+        "featureHistory": [
+          {
+            "featureData": {
+              "feature_0": "",
+              "feature_1": "",
+              "feature_2": "",
+              "feature_3": "",
+              "feature_4": "",
+              "feature_5": "",
+              "feature_6": "",
+              "feature_7": ""
+            },
+            "labels": [
+              "Type (wood / CNG / electric)",
+              "Number of platforms",
+              "Shed",
+              "Facilities",
+              "Area (sq.m)",
+              "Ownership",
+              "Condition",
+              "Built by"
+            ],
+            "validFrom": "2026-09-28T06:44:16.380Z",
+            "validUntil": "2026-09-28T09:23:14.168Z",
+            "changedBy": "admin",
+            "reason": "Features edited"
+          }
+        ],
+        "featuresUpdatedAt": "2026-09-28T09:23:14.168Z",
+        "featuresUpdatedBy": "admin"
       },
       "geometry": {
         "type": "Polygon",
@@ -4347,14 +4429,46 @@
           "dlpEndDate": "",
           "fundSource": "MC Fund",
           "remarks": "",
-          "addedAt": "2026-09-28T08:13:15.150Z"
+          "addedAt": "2026-09-28T08:13:15.150Z",
+          "addedBy": "admin"
         },
         "workId": "MCM-WL-000004-W1",
         "workHistory": [],
+        "createdBy": "admin",
         "updatedAt": "2026-09-28T09:46:41.217Z",
         "photos": [],
+        "updatedBy": "ITM",
         "createdAt": "2026-09-28T07:30:28.139Z",
-        "featuresUpdatedAt": "2026-09-28T09:09:17.023Z"
+        "featureHistory": [
+          {
+            "featureData": {
+              "feature_0": "GI",
+              "feature_1": "50",
+              "feature_2": "0",
+              "feature_3": "",
+              "feature_4": "",
+              "feature_5": "",
+              "feature_6": "",
+              "feature_7": ""
+            },
+            "labels": [
+              "Pipe material (DI / CI / HDPE / PVC)",
+              "Diameter (mm)",
+              "Depth of laying (m)",
+              "Pressure zone",
+              "Number of valves",
+              "Connections",
+              "Year laid",
+              "Built by"
+            ],
+            "validFrom": "2026-09-28T07:30:28.139Z",
+            "validUntil": "2026-09-28T09:09:17.023Z",
+            "changedBy": "admin",
+            "reason": "Features edited"
+          }
+        ],
+        "featuresUpdatedAt": "2026-09-28T09:09:17.023Z",
+        "featuresUpdatedBy": "admin"
       },
       "geometry": {
         "type": "MultiLineString",
@@ -5515,6 +5629,52 @@
               28.37739125092622
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000012",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Operation and maintenance of water supply Tubewell in ward no. 8,9,10,11,12,13 MCM",
+        "ward": "8,9,10,11,12,13",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-28T09:59:21.840Z",
+        "photos": [],
+        "updatedBy": "admin",
+        "createdAt": "2026-09-28T05:00:40.413Z",
+        "featureHistory": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.936404,
+          28.359276
         ]
       }
     }
