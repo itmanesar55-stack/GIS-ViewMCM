@@ -4383,6 +4383,52 @@
     {
       "type": "Feature",
       "properties": {
+        "assetId": "MCM-TW-000012",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Operation and maintenance of water supply Tubewell in ward no. 8,9,10,11,12,13 MCM",
+        "ward": "8,9,10,11,12,13",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "createdBy": "admin",
+        "updatedAt": "2026-09-28T09:59:21.840Z",
+        "photos": [],
+        "updatedBy": "admin",
+        "createdAt": "2026-09-28T05:00:40.413Z",
+        "featureHistory": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.936404,
+          28.359276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "assetId": "MCM-WL-000004",
         "ulb": "MCM",
         "assetClass": "WL",
@@ -4405,7 +4451,7 @@
           "feature_7": "Panchyati Raj"
         },
         "lifecycleData": {
-          "hewpId": "ulb/2026-27/322425",
+          "hewpId": "ULB/2026-27/322425",
           "workName": "Shifting of GI Water supply line from drain to road surface in village Nakhdola ward no. 15 under MCM",
           "workCategory": "Water Supply",
           "componentWorked": "",
@@ -4435,7 +4481,7 @@
         "workId": "MCM-WL-000004-W1",
         "workHistory": [],
         "createdBy": "admin",
-        "updatedAt": "2026-09-28T09:46:41.217Z",
+        "updatedAt": "2026-09-28T10:04:44.338Z",
         "photos": [],
         "updatedBy": "ITM",
         "createdAt": "2026-09-28T07:30:28.139Z",
@@ -5629,52 +5675,6 @@
               28.37739125092622
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000012",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Operation and maintenance of water supply Tubewell in ward no. 8,9,10,11,12,13 MCM",
-        "ward": "8,9,10,11,12,13",
-        "sector": "",
-        "villageName": "",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "createdBy": "admin",
-        "updatedAt": "2026-09-28T09:59:21.840Z",
-        "photos": [],
-        "updatedBy": "admin",
-        "createdAt": "2026-09-28T05:00:40.413Z",
-        "featureHistory": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.936404,
-          28.359276
         ]
       }
     }
