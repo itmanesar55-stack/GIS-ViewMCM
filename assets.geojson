@@ -8936,7 +8936,7 @@
         "assetClass": "TW",
         "visibility": "public",
         "assetName": "Tubewell in Ward No. 8 Kasan Road",
-        "ward": "",
+        "ward": "8",
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
@@ -8953,15 +8953,16 @@
           "feature_7": "",
           "feature_8": "",
           "feature_9": "",
-          "feature_10": "",
+          "feature_10": "Working",
           "feature_11": ""
         },
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-29T11:14:14.237Z",
+        "updatedAt": "2026-09-29T11:14:28.453Z",
         "photos": [],
-        "createdAt": "2026-09-29T11:12:58.151Z"
+        "createdAt": "2026-09-29T11:12:58.151Z",
+        "featuresUpdatedAt": "2026-09-29T11:14:28.822Z"
       },
       "geometry": {
         "type": "Point",
