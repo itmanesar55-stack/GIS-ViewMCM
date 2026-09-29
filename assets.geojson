@@ -8841,6 +8841,49 @@
           28.355976
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000083",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Power Supply Colony IMT Manesar Ward No. 12",
+        "ward": "Ward No. 11",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T11:08:29.524Z",
+        "photos": [],
+        "createdAt": "2026-09-29T11:07:43.714Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.937609,
+          28.357936
+        ]
+      }
     }
   ]
 }
