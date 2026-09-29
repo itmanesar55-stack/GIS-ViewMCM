@@ -6039,6 +6039,67 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000029",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "Estimate for the Construction of cc block road for harijan samshan ghat rasta",
+        "ward": "1",
+        "sector": "",
+        "villageName": "Garhi",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "69.07",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "CC Block Road",
+          "feature_3": "",
+          "feature_4": "-1",
+          "feature_5": "",
+          "feature_6": "No",
+          "feature_7": "No",
+          "feature_8": "Good",
+          "feature_9": "2026",
+          "feature_10": "",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T05:46:35.394Z",
+        "photos": [],
+        "createdAt": "2026-09-29T05:38:49.212Z"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.940663,
+            28.44848
+          ],
+          [
+            76.940416,
+            28.448692
+          ],
+          [
+            76.940239,
+            28.448838
+          ],
+          [
+            76.940215,
+            28.448862
+          ],
+          [
+            76.940224,
+            28.448934
+          ]
+        ]
+      }
     }
   ]
 }
