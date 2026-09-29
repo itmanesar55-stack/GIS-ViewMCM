@@ -6872,7 +6872,7 @@
         "assetClass": "TW",
         "visibility": "public",
         "assetName": "Tubewell in Narender Farm Road IMT",
-        "ward": "",
+        "ward": "8",
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
@@ -6895,7 +6895,7 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-29T07:28:02.888Z",
+        "updatedAt": "2026-09-29T07:30:42.113Z",
         "photos": [],
         "createdAt": "2026-09-29T07:26:36.215Z"
       },
