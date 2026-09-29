@@ -117,7 +117,7 @@
       if (input.checked) layer.addTo(map); else map.removeLayer(layer);
     }));
 
-    const ASSET_CLASSES = { RD: ['#e33d2f', 'Roads'], DR: ['#1573c8', 'Drains / Sewer'], WL: ['#0c9b9b', 'Water supply'], SD: ['#7b4bb7', 'Storm water'], SL: ['#f0a51a', 'Streetlights'], PK: ['#369d55', 'Parks'] };
+    const ASSET_CLASSES = { RD: ['#e33d2f', 'Roads'], DR: ['#1573c8', 'Drains / Sewer'], WL: ['#0c9b9b', 'Water supply'], TWL: ['#8a5a2b', 'Treated water'], SD: ['#7b4bb7', 'Storm water'], SL: ['#f0a51a', 'Streetlights'], PK: ['#369d55', 'Parks'] };
     const CLASS_COLOR_PALETTE = ['#e33d2f', '#1573c8', '#0c9b9b', '#7b4bb7', '#f0a51a', '#369d55', '#d6499a', '#5b6bd6', '#c77c1f', '#2e9e7a', '#a5388d', '#4a7d1f'];
     const classColorCache = {};
     function colorForClass(code) {
