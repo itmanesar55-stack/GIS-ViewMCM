@@ -9641,6 +9641,49 @@
           28.355167
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000100",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Kasan ward -8",
+        "ward": "8",
+        "sector": "",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T13:52:17.481Z",
+        "photos": [],
+        "createdAt": "2026-09-29T13:51:49.246Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8985,
+          28.356472
+        ]
+      }
     }
   ]
 }
