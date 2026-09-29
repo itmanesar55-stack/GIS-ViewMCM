@@ -9186,6 +9186,90 @@
           28.35846
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-PD-000001",
+        "ulb": "MCM",
+        "assetClass": "PD",
+        "visibility": "public",
+        "assetName": "Badha Village pond",
+        "ward": "20",
+        "sector": "",
+        "villageName": "Badha",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "2697",
+          "feature_2": "10",
+          "feature_3": "23871",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Water Recharge",
+          "feature_7": "Good",
+          "feature_8": "MCM(total area of 7815 sq mtr.)"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T11:34:00.991Z",
+        "photos": [],
+        "createdAt": "2026-09-29T11:31:21.607Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.944892,
+              28.410812
+            ],
+            [
+              76.945351,
+              28.410972
+            ],
+            [
+              76.945493,
+              28.41085
+            ],
+            [
+              76.945724,
+              28.410767
+            ],
+            [
+              76.94578,
+              28.410713
+            ],
+            [
+              76.94582,
+              28.410305
+            ],
+            [
+              76.945689,
+              28.410027
+            ],
+            [
+              76.945276,
+              28.410215
+            ],
+            [
+              76.945026,
+              28.410359
+            ],
+            [
+              76.944882,
+              28.410347
+            ],
+            [
+              76.944892,
+              28.410812
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
