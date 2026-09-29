@@ -6129,6 +6129,49 @@
     {
       "type": "Feature",
       "properties": {
+        "assetId": "MCM-TW-000022",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in village Manesar",
+        "ward": "",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "69.07",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T06:15:27.078Z",
+        "photos": [],
+        "createdAt": "2026-09-29T06:14:55.928Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.940288,
+          28.354156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "assetId": "MCM-RD-000029",
         "ulb": "MCM",
         "assetClass": "RD",
@@ -6184,7 +6227,7 @@
         },
         "workId": "MCM-RD-000029-W1",
         "workHistory": [],
-        "updatedAt": "2026-09-29T06:14:25.511Z",
+        "updatedAt": "2026-09-29T06:15:35.185Z",
         "photos": [],
         "createdAt": "2026-09-29T05:38:49.212Z",
         "featuresUpdatedAt": "2026-09-29T06:13:12.082Z",
@@ -6213,49 +6256,6 @@
             76.940224,
             28.448934
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000022",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in village Manesar",
-        "ward": "",
-        "sector": "",
-        "villageName": "Manesar",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "69.07",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-29T06:15:27.078Z",
-        "photos": [],
-        "createdAt": "2026-09-29T06:14:55.928Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.940288,
-          28.354156
         ]
       }
     }
