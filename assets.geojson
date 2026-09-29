@@ -7884,15 +7884,15 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-29T09:10:42.291Z",
+        "updatedAt": "2026-09-29T09:12:11.757Z",
         "photos": [],
         "createdAt": "2026-09-29T09:03:04.500Z"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.896463,
-          28.312633
+          76.938179,
+          28.348809
         ]
       }
     }
