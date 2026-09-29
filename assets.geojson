@@ -9942,6 +9942,49 @@
           28.354111
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000108",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in village  Manesar near Bhagwati Vidya Mandir",
+        "ward": "10",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": "MC Manesar"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T14:41:40.060Z",
+        "photos": [],
+        "createdAt": "2026-09-29T14:41:42.029Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.943082,
+          28.358203
+        ]
+      }
     }
   ]
 }
