@@ -8712,6 +8712,49 @@
           28.351794
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000080",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in IMT Manesar",
+        "ward": "",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T10:23:32.780Z",
+        "photos": [],
+        "createdAt": "2026-09-29T10:22:56.517Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.901556,
+          28.352026
+        ]
+      }
     }
   ]
 }
