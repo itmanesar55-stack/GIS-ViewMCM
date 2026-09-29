@@ -8927,6 +8927,49 @@
           28.312587
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000085",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Kasan Road",
+        "ward": "",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T11:13:39.571Z",
+        "photos": [],
+        "createdAt": "2026-09-29T11:12:58.151Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.896428,
+          28.358479
+        ]
+      }
     }
   ]
 }
