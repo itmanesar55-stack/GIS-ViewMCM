@@ -6743,7 +6743,7 @@
         "assetClass": "TW",
         "visibility": "public",
         "assetName": "Tubewell in Kasan Road",
-        "ward": "10",
+        "ward": "",
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
@@ -6766,7 +6766,7 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-29T07:19:48.502Z",
+        "updatedAt": "2026-09-29T07:20:34.605Z",
         "photos": [],
         "createdAt": "2026-09-29T07:19:22.758Z"
       },
