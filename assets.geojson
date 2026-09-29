@@ -7078,6 +7078,49 @@
           28.35765
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000042",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Sector 1B Ward 11",
+        "ward": "11",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T07:52:38.268Z",
+        "photos": [],
+        "createdAt": "2026-09-29T07:51:16.611Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.942795,
+          28.350596
+        ]
+      }
     }
   ]
 }
