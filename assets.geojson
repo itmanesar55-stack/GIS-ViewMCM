@@ -7426,49 +7426,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000048",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in",
-        "ward": "",
-        "sector": "",
-        "villageName": "",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-29T08:39:47.395Z",
-        "photos": [],
-        "createdAt": "2026-09-29T08:27:11.221Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.899223,
-          28.357292
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-TW-000053",
         "ulb": "MCM",
         "assetClass": "TW",
@@ -7721,6 +7678,49 @@
         "coordinates": [
           76.938412,
           28.35003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000048",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in",
+        "ward": "",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T08:55:49.500Z",
+        "photos": [],
+        "createdAt": "2026-09-29T08:27:11.221Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.899223,
+          28.357292
         ]
       }
     }
