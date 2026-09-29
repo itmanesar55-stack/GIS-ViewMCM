@@ -9014,6 +9014,49 @@
           28.356033
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000087",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Village Sehrawan",
+        "ward": "",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T11:19:19.221Z",
+        "photos": [],
+        "createdAt": "2026-09-29T11:18:13.489Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.91786,
+          28.341716
+        ]
+      }
     }
   ]
 }
