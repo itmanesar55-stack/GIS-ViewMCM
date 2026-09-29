@@ -9899,6 +9899,49 @@
           28.35375
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000107",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Manesar near Durga Mata Mandir",
+        "ward": "11",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": "MC Manesar"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T14:37:13.958Z",
+        "photos": [],
+        "createdAt": "2026-09-29T14:37:14.941Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.938917,
+          28.354111
+        ]
+      }
     }
   ]
 }
