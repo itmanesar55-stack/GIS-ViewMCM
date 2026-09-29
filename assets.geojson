@@ -9340,6 +9340,49 @@
           28.347972
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000093",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell Kasan, Power Supply Colony, Ward -12",
+        "ward": "12",
+        "sector": "",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": "MC Manesar"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T13:14:33.145Z",
+        "photos": [],
+        "createdAt": "2026-09-29T13:14:15.988Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.933444,
+          28.355639
+        ]
+      }
     }
   ]
 }
