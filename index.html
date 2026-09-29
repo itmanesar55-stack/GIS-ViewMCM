@@ -23,6 +23,8 @@
   .swatch { width: 20px; height: 5px; border-radius: 3px; }
   .ward-label { background: none; border: none; }
   .ward-label span { display: inline-block; transform: translate(-50%, -50%); white-space: nowrap; font: 700 12px/1 system-ui, sans-serif; color: #ffd400; text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 5px #000; pointer-events: none; }
+  .village-label { background: none; border: none; }
+  .village-label span { display: inline-block; transform: translate(-50%, 35%); white-space: nowrap; font: italic 600 11px/1 system-ui, sans-serif; color: #fff; text-shadow: 0 0 3px #1b4d1b, 0 0 3px #1b4d1b, 0 0 5px #000; pointer-events: none; }
   .note { margin-top: 16px; padding: 10px; background: #f5f7f3; border-radius: 6px; color: var(--muted); font-size: 11px; line-height: 1.5; }
   .leaflet-popup-content { margin: 10px 12px; }
   .popup-details { display: flex; flex-direction: column; }
@@ -79,17 +81,20 @@
       { name: 'Authorized Colonies', color: '#0072b2', show: true, files: ['Bhangrola_B-7954.kml', 'Wazirpur_Enclave_B-44.kml', 'Saheed_Bagat_Singh_Colony.kml'] },
       { name: 'Lal Dora', color: '#f58231', show: true, files: ['ManesarLalDora.kml'] },
       { name: 'Zones', color: '#911eb4', show: true, files: ['MCM_ZONE_KML.kml'] },
-      { name: 'Village Boundary', color: '#3cb44b', show: true, files: ['village_boundary.kml'] },
+      { name: 'Village Boundary', color: '#3cb44b', show: true, files: ['village_boundary.kml'], nameLabels: true },
       { name: 'Roads', color: '#333333', show: true, files: ['Municipal_Corporation_Manesar.kml'] },
       { name: 'Ward Boundaries', color: '#ffd400', show: true, files: ['MCM_Wards.kml'], wardLabels: true }
     ];
     // Ward number at the point deepest inside each ward (precomputed into the KML as labelLat/labelLng).
-    function addWardLabels(kmlLayer, layerGroup) {
+    function escapeLabel(text) { return String(text).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+  // Area labels at the precomputed point inside each area: ward numbers ("Ward 5") and village names.
+  function addAreaLabels(kmlLayer, layerGroup, group) {
       kmlLayer.eachLayer(layer => {
         const p = (layer.feature && layer.feature.properties) || {};
-        if (!p.ward) return;
+        const text = group.wardLabels ? (p.ward ? 'Ward ' + p.ward : '') : (p.name || '');
+        if (!text) return;
         const at = p.labelLat && p.labelLng ? [Number(p.labelLat), Number(p.labelLng)] : layer.getBounds().getCenter();
-        L.marker(at, { interactive: false, keyboard: false, icon: L.divIcon({ className: 'ward-label', html: '<span>Ward ' + p.ward + '</span>', iconSize: null }) }).addTo(layerGroup);
+        L.marker(at, { interactive: false, keyboard: false, icon: L.divIcon({ className: group.wardLabels ? 'ward-label' : 'village-label', html: '<span>' + escapeLabel(text) + '</span>', iconSize: null }) }).addTo(layerGroup);
       });
     }
     const kmlGroupLayers = {};
@@ -101,7 +106,7 @@
           .on('ready', function () {
             this.eachLayer(layer => { if (layer.setStyle) layer.setStyle({ color: group.color, weight: group.wardLabels ? 2 : 3, fillOpacity: group.wardLabels ? 0 : 0.04, dashArray: group.wardLabels ? '6,4' : null }); });
             this.addTo(layerGroup);
-            if (group.wardLabels) addWardLabels(this, layerGroup);
+            if (group.wardLabels || group.nameLabels) addAreaLabels(this, layerGroup, group);
             if (group.name === 'Municipal Boundary' && !boundaryFitted) { boundaryFitted = true; map.fitBounds(this.getBounds(), { padding: [20, 20] }); }
           })
           .on('error', () => console.warn('KML load failed for ' + file));
