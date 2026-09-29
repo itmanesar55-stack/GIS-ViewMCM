@@ -9089,15 +9089,15 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-29T11:22:59.055Z",
+        "updatedAt": "2026-09-29T11:24:10.756Z",
         "photos": [],
         "createdAt": "2026-09-29T11:21:41.269Z"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.89645,
-          28.312615
+          76.943376,
+          28.355988
         ]
       }
     }
