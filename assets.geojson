@@ -8357,15 +8357,15 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-29T09:44:59.972Z",
+        "updatedAt": "2026-09-29T09:45:37.427Z",
         "photos": [],
         "createdAt": "2026-09-29T09:43:09.117Z"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.93742,
-          28.349823
+          76.945497,
+          28.351627
         ]
       }
     }
