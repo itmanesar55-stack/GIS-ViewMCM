@@ -9727,6 +9727,49 @@
           28.356542
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000102",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell on Panchgaon Chowk",
+        "ward": "9",
+        "sector": "",
+        "villageName": "kukrola",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": "MC Manesar"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T13:57:50.462Z",
+        "photos": [],
+        "createdAt": "2026-09-29T13:57:38.492Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.894028,
+          28.320833
+        ]
+      }
     }
   ]
 }
