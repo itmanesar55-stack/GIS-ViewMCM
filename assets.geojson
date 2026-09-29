@@ -5759,6 +5759,49 @@
           28.349345
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000017",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in ward no. 13",
+        "ward": "13",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T05:14:29.653Z",
+        "photos": [],
+        "createdAt": "2026-09-29T05:13:48.682Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.938365,
+          28.347875
+        ]
+      }
     }
   ]
 }
