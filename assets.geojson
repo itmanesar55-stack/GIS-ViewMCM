@@ -8759,49 +8759,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000081",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Power Supply Colony IMT Manesar Ward No. 12",
-        "ward": "12",
-        "sector": "",
-        "villageName": "",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-29T11:03:03.155Z",
-        "photos": [],
-        "createdAt": "2026-09-29T10:32:52.879Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.936625,
-          28.357258
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-TW-000082",
         "ulb": "MCM",
         "assetClass": "TW",
@@ -8882,6 +8839,49 @@
         "coordinates": [
           76.937609,
           28.357936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000081",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Power Supply Colony IMT Manesar Ward No. 12",
+        "ward": "12",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T11:08:41.687Z",
+        "photos": [],
+        "createdAt": "2026-09-29T10:32:52.879Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.936625,
+          28.357258
         ]
       }
     }
