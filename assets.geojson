@@ -5934,6 +5934,85 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-CG-000004",
+        "ulb": "MCM",
+        "assetClass": "CG",
+        "visibility": "public",
+        "assetName": "Bowndary wall of samshan ghat",
+        "ward": "19",
+        "sector": "",
+        "villageName": "Siknderpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "2200",
+          "feature_5": "Other",
+          "feature_6": "Poor",
+          "feature_7": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-29T05:32:54.496Z",
+        "photos": [],
+        "createdAt": "2026-09-29T05:31:30.814Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.960259,
+              28.39996
+            ],
+            [
+              76.960109,
+              28.399899
+            ],
+            [
+              76.959937,
+              28.400305
+            ],
+            [
+              76.959824,
+              28.400314
+            ],
+            [
+              76.959744,
+              28.400961
+            ],
+            [
+              76.960361,
+              28.400951
+            ],
+            [
+              76.9602,
+              28.400772
+            ],
+            [
+              76.960146,
+              28.400465
+            ],
+            [
+              76.960195,
+              28.400088
+            ],
+            [
+              76.960259,
+              28.39996
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
