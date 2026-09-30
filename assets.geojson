@@ -6867,49 +6867,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000039",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Ward No. 12",
-        "ward": "",
-        "sector": "",
-        "villageName": "",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "69.07",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-29T07:37:43.275Z",
-        "photos": [],
-        "createdAt": "2026-09-29T07:35:57.916Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.937398,
-          28.349822
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-TW-000040",
         "ulb": "MCM",
         "assetClass": "TW",
@@ -8581,49 +8538,6 @@
         "coordinates": [
           76.901556,
           28.352026
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000082",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in IMT Manesar Sector 1B Ward No. 11",
-        "ward": "Ward No. 11",
-        "sector": "",
-        "villageName": "",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-29T11:05:48.143Z",
-        "photos": [],
-        "createdAt": "2026-09-29T11:04:21.072Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.943343,
-          28.355976
         ]
       }
     },
@@ -11408,49 +11322,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000113",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Manesar near Manesar Bakery",
-        "ward": "11",
-        "sector": "",
-        "villageName": "Manesar",
-        "ownership": "Village-origin",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "500",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": "Panchyati raj"
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T06:50:27.992Z",
-        "photos": [],
-        "createdAt": "2026-09-30T06:49:47.907Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.942041,
-          28.351566
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-TW-000115",
         "ulb": "MCM",
         "assetClass": "TW",
@@ -11652,6 +11523,213 @@
         "coordinates": [
           76.940428,
           28.354712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000113",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Manesar near Manesar Bakery",
+        "ward": "11",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "Village-origin",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "500",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": "Panchyati raj"
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/286827",
+          "workName": "Deepening and rejuvnation of 6 water supply tubewell in ward 11 under MC manesar",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Rehabilitation",
+          "workDescription": "Deepening and rejuvnation of 6 water supply tubewell in ward 11 under MC Manesar.",
+          "tenderId": "2026_HRY_499167_1",
+          "tenderName": "Deepening and rejuvnation of 6 water supply tubewell in ward 11 under MC Manesar",
+          "tenderDate": "2026-01-28",
+          "estimatedAmount": "20.34",
+          "agencyName": "The RR Cooperative labour and Construction society  Limited Rohtak",
+          "workOrderDate": "2026-02-12",
+          "agreementAmount": "1410216",
+          "workStartDate": "2026-02-15",
+          "completionDate": "2026-04-01",
+          "actualExpenditure": "1248097",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "12",
+          "dlpStartDate": "2026-04-01",
+          "dlpEndDate": "2027-03-31",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-30T07:08:33.909Z"
+        },
+        "workId": "MCM-TW-000113-W1",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T07:08:34.734Z",
+        "photos": [],
+        "createdAt": "2026-09-30T06:49:47.907Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.942041,
+          28.351566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000082",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in IMT Manesar Sector 1B Ward No. 11",
+        "ward": "Ward No. 11",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/286827",
+          "workName": "Deepening and rejuvnation of 6 water supply tubewell in ward 11 under MC manesar",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Rehabilitation",
+          "workDescription": "Deepening and rejuvnation of 6 water supply tubewell in ward 11 under MC Manesar.",
+          "tenderId": "2026_HRY_499167_1",
+          "tenderName": "Deepening and rejuvnation of 6 water supply tubewell in ward 11 under MC Manesar",
+          "tenderDate": "2026-01-28",
+          "estimatedAmount": "20.34",
+          "agencyName": "The RR Cooperative labour and Construction society  Limited Rohtak",
+          "workOrderDate": "2026-02-12",
+          "agreementAmount": "1410216",
+          "workStartDate": "2026-02-15",
+          "completionDate": "2026-04-01",
+          "actualExpenditure": "1248097",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "12",
+          "dlpStartDate": "2026-04-01",
+          "dlpEndDate": "2027-03-31",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-30T07:08:34.713Z"
+        },
+        "workId": "MCM-TW-000082-W1",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T07:08:35.673Z",
+        "photos": [],
+        "createdAt": "2026-09-29T11:04:21.072Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.943343,
+          28.355976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000039",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Ward No. 12",
+        "ward": "",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "69.07",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/286827",
+          "workName": "Deepening and rejuvnation of 6 water supply tubewell in ward 11 under MC manesar",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Rehabilitation",
+          "workDescription": "Deepening and rejuvnation of 6 water supply tubewell in ward 11 under MC Manesar.",
+          "tenderId": "2026_HRY_499167_1",
+          "tenderName": "Deepening and rejuvnation of 6 water supply tubewell in ward 11 under MC Manesar",
+          "tenderDate": "2026-01-28",
+          "estimatedAmount": "20.34",
+          "agencyName": "The RR Cooperative labour and Construction society  Limited Rohtak",
+          "workOrderDate": "2026-02-12",
+          "agreementAmount": "1410216",
+          "workStartDate": "2026-02-15",
+          "completionDate": "2026-04-01",
+          "actualExpenditure": "1248097",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "12",
+          "dlpStartDate": "2026-04-01",
+          "dlpEndDate": "2027-03-31",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-30T07:08:35.664Z"
+        },
+        "workId": "MCM-TW-000039-W1",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T07:08:36.505Z",
+        "photos": [],
+        "createdAt": "2026-09-29T07:35:57.916Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.937398,
+          28.349822
         ]
       }
     }
