@@ -11447,6 +11447,49 @@
           28.351566
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000112",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Manesar Near Deepika public school(chota)",
+        "ward": "11",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "Village-origin",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "450",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC Meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "2018",
+          "feature_10": "Working",
+          "feature_11": "Panchyati raj"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T06:53:20.181Z",
+        "photos": [],
+        "createdAt": "2026-09-30T06:44:24.477Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.940428,
+          28.354712
+        ]
+      }
     }
   ]
 }
