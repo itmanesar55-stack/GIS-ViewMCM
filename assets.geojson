@@ -12566,15 +12566,15 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-30T11:22:13.450Z",
+        "updatedAt": "2026-09-30T11:22:30.385Z",
         "photos": [],
         "createdAt": "2026-09-30T07:48:22.691Z"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.919065,
-          28.387752
+          76.906601,
+          28.406083
         ]
       }
     }
