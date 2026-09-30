@@ -12176,141 +12176,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-RWH-000014",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "Basharia GPS School, RWH",
-        "ward": "7",
-        "sector": "",
-        "villageName": "BAS HARIYA",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "reacharge pit",
-          "feature_1": "open ground",
-          "feature_2": "",
-          "feature_3": "1",
-          "feature_4": "2X2",
-          "feature_5": "65",
-          "feature_6": "jaali",
-          "feature_7": "",
-          "feature_8": "yes",
-          "feature_9": "",
-          "feature_10": "2026",
-          "feature_11": "2023",
-          "feature_12": "Good",
-          "feature_13": "MC MANESAR"
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T11:16:54.827Z",
-        "photos": [],
-        "createdAt": "2026-09-30T07:57:04.499Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.889973,
-          28.374023
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-RWH-000013",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "Basharia GPS School, RWH",
-        "ward": "7",
-        "sector": "",
-        "villageName": "BAS HARIYA",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "reacharge pit",
-          "feature_1": "open ground",
-          "feature_2": "",
-          "feature_3": "1",
-          "feature_4": "2X2",
-          "feature_5": "65",
-          "feature_6": "jaali",
-          "feature_7": "",
-          "feature_8": "yes",
-          "feature_9": "",
-          "feature_10": "2026",
-          "feature_11": "2023",
-          "feature_12": "Good",
-          "feature_13": "MC MANESAR"
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T11:17:56.679Z",
-        "photos": [],
-        "createdAt": "2026-09-30T07:56:10.118Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.88984,
-          28.373993
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-RWH-000012",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "Khoh GPS School, RWH",
-        "ward": "13",
-        "sector": "",
-        "villageName": "KHOH",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "reacharge pit",
-          "feature_1": "open ground",
-          "feature_2": "",
-          "feature_3": "1",
-          "feature_4": "2X2",
-          "feature_5": "65",
-          "feature_6": "jaali",
-          "feature_7": "",
-          "feature_8": "yes",
-          "feature_9": "",
-          "feature_10": "2026",
-          "feature_11": "2023",
-          "feature_12": "Good",
-          "feature_13": "MC MANESAR"
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T11:19:10.521Z",
-        "photos": [],
-        "createdAt": "2026-09-30T07:54:23.802Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.925007,
-          28.355444
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RWH-000005",
         "ulb": "MCM",
         "assetClass": "RWH",
@@ -13157,6 +13022,219 @@
         "coordinates": [
           76.925042,
           28.355291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000012",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Khoh GPS School, RWH",
+        "ward": "13",
+        "sector": "",
+        "villageName": "KHOH",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "reacharge pit",
+          "feature_1": "open ground",
+          "feature_2": "",
+          "feature_3": "1",
+          "feature_4": "2X2",
+          "feature_5": "65",
+          "feature_6": "jaali",
+          "feature_7": "",
+          "feature_8": "yes",
+          "feature_9": "",
+          "feature_10": "2026",
+          "feature_11": "2023",
+          "feature_12": "Good",
+          "feature_13": "MC MANESAR"
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/005568",
+          "workName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "Renovation",
+          "workDescription": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderId": "2022_HRY_230743_1",
+          "tenderName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderDate": "2026-07-18",
+          "estimatedAmount": "18.93",
+          "agencyName": "M/s Deepak government contractor",
+          "workOrderDate": "2023-04-07",
+          "agreementAmount": "1893192",
+          "workStartDate": "2023-04-07",
+          "completionDate": "2026-05-12",
+          "actualExpenditure": "1852967",
+          "timeExtension": "Yes",
+          "extendedUpto": "2026-09-20",
+          "testingStatus": "Passed",
+          "dlpPeriod": "",
+          "dlpStartDate": "2026-05-12",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-30T11:43:36.538Z"
+        },
+        "workId": "MCM-RWH-000012-W1",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T11:43:37.432Z",
+        "photos": [],
+        "createdAt": "2026-09-30T07:54:23.802Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.925007,
+          28.355444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000013",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Basharia GPS School, RWH",
+        "ward": "7",
+        "sector": "",
+        "villageName": "BAS HARIYA",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "reacharge pit",
+          "feature_1": "open ground",
+          "feature_2": "",
+          "feature_3": "1",
+          "feature_4": "2X2",
+          "feature_5": "65",
+          "feature_6": "jaali",
+          "feature_7": "",
+          "feature_8": "yes",
+          "feature_9": "",
+          "feature_10": "2026",
+          "feature_11": "2023",
+          "feature_12": "Good",
+          "feature_13": "MC MANESAR"
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/005568",
+          "workName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "Renovation",
+          "workDescription": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderId": "2022_HRY_230743_1",
+          "tenderName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderDate": "2026-07-18",
+          "estimatedAmount": "18.93",
+          "agencyName": "M/s Deepak government contractor",
+          "workOrderDate": "2023-04-07",
+          "agreementAmount": "1893192",
+          "workStartDate": "2023-04-07",
+          "completionDate": "2026-05-12",
+          "actualExpenditure": "1852967",
+          "timeExtension": "Yes",
+          "extendedUpto": "2026-09-20",
+          "testingStatus": "Passed",
+          "dlpPeriod": "",
+          "dlpStartDate": "2026-05-12",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-30T11:43:37.159Z"
+        },
+        "workId": "MCM-RWH-000013-W1",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T11:43:38.054Z",
+        "photos": [],
+        "createdAt": "2026-09-30T07:56:10.118Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.88984,
+          28.373993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000014",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Basharia GPS School, RWH",
+        "ward": "7",
+        "sector": "",
+        "villageName": "BAS HARIYA",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "reacharge pit",
+          "feature_1": "open ground",
+          "feature_2": "",
+          "feature_3": "1",
+          "feature_4": "2X2",
+          "feature_5": "65",
+          "feature_6": "jaali",
+          "feature_7": "",
+          "feature_8": "yes",
+          "feature_9": "",
+          "feature_10": "2026",
+          "feature_11": "2023",
+          "feature_12": "Good",
+          "feature_13": "MC MANESAR"
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/005568",
+          "workName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "Renovation",
+          "workDescription": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderId": "2022_HRY_230743_1",
+          "tenderName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderDate": "2026-07-18",
+          "estimatedAmount": "18.93",
+          "agencyName": "M/s Deepak government contractor",
+          "workOrderDate": "2023-04-07",
+          "agreementAmount": "1893192",
+          "workStartDate": "2023-04-07",
+          "completionDate": "2026-05-12",
+          "actualExpenditure": "1852967",
+          "timeExtension": "Yes",
+          "extendedUpto": "2026-09-20",
+          "testingStatus": "Passed",
+          "dlpPeriod": "",
+          "dlpStartDate": "2026-05-12",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-30T11:43:37.794Z"
+        },
+        "workId": "MCM-RWH-000014-W1",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T11:43:38.688Z",
+        "photos": [],
+        "createdAt": "2026-09-30T07:57:04.499Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.889973,
+          28.374023
         ]
       }
     }
