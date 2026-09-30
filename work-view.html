@@ -54,10 +54,10 @@
   <script>
     // Public, read-only view of an asset's works. Reads the published assets.geojson, so it works both on the
     // portal and on the public GitHub Pages viewer without a login. Private assets are never in that file.
-    const CLASS_LABELS = {"RD": "Road", "DR": "Drain", "JN": "Junction", "MH": "Manhole", "FT": "Footpath", "IN": "Drain Inlet", "CT": "Cycle Track", "OF": "Drain Outfall", "CV": "Culvert", "SL": "Streetlight", "FP": "Feeder Pillar", "HM": "High Mast", "SG": "Signage", "TR": "Traffic Signal", "PK": "Park", "PT": "Public Toilet", "PB": "Public Building", "BS": "Bus Shelter", "PD": "Pond", "STP": "Sewage Treatment Plant", "BP": "Boosting Station", "WL": "Water Supply Line", "SD": "Storm Water Drain", "CD": "C&D Waste Site", "CG": "Cremation Ground", "GH": "Gaushala", "CC": "Community Center", "CP": "Chaupal", "SM": "Stadium", "BC": "Badminton Court", "AP": "Advertisement Pole Site", "SF": "Street Furniture", "TW": "Tubewell", "SW": "Sewer Line", "TWL": "Treated Water Line"};
+    const CLASS_LABELS = {"RD": "Road", "DR": "Drain", "JN": "Junction", "MH": "Manhole", "FT": "Footpath", "IN": "Drain Inlet", "CT": "Cycle Track", "OF": "Drain Outfall", "CV": "Culvert", "SL": "Streetlight", "FP": "Feeder Pillar", "HM": "High Mast", "SG": "Signage", "TR": "Traffic Signal", "PK": "Park", "PT": "Public Toilet", "PB": "Public Building", "BS": "Bus Shelter", "PD": "Pond", "STP": "Sewage Treatment Plant", "BP": "Boosting Station", "WL": "Water Supply Line", "SD": "Storm Water Drain", "CD": "C&D Waste Site", "CG": "Cremation Ground", "GH": "Gaushala", "CC": "Community Center", "CP": "Chaupal", "SM": "Stadium", "BC": "Badminton Court", "AP": "Advertisement Pole Site", "SF": "Street Furniture", "TW": "Tubewell", "SW": "Sewer Line", "TWL": "Treated Water Line", "WT": "Water Tanker Supply", "WE": "Well", "RWH": "Rain Water Harvesting"};
     const WORK_FIELDS = [
       ['hewpId', 'HEWP ID'], ['workName', 'Work Name'], ['workCategory', 'Work Category'], ['componentWorked', 'Component / Structure'],
-      ['workType', 'Type of Work'], ['workDescription', 'Work Description'], ['tenderId', 'Tender ID'], ['tenderName', 'Tender Name'],
+      ['workType', 'Type of Work'], ['workDescription', 'Work Description'], ['workLengthM', 'Length of Work Done (m)'], ['tankersHired', 'Number of Tankers Hired'], ['tankerCapacityL', 'Tanker Capacity (litres)'], ['tripsPerDay', 'Trips per Day'], ['ratePerTrip', 'Rate per Trip (Rs.)'], ['tenderId', 'Tender ID'], ['tenderName', 'Tender Name'],
       ['tenderDate', 'Tender Date'], ['estimatedAmount', 'Estimated Amount (Rs.)'], ['agencyName', 'Agency Name'], ['workOrderDate', 'Work Order Date'],
       ['agreementAmount', 'Agreement Amount (Rs.)'], ['workStartDate', 'Work Start Date'], ['completionDate', 'Final Completion Date'],
       ['actualExpenditure', 'Actual Expenditure (Rs.)'], ['timeExtension', 'Time Extension for Work'], ['extendedUpto', 'Extended Upto'],
@@ -100,7 +100,9 @@
       const p = feature.properties;
       const works = worksOf(p);
       const work = selectedWorkId ? works.find(w => w.workId === selectedWorkId) : null;
-      document.title = (work ? work.workId : p.assetId) + ' — Work Details';
+      // "Save as PDF" names the file after the page title, so lead with the asset name.
+      const titleName = String(p.assetName || '').trim().slice(0, 100);
+      document.title = ((titleName ? titleName + ' - ' : '') + (work ? work.workId : p.assetId) + ' - Work Details').replace(/[\\/:*?"<>|]/g, '-').replace(/\s+/g, ' ');
 
       const where = [p.ward && 'Ward ' + p.ward, p.sector, p.villageName || p.village].filter(Boolean).join(' · ');
       let html = '<div class="card"><h1 class="asset-name">' + esc(p.assetName || p.assetId) + '</h1>' +
