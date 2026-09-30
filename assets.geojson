@@ -11777,6 +11777,92 @@
           28.416588
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-PB-000001",
+        "ulb": "MCM",
+        "assetClass": "PB",
+        "visibility": "public",
+        "assetName": "SC Kuyi (Well) Sikanderpur",
+        "ward": "19",
+        "sector": "",
+        "villageName": "Sikanderpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Kua Pujan",
+          "feature_1": "55.8",
+          "feature_2": "0",
+          "feature_3": "NA",
+          "feature_4": "",
+          "feature_5": "NA",
+          "feature_6": "",
+          "feature_7": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/269684",
+          "workName": "Rough Cost estimate for boundary wall of Harizan Kuyi in Village Sikanderpur ward 19, MC Manesar",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Rough Cost estimate for boundary wall of Harizan Kuyi in Village Sikanderpur ward 19, MC Manesar",
+          "tenderId": "2025_HRY_476259_1",
+          "tenderName": "Rough Cost estimate for boundary wall of Harizan Kuyi in Village Sikanderpur ward 19, MC Manesar",
+          "tenderDate": "2025-10-04",
+          "estimatedAmount": "04.83",
+          "agencyName": "The Ramjilal Cooperative labour & construction society",
+          "workOrderDate": "2025-11-27",
+          "agreementAmount": "368618",
+          "workStartDate": "2025-10-30",
+          "completionDate": "2025-12-29",
+          "actualExpenditure": "249667",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "6",
+          "dlpStartDate": "2025-12-29",
+          "dlpEndDate": "2026-06-28",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-30T07:39:30.130Z"
+        },
+        "workId": "MCM-PB-000001-W1",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T07:42:12.671Z",
+        "photos": [],
+        "createdAt": "2026-09-30T07:34:48.234Z",
+        "featuresReviewedForWork": "MCM-PB-000001-W1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.955962,
+              28.401751
+            ],
+            [
+              76.955871,
+              28.401807
+            ],
+            [
+              76.955863,
+              28.401722
+            ],
+            [
+              76.955935,
+              28.401703
+            ],
+            [
+              76.955962,
+              28.401751
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
