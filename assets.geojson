@@ -12116,15 +12116,15 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-30T11:11:09.338Z",
+        "updatedAt": "2026-09-30T11:11:34.891Z",
         "photos": [],
         "createdAt": "2026-09-30T08:01:42.952Z"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.911171,
-          28.422988
+          76.905963,
+          28.39502
         ]
       }
     }
