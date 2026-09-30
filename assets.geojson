@@ -11950,6 +11950,66 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-CC-000001",
+        "ulb": "MCM",
+        "assetClass": "CC",
+        "visibility": "public",
+        "assetName": "Community Center Nainwal",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Nainwal",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "2",
+          "feature_3": "Building, AC, Toilets, Parking",
+          "feature_4": "MCM",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "MC Manesar"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T08:36:13.051Z",
+        "photos": [],
+        "createdAt": "2026-09-30T08:35:05.658Z",
+        "featuresUpdatedAt": "2026-09-30T08:36:12.746Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.946199,
+              28.334768
+            ],
+            [
+              76.946816,
+              28.334466
+            ],
+            [
+              76.946639,
+              28.33423
+            ],
+            [
+              76.946032,
+              28.334508
+            ],
+            [
+              76.946199,
+              28.334768
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
