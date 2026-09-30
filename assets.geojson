@@ -13642,6 +13642,49 @@
           28.354583
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000124",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Kasan (Mokalwas road)",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "500",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "200",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T15:53:16.963Z",
+        "photos": [],
+        "createdAt": "2026-09-30T15:53:16.027Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.897582,
+          28.352685
+        ]
+      }
     }
   ]
 }
