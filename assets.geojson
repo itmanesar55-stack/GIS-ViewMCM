@@ -12397,6 +12397,51 @@
           28.355444
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000011",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Khoh GHS School, RWH",
+        "ward": "13",
+        "sector": "",
+        "villageName": "KHOH",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "reacharge pit",
+          "feature_1": "open ground",
+          "feature_2": "",
+          "feature_3": "1",
+          "feature_4": "2X2",
+          "feature_5": "65",
+          "feature_6": "jaali",
+          "feature_7": "",
+          "feature_8": "yes",
+          "feature_9": "",
+          "feature_10": "2026",
+          "feature_11": "2023",
+          "feature_12": "Good",
+          "feature_13": "MC MANESAR"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T11:19:51.678Z",
+        "photos": [],
+        "createdAt": "2026-09-30T07:53:40.551Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.925007,
+          28.355444
+        ]
+      }
     }
   ]
 }
