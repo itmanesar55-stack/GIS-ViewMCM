@@ -13599,6 +13599,49 @@
           28.364685
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000123",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Manesar near Kailash Kothi",
+        "ward": "11",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "500",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T15:46:04.102Z",
+        "photos": [],
+        "createdAt": "2026-09-30T15:46:02.762Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.944583,
+          28.354583
+        ]
+      }
     }
   ]
 }
