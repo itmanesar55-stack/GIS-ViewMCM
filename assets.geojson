@@ -11732,6 +11732,51 @@
           28.349822
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000001",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Harvesting in GPS Hayatpur",
+        "ward": "3",
+        "sector": "",
+        "villageName": "Hayatpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Recharge Pit",
+          "feature_1": "Open",
+          "feature_2": "",
+          "feature_3": "1",
+          "feature_4": "2x2",
+          "feature_5": "65",
+          "feature_6": "Jaal",
+          "feature_7": "",
+          "feature_8": "Yes",
+          "feature_9": "",
+          "feature_10": "2026",
+          "feature_11": "2023",
+          "feature_12": "Good",
+          "feature_13": "MC Manesar"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T07:22:32.093Z",
+        "photos": [],
+        "createdAt": "2026-09-30T07:21:55.416Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.934465,
+          28.416588
+        ]
+      }
     }
   ]
 }
