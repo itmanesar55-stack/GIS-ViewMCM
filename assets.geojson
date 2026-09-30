@@ -12491,141 +12491,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-RWH-000007",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "Rampura GPS School, RWH",
-        "ward": "18",
-        "sector": "",
-        "villageName": "RAMPURA",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "reacharge pit",
-          "feature_1": "open ground",
-          "feature_2": "",
-          "feature_3": "1",
-          "feature_4": "2X2",
-          "feature_5": "65",
-          "feature_6": "jaali",
-          "feature_7": "",
-          "feature_8": "yes",
-          "feature_9": "",
-          "feature_10": "2026",
-          "feature_11": "2023",
-          "feature_12": "Good",
-          "feature_13": "MC MANESAR"
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T11:23:42.073Z",
-        "photos": [],
-        "createdAt": "2026-09-30T07:40:50.646Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.947435,
-          28.381766
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-RWH-000020",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "WAZIRPUR GPS Govt School, RWH",
-        "ward": "6",
-        "sector": "",
-        "villageName": "BHANGROLA",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "recharge pit",
-          "feature_1": "open ground",
-          "feature_2": "",
-          "feature_3": "1",
-          "feature_4": "2X2",
-          "feature_5": "65",
-          "feature_6": "jaali",
-          "feature_7": "",
-          "feature_8": "yes",
-          "feature_9": "",
-          "feature_10": "2026",
-          "feature_11": "2023",
-          "feature_12": "Good",
-          "feature_13": "MC MANESAR"
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T11:24:27.647Z",
-        "photos": [],
-        "createdAt": "2026-09-30T08:03:29.797Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.911171,
-          28.422988
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-RWH-000006",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "Wazirpur GMS School, RWH",
-        "ward": "4",
-        "sector": "",
-        "villageName": "wAZIRPUR",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "reacharge pit",
-          "feature_1": "open ground",
-          "feature_2": "",
-          "feature_3": "1",
-          "feature_4": "2x2",
-          "feature_5": "65",
-          "feature_6": "jaali",
-          "feature_7": "",
-          "feature_8": "yes",
-          "feature_9": "",
-          "feature_10": "2026",
-          "feature_11": "2023",
-          "feature_12": "Good",
-          "feature_13": "MC MANESAR"
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T11:25:07.853Z",
-        "photos": [],
-        "createdAt": "2026-09-30T07:38:50.315Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.911213,
-          28.423008
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RWH-000005",
         "ulb": "MCM",
         "assetClass": "RWH",
@@ -12975,6 +12840,219 @@
         "coordinates": [
           76.941044,
           28.397558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000006",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Wazirpur GMS School, RWH",
+        "ward": "4",
+        "sector": "",
+        "villageName": "wAZIRPUR",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "reacharge pit",
+          "feature_1": "open ground",
+          "feature_2": "",
+          "feature_3": "1",
+          "feature_4": "2x2",
+          "feature_5": "65",
+          "feature_6": "jaali",
+          "feature_7": "",
+          "feature_8": "yes",
+          "feature_9": "",
+          "feature_10": "2026",
+          "feature_11": "2023",
+          "feature_12": "Good",
+          "feature_13": "MC MANESAR"
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/005568",
+          "workName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "Renovation",
+          "workDescription": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderId": "2022_HRY_230743_1",
+          "tenderName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderDate": "2026-07-18",
+          "estimatedAmount": "18.93",
+          "agencyName": "M/s Deepak government contractor",
+          "workOrderDate": "2023-04-07",
+          "agreementAmount": "1893192",
+          "workStartDate": "2023-04-07",
+          "completionDate": "2026-05-12",
+          "actualExpenditure": "1852967",
+          "timeExtension": "Yes",
+          "extendedUpto": "2026-09-20",
+          "testingStatus": "Passed",
+          "dlpPeriod": "",
+          "dlpStartDate": "2026-05-12",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-30T11:43:32.164Z"
+        },
+        "workId": "MCM-RWH-000006-W1",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T11:43:33.056Z",
+        "photos": [],
+        "createdAt": "2026-09-30T07:38:50.315Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.911213,
+          28.423008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000020",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "WAZIRPUR GPS Govt School, RWH",
+        "ward": "6",
+        "sector": "",
+        "villageName": "BHANGROLA",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "recharge pit",
+          "feature_1": "open ground",
+          "feature_2": "",
+          "feature_3": "1",
+          "feature_4": "2X2",
+          "feature_5": "65",
+          "feature_6": "jaali",
+          "feature_7": "",
+          "feature_8": "yes",
+          "feature_9": "",
+          "feature_10": "2026",
+          "feature_11": "2023",
+          "feature_12": "Good",
+          "feature_13": "MC MANESAR"
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/005568",
+          "workName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "Renovation",
+          "workDescription": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderId": "2022_HRY_230743_1",
+          "tenderName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderDate": "2026-07-18",
+          "estimatedAmount": "18.93",
+          "agencyName": "M/s Deepak government contractor",
+          "workOrderDate": "2023-04-07",
+          "agreementAmount": "1893192",
+          "workStartDate": "2023-04-07",
+          "completionDate": "2026-05-12",
+          "actualExpenditure": "1852967",
+          "timeExtension": "Yes",
+          "extendedUpto": "2026-09-20",
+          "testingStatus": "Passed",
+          "dlpPeriod": "",
+          "dlpStartDate": "2026-05-12",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-30T11:43:32.797Z"
+        },
+        "workId": "MCM-RWH-000020-W1",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T11:43:33.687Z",
+        "photos": [],
+        "createdAt": "2026-09-30T08:03:29.797Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.911171,
+          28.422988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000007",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Rampura GPS School, RWH",
+        "ward": "18",
+        "sector": "",
+        "villageName": "RAMPURA",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "reacharge pit",
+          "feature_1": "open ground",
+          "feature_2": "",
+          "feature_3": "1",
+          "feature_4": "2X2",
+          "feature_5": "65",
+          "feature_6": "jaali",
+          "feature_7": "",
+          "feature_8": "yes",
+          "feature_9": "",
+          "feature_10": "2026",
+          "feature_11": "2023",
+          "feature_12": "Good",
+          "feature_13": "MC MANESAR"
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/005568",
+          "workName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "Renovation",
+          "workDescription": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderId": "2022_HRY_230743_1",
+          "tenderName": "Estimate for maintenance and repair of existing rain water harvesting in various places in MC Manesar",
+          "tenderDate": "2026-07-18",
+          "estimatedAmount": "18.93",
+          "agencyName": "M/s Deepak government contractor",
+          "workOrderDate": "2023-04-07",
+          "agreementAmount": "1893192",
+          "workStartDate": "2023-04-07",
+          "completionDate": "2026-05-12",
+          "actualExpenditure": "1852967",
+          "timeExtension": "Yes",
+          "extendedUpto": "2026-09-20",
+          "testingStatus": "Passed",
+          "dlpPeriod": "",
+          "dlpStartDate": "2026-05-12",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-30T11:43:33.426Z"
+        },
+        "workId": "MCM-RWH-000007-W1",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T11:43:34.321Z",
+        "photos": [],
+        "createdAt": "2026-09-30T07:40:50.646Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.947435,
+          28.381766
         ]
       }
     }
