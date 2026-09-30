@@ -12307,6 +12307,51 @@
           28.374023
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000013",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Basharia GPS School, RWH",
+        "ward": "7",
+        "sector": "",
+        "villageName": "BAS HARIYA",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "reacharge pit",
+          "feature_1": "open ground",
+          "feature_2": "",
+          "feature_3": "1",
+          "feature_4": "2X2",
+          "feature_5": "65",
+          "feature_6": "jaali",
+          "feature_7": "",
+          "feature_8": "yes",
+          "feature_9": "",
+          "feature_10": "2026",
+          "feature_11": "2023",
+          "feature_12": "Good",
+          "feature_13": "MC MANESAR"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T11:17:16.078Z",
+        "photos": [],
+        "createdAt": "2026-09-30T07:56:10.118Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.889973,
+          28.374023
+        ]
+      }
     }
   ]
 }
