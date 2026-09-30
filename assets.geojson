@@ -11533,6 +11533,49 @@
           28.354889
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000115",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell In Manesar Near Gaav Wala Kuan Manesar",
+        "ward": "11",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "Village-origin",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "500",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T07:00:29.789Z",
+        "photos": [],
+        "createdAt": "2026-09-30T06:59:39.847Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.942008,
+          28.354934
+        ]
+      }
     }
   ]
 }
