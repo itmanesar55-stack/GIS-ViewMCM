@@ -12341,15 +12341,15 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-30T11:17:16.078Z",
+        "updatedAt": "2026-09-30T11:17:56.679Z",
         "photos": [],
         "createdAt": "2026-09-30T07:56:10.118Z"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.889973,
-          28.374023
+          76.88984,
+          28.373993
         ]
       }
     }
