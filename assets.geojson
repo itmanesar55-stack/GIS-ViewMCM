@@ -12791,15 +12791,15 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-30T11:27:47.702Z",
+        "updatedAt": "2026-09-30T11:28:13.926Z",
         "photos": [],
         "createdAt": "2026-09-30T07:28:15.221Z"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.935507,
-          28.37843
+          76.919062,
+          28.387752
         ]
       }
     }
