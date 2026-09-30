@@ -12701,15 +12701,15 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-30T11:26:06.341Z",
+        "updatedAt": "2026-09-30T11:26:31.137Z",
         "photos": [],
         "createdAt": "2026-09-30T07:34:55.993Z"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.911213,
-          28.423008
+          76.941044,
+          28.397558
         ]
       }
     }
