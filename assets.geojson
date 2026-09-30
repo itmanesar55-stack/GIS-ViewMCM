@@ -11863,6 +11863,66 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TWL-000001",
+        "ulb": "MCM",
+        "assetClass": "TWL",
+        "visibility": "public",
+        "assetName": "Treated water line from GMDA STP to Gaushala Manesar",
+        "ward": "12",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "2209.41",
+        "featureData": {
+          "feature_0": "DI",
+          "feature_1": "200",
+          "feature_2": "3",
+          "feature_3": "GMDA STP sector-7",
+          "feature_4": "Pond refilling",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "2026",
+          "feature_9": "MC Manesar"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-09-30T08:22:08.101Z",
+        "photos": [],
+        "createdAt": "2026-09-29T09:30:09.197Z",
+        "featuresUpdatedAt": "2026-09-30T08:20:35.848Z"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.916271,
+            28.380987
+          ],
+          [
+            76.915348,
+            28.379761
+          ],
+          [
+            76.919608,
+            28.379685
+          ],
+          [
+            76.919533,
+            28.372012
+          ],
+          [
+            76.919372,
+            28.365037
+          ]
+        ]
+      }
     }
   ]
 }
