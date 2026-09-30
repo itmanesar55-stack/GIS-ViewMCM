@@ -12521,15 +12521,15 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-09-30T11:21:10.584Z",
+        "updatedAt": "2026-09-30T11:21:30.779Z",
         "photos": [],
         "createdAt": "2026-09-30T07:50:01.243Z"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.939766,
-          28.397936
+          76.919065,
+          28.387752
         ]
       }
     }
