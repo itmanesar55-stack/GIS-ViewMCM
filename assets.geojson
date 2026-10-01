@@ -14889,6 +14889,49 @@
           28.351269
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000157",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Kasan Near CSC center",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "600",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T05:25:15.886Z",
+        "photos": [],
+        "createdAt": "2026-10-01T05:25:12.928Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.897857,
+          28.357204
+        ]
+      }
     }
   ]
 }
