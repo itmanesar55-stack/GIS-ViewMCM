@@ -18007,6 +18007,49 @@
           28.346104
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000158",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Kukrola In Samshan Ghat Kukrola",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Kukrola",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "600",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T12:03:08.931Z",
+        "photos": [],
+        "createdAt": "2026-10-01T12:02:50.115Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.903028,
+          28.325111
+        ]
+      }
     }
   ]
 }
