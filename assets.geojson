@@ -14029,6 +14029,49 @@
           28.357851
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000134",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in fazalwas near Pt. Daulat ram public school",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Fazalwas",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "550",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T02:25:30.157Z",
+        "photos": [],
+        "createdAt": "2026-10-01T02:25:28.383Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.900389,
+          28.314
+        ]
+      }
     }
   ]
 }
