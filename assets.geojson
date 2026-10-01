@@ -14588,6 +14588,49 @@
           28.357722
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000148",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell  in Fazalwas near Post office",
+        "ward": "9",
+        "sector": "",
+        "villageName": "fazalwas",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "600",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T04:51:59.551Z",
+        "photos": [],
+        "createdAt": "2026-10-01T04:51:57.182Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.901043,
+          28.313483
+        ]
+      }
     }
   ]
 }
