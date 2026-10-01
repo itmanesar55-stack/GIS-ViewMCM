@@ -18609,6 +18609,48 @@
           28.338065
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SL-000001",
+        "ulb": "MCM",
+        "assetClass": "SL",
+        "visibility": "public",
+        "assetName": "MC Manesar",
+        "ward": "",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "44",
+          "feature_2": "ty",
+          "feature_3": "55",
+          "feature_4": "3",
+          "feature_5": "oiujh",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "Working",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T16:33:35.498Z",
+        "photos": [],
+        "createdAt": "2026-09-28T10:30:05.166Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.91913,
+          28.414805
+        ]
+      }
     }
   ]
 }
