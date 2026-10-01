@@ -13646,221 +13646,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000124",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Kasan (Mokalwas road)",
-        "ward": "9",
-        "sector": "",
-        "villageName": "Kasan",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "500",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "200",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T15:53:22.177Z",
-        "photos": [],
-        "createdAt": "2026-09-30T15:53:16.027Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.897582,
-          28.352685
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000125",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell In Kasan(near sports academy)",
-        "ward": "8",
-        "sector": "",
-        "villageName": "Kasan",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "550",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T15:55:41.883Z",
-        "photos": [],
-        "createdAt": "2026-09-30T15:55:26.515Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.894972,
-          28.357778
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000126",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Kasan Near Kela Mata Mandir",
-        "ward": "9",
-        "sector": "",
-        "villageName": "Kasan",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "500",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T16:02:48.683Z",
-        "photos": [],
-        "createdAt": "2026-09-30T16:02:43.020Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.901306,
-          28.351361
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000127",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Kasan near ICA Power Supply Colony",
-        "ward": "13",
-        "sector": "",
-        "villageName": "Khoh",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "550",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T16:07:08.887Z",
-        "photos": [],
-        "createdAt": "2026-09-30T16:06:35.248Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.926417,
-          28.360278
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000128",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Manesar near shiv mandir",
-        "ward": "12",
-        "sector": "",
-        "villageName": "Manesar",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "600",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-09-30T16:09:04.281Z",
-        "photos": [],
-        "createdAt": "2026-09-30T16:08:58.284Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.936917,
-          28.354667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-TW-000157",
         "ulb": "MCM",
         "assetClass": "TW",
@@ -15580,6 +15365,351 @@
         "coordinates": [
           76.939667,
           28.350639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000128",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Manesar near shiv mandir",
+        "ward": "12",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "600",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/174418",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MUNICIPAL CORPORATION MANESAR",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MCM",
+          "tenderDate": "2025-08-21",
+          "estimatedAmount": "8264880",
+          "agencyName": "BIJAY SINGH",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "6449476",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "6449973",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-01T06:25:40.548Z"
+        },
+        "workId": "MCM-TW-000128-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T06:25:40.439Z",
+        "photos": [],
+        "createdAt": "2026-09-30T16:08:58.284Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.936917,
+          28.354667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000127",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Kasan near ICA Power Supply Colony",
+        "ward": "13",
+        "sector": "",
+        "villageName": "Khoh",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "550",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/174418",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MUNICIPAL CORPORATION MANESAR",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MCM",
+          "tenderDate": "2025-08-21",
+          "estimatedAmount": "8264880",
+          "agencyName": "BIJAY SINGH",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "6449476",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "6449973",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-01T06:25:40.980Z"
+        },
+        "workId": "MCM-TW-000127-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T06:25:40.868Z",
+        "photos": [],
+        "createdAt": "2026-09-30T16:06:35.248Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.926417,
+          28.360278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000126",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Kasan Near Kela Mata Mandir",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "500",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/174418",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MUNICIPAL CORPORATION MANESAR",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MCM",
+          "tenderDate": "2025-08-21",
+          "estimatedAmount": "8264880",
+          "agencyName": "BIJAY SINGH",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "6449476",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "6449973",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-01T06:25:41.740Z"
+        },
+        "workId": "MCM-TW-000126-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T06:25:41.638Z",
+        "photos": [],
+        "createdAt": "2026-09-30T16:02:43.020Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.901306,
+          28.351361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000125",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell In Kasan(near sports academy)",
+        "ward": "8",
+        "sector": "",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "550",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/174418",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MUNICIPAL CORPORATION MANESAR",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MCM",
+          "tenderDate": "2025-08-21",
+          "estimatedAmount": "8264880",
+          "agencyName": "BIJAY SINGH",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "6449476",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "6449973",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-01T06:25:42.487Z"
+        },
+        "workId": "MCM-TW-000125-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T06:25:42.375Z",
+        "photos": [],
+        "createdAt": "2026-09-30T15:55:26.515Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.894972,
+          28.357778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000124",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Kasan (Mokalwas road)",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "500",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "200",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/174418",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MUNICIPAL CORPORATION MANESAR",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBE WELLS IN NALL RESPECTS IN WARD 8,9,10,11,12 N& 13 UNDER JURISDICTION OF MCM",
+          "tenderDate": "2025-08-21",
+          "estimatedAmount": "8264880",
+          "agencyName": "BIJAY SINGH",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "6449476",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "6449973",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-01T06:25:42.931Z"
+        },
+        "workId": "MCM-TW-000124-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T06:25:42.815Z",
+        "photos": [],
+        "createdAt": "2026-09-30T15:53:16.027Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.897582,
+          28.352685
         ]
       }
     }
