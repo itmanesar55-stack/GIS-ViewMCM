@@ -18050,6 +18050,49 @@
           28.325111
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000159",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Manesar near Saraswati Vidya Mandir",
+        "ward": "11",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "600",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T12:35:24.882Z",
+        "photos": [],
+        "createdAt": "2026-10-01T12:35:25.297Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.940779,
+          28.346641
+        ]
+      }
     }
   ]
 }
