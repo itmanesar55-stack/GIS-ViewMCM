@@ -18523,6 +18523,49 @@
           28.360328
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000170",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewll in Manesar near Community center new colony manesar",
+        "ward": "12",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "450",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T14:12:13.768Z",
+        "photos": [],
+        "createdAt": "2026-10-01T14:12:14.604Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.93801,
+          28.347363
+        ]
+      }
     }
   ]
 }
