@@ -18566,6 +18566,49 @@
           28.347363
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000171",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Manesar opposite Polytechnic collge Manesar Pahadi",
+        "ward": "12",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "450",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T14:14:46.810Z",
+        "photos": [],
+        "createdAt": "2026-10-01T14:14:47.273Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.925083,
+          28.338065
+        ]
+      }
     }
   ]
 }
