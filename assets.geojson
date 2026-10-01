@@ -18222,6 +18222,49 @@
           28.346122
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000163",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Garhi Harsaru, in Balaji Nagar",
+        "ward": "1",
+        "sector": "",
+        "villageName": "Garhi Harsaru",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "450",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T13:01:16.050Z",
+        "photos": [],
+        "createdAt": "2026-10-01T13:01:17.023Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.930721,
+          28.447075
+        ]
+      }
     }
   ]
 }
