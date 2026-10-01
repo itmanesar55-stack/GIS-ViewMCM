@@ -14416,6 +14416,49 @@
           28.355722
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000144",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Manesar near Baba Bhishm Mandir",
+        "ward": "12",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "600",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T03:20:24.923Z",
+        "photos": [],
+        "createdAt": "2026-10-01T03:20:23.101Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.937083,
+          28.351306
+        ]
+      }
     }
   ]
 }
