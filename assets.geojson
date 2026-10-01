@@ -14678,49 +14678,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000150",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell near Gas agency Kasan",
-        "ward": "9",
-        "sector": "",
-        "villageName": "Kasan",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "600",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-01T05:03:53.576Z",
-        "photos": [],
-        "createdAt": "2026-10-01T05:03:45.228Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.894604,
-          28.356032
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-TW-000152",
         "ulb": "MCM",
         "assetClass": "TW",
@@ -14758,6 +14715,49 @@
         "coordinates": [
           76.892083,
           28.318278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000150",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell near Gas agency Kasan",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "600",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-01T05:07:02.866Z",
+        "photos": [],
+        "createdAt": "2026-10-01T05:03:45.228Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.894604,
+          28.356032
         ]
       }
     }
