@@ -36,6 +36,7 @@
   .popup-work-link:hover { text-decoration: underline; }
   .popup-work-link .work-pill { display: inline-block; margin-left: 4px; padding: 0 5px; border-radius: 8px; font-size: 10px; font-weight: 700; background: #e6f4ea; color: #1e6b3a; }
   .popup-work-link .work-pill.done { background: #eef0f2; color: #5b6770; }
+  .popup-work-rows { padding: 2px 0 6px 10px; border-bottom: 1px solid var(--line); }
   .popup-label { flex: 0 0 42%; min-width: 0; color: var(--muted); font-weight: 600; font-size: 11.5px; word-break: break-word; }
   .popup-value { flex: 1 1 auto; min-width: 0; font-size: 11.5px; word-break: break-word; overflow-wrap: anywhere; }
   .dropdown-check { position: relative; }
@@ -156,6 +157,8 @@
         .map(([k, v]) => '<div class="popup-row"><span class="popup-label">' + escapeHtml(k) + '</span><span class="popup-value">' + escapeHtml(v) + '</span></div>').join('');
       return '<div class="popup-details">' + rowsHtml + '</div>' + worksHtml(properties);
     }
+    // Shown under each work link in the popup, one per line.
+    const POPUP_WORK_FIELDS = [['hewpId', 'HEWP ID'], ['tenderName', 'Tender Name'], ['workOrderDate', 'Work Order Date'], ['agreementAmount', 'Agreement Amount (Rs.)']];
     // One link per work (current + completed); each opens the read-only work page in a new tab.
     function worksHtml(properties) {
       const works = [];
@@ -163,7 +166,8 @@
       (Array.isArray(properties.workHistory) ? properties.workHistory : []).forEach(w => { if (w && w.workId) works.push({ ...w, current: false }); });
       const base = 'work-view.html?id=' + encodeURIComponent(properties.assetId);
       const links = works.map(w => '<a class="popup-work-link" target="_blank" rel="noopener" href="' + base + '&workId=' + encodeURIComponent(w.workId) + '">' +
-        escapeHtml(w.workName || w.workId) + '<span class="work-pill' + (w.current ? '' : ' done') + '">' + (w.current ? 'CURRENT' : 'COMPLETED') + '</span></a>').join('');
+        escapeHtml(w.workName || w.workId) + '<span class="work-pill' + (w.current ? '' : ' done') + '">' + (w.current ? 'CURRENT' : 'COMPLETED') + '</span></a>' +
+        '<div class="popup-work-rows">' + POPUP_WORK_FIELDS.map(([key, label]) => '<div class="popup-row"><span class="popup-label">' + label + '</span><span class="popup-value">' + escapeHtml(w[key] || '—') + '</span></div>').join('') + '</div>').join('');
       return '<div class="popup-works"><div class="popup-works-title">Works (' + works.length + ')</div>' +
         (links || '<div style="font-size:12px;color:var(--muted)">No work recorded yet.</div>') + '</div>';
     }
