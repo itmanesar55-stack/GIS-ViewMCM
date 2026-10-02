@@ -224,7 +224,7 @@
       renderAssetVisibility();
     }
 
-    fetch('assets.geojson').then(r => r.json()).then(collection => {
+    fetch('assets.geojson', { cache: 'no-cache' }).then(r => r.json()).then(collection => {
       (collection.assetClasses || []).forEach(c => { CLASS_DEFS[c.code] = c; });
       (collection.features || []).forEach(feature => renderAssetFeature(feature));
       rebuildAssetLegend();
