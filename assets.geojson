@@ -19009,135 +19009,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000168",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Kasan Near Chattarpal Dairy farm",
-        "ward": "9",
-        "sector": "",
-        "villageName": "Kasan",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "450",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-01T14:03:44.130Z",
-        "photos": [],
-        "createdAt": "2026-10-01T14:03:35.447Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.897569,
-          28.353325
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000169",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in khoh Near ICA.2",
-        "ward": "13",
-        "sector": "",
-        "villageName": "Khoh",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "450",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-01T14:07:07.983Z",
-        "photos": [],
-        "createdAt": "2026-10-01T14:07:04.361Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.925408,
-          28.360328
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000170",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewll in Manesar near Community center new colony manesar",
-        "ward": "12",
-        "sector": "",
-        "villageName": "Manesar",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "450",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-01T14:12:22.209Z",
-        "photos": [],
-        "createdAt": "2026-10-01T14:12:14.604Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.93801,
-          28.347363
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-SL-000001",
         "ulb": "MCM",
         "assetClass": "SL",
@@ -19243,6 +19114,213 @@
         "coordinates": [
           76.925083,
           28.338065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000170",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewll in Manesar near Community center new colony manesar",
+        "ward": "12",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "450",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/17D4418",
+          "workName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderDate": "2025-10-21",
+          "estimatedAmount": "82.65",
+          "agencyName": "Bijay Singh",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "64.49",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "64.50",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-02T07:29:25.907Z"
+        },
+        "workId": "MCM-TW-000170-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-02T07:29:24.600Z",
+        "photos": [],
+        "createdAt": "2026-10-01T14:12:14.604Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.93801,
+          28.347363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000169",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in khoh Near ICA.2",
+        "ward": "13",
+        "sector": "",
+        "villageName": "Khoh",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "450",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/17D4418",
+          "workName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderDate": "2025-10-21",
+          "estimatedAmount": "82.65",
+          "agencyName": "Bijay Singh",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "64.49",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "64.50",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-02T07:29:26.497Z"
+        },
+        "workId": "MCM-TW-000169-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-02T07:29:25.189Z",
+        "photos": [],
+        "createdAt": "2026-10-01T14:07:04.361Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.925408,
+          28.360328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000168",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Kasan Near Chattarpal Dairy farm",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "450",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/17D4418",
+          "workName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderDate": "2025-10-21",
+          "estimatedAmount": "82.65",
+          "agencyName": "Bijay Singh",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "64.49",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "64.50",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-02T07:29:27.101Z"
+        },
+        "workId": "MCM-TW-000168-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-02T07:29:25.790Z",
+        "photos": [],
+        "createdAt": "2026-10-01T14:03:35.447Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.897569,
+          28.353325
         ]
       }
     }
