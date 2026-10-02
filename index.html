@@ -79,11 +79,11 @@
 
     const KML_LAYERS = [
       { name: 'Municipal Boundary', color: '#e6194b', show: true, files: ['FINALMCM.kml'] },
-      { name: 'Authorized Colonies', color: '#0072b2', show: true, files: ['Bhangrola_B-7954.kml', 'Wazirpur_Enclave_B-44.kml', 'Saheed_Bagat_Singh_Colony.kml'] },
-      { name: 'Lal Dora', color: '#f58231', show: true, files: ['ManesarLalDora.kml'] },
-      { name: 'Zones', color: '#911eb4', show: true, files: ['MCM_ZONE_KML.kml'] },
-      { name: 'Village Boundary', color: '#3cb44b', show: true, files: ['village_boundary.kml'], nameLabels: true },
-      { name: 'Roads', color: '#333333', show: true, files: ['Municipal_Corporation_Manesar.kml'] },
+      { name: 'Authorized Colonies', color: '#0072b2', show: false, files: ['Bhangrola_B-7954.kml', 'Wazirpur_Enclave_B-44.kml', 'Saheed_Bagat_Singh_Colony.kml'] },
+      { name: 'Lal Dora', color: '#f58231', show: false, files: ['ManesarLalDora.kml'] },
+      { name: 'Zones', color: '#911eb4', show: false, files: ['MCM_ZONE_KML.kml'] },
+      { name: 'Village Boundary', color: '#3cb44b', show: false, files: ['village_boundary.kml'], nameLabels: true },
+      { name: 'Roads', color: '#333333', show: false, files: ['Municipal_Corporation_Manesar.kml'] },
       { name: 'Ward Boundaries', color: '#ffd400', show: true, files: ['MCM_Wards.kml'], wardLabels: true }
     ];
     // Ward number at the point deepest inside each ward (precomputed into the KML as labelLat/labelLng).
@@ -102,7 +102,8 @@
     let boundaryFitted = false;
     KML_LAYERS.forEach(group => {
       const layerGroup = L.layerGroup();
-      group.files.forEach(file => {
+      // Only switched-on layers are fetched at start; the rest are fetched the first time they are ticked.
+      layerGroup.once('add', () => group.files.forEach(file => {
         omnivore.kml(file)
           .on('ready', function () {
             this.eachLayer(layer => { if (layer.setStyle) layer.setStyle({ color: group.color, weight: group.wardLabels ? 2 : 3, fillOpacity: group.wardLabels ? 0 : 0.04, dashArray: group.wardLabels ? '6,4' : null }); });
@@ -111,12 +112,12 @@
             if (group.name === 'Municipal Boundary' && !boundaryFitted) { boundaryFitted = true; map.fitBounds(this.getBounds(), { padding: [20, 20] }); }
           })
           .on('error', () => console.warn('KML load failed for ' + file));
-      });
+      }));
       kmlGroupLayers[group.name] = layerGroup;
       if (group.show) layerGroup.addTo(map);
     });
     document.getElementById('kml-legend').innerHTML = KML_LAYERS.map(group =>
-      '<label class="legend-item"><input type="checkbox" data-kml-group="' + group.name + '" checked><span class="swatch" style="background:' + group.color + '"></span> ' + group.name + '</label>'
+      '<label class="legend-item"><input type="checkbox" data-kml-group="' + group.name + '"' + (group.show ? ' checked' : '') + '><span class="swatch" style="background:' + group.color + '"></span> ' + group.name + '</label>'
     ).join('');
     document.querySelectorAll('[data-kml-group]').forEach(input => input.addEventListener('change', () => {
       const layer = kmlGroupLayers[input.dataset.kmlGroup];
