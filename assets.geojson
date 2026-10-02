@@ -1,5 +1,573 @@
 {
   "type": "FeatureCollection",
+  "assetClasses": [
+    {
+      "code": "RD",
+      "label": "Road",
+      "features": [
+        "Hierarchy (arterial / collector / local)",
+        "Carriageway type",
+        "Surface type",
+        "ROW / width (m)",
+        "Number of lanes",
+        "Median",
+        "Footpath present",
+        "Side drainage",
+        "Pavement condition",
+        "Year built",
+        "Last rehabilitation",
+        "Built by"
+      ]
+    },
+    {
+      "code": "DR",
+      "label": "Drain",
+      "features": [
+        "Drain type (open / covered / piped)",
+        "Shape",
+        "Material",
+        "Width (m)",
+        "Depth (m)",
+        "Cover type",
+        "Silt / condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "JN",
+      "label": "Junction",
+      "features": [
+        "Junction type (T / Y / cross / rotary)",
+        "Number of arms",
+        "Signalized",
+        "Channelization",
+        "Area (sq.m)",
+        "Connected road IDs",
+        "Built by"
+      ]
+    },
+    {
+      "code": "MH",
+      "label": "Manhole",
+      "features": [
+        "Network (sewer / storm)",
+        "Manhole type",
+        "Depth (m)",
+        "Chamber size",
+        "Cover material",
+        "Cover condition",
+        "Invert level",
+        "Built by"
+      ]
+    },
+    {
+      "code": "FT",
+      "label": "Footpath",
+      "features": [
+        "Width (m)",
+        "Surface material",
+        "Length (m)",
+        "Kerb type",
+        "Tactile paving",
+        "Encroachment",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "IN",
+      "label": "Drain Inlet",
+      "features": [
+        "Inlet type (gully / kerb / grated)",
+        "Material",
+        "Size",
+        "Connected drain ID",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "CT",
+      "label": "Cycle Track",
+      "features": [
+        "Width (m)",
+        "Surface",
+        "Length (m)",
+        "Segregation type",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "OF",
+      "label": "Drain Outfall",
+      "features": [
+        "Receiving body",
+        "Discharge point",
+        "Size",
+        "Flap gate",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "CV",
+      "label": "Culvert",
+      "features": [
+        "Type (pipe / box / slab / arch)",
+        "Span or diameter (m)",
+        "Number of cells",
+        "Length (m)",
+        "Material",
+        "Road carried",
+        "Channel carried",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "SL",
+      "label": "Streetlight",
+      "features": [
+        "Pole type",
+        "Pole height (m)",
+        "Luminaire type",
+        "Wattage",
+        "Number of fixtures",
+        "Mounting",
+        "Feeder pillar ID",
+        "Control type",
+        "Working status",
+        "Year installed",
+        "Built by"
+      ]
+    },
+    {
+      "code": "FP",
+      "label": "Feeder Pillar",
+      "features": [
+        "Rated capacity",
+        "Number of circuits",
+        "Connected load",
+        "Streetlights fed",
+        "Connection / meter no.",
+        "Enclosure condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "HM",
+      "label": "High Mast",
+      "features": [
+        "Height (m)",
+        "Number of luminaires",
+        "Wattage",
+        "Winch type",
+        "Foundation type",
+        "Feeder pillar ID",
+        "Status",
+        "Built by"
+      ]
+    },
+    {
+      "code": "SG",
+      "label": "Signage",
+      "features": [
+        "Sign type",
+        "Size",
+        "Mounting",
+        "Legend",
+        "Retroreflectivity",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "TR",
+      "label": "Traffic Signal",
+      "features": [
+        "Number of phases",
+        "Number of heads",
+        "Control type",
+        "Pedestrian signal",
+        "Countdown timer",
+        "Junction ID",
+        "Power source",
+        "Status",
+        "Built by"
+      ]
+    },
+    {
+      "code": "PK",
+      "label": "Park",
+      "features": [
+        "Park type",
+        "Area (sq.m)",
+        "Facilities",
+        "Green cover",
+        "Boundary type",
+        "Water source",
+        "Maintenance agency",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "PT",
+      "label": "Public Toilet",
+      "features": [
+        "Seats (M / F / PwD)",
+        "Water source",
+        "Sewer connection",
+        "Operator",
+        "Accessibility",
+        "Year built",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "PB",
+      "label": "Public Building",
+      "features": [
+        "Building use",
+        "Plinth area (sq.m)",
+        "Number of floors",
+        "Structure type",
+        "Year built",
+        "Occupancy",
+        "Fire safety",
+        "Built by"
+      ]
+    },
+    {
+      "code": "BS",
+      "label": "Bus Shelter",
+      "features": [
+        "Type",
+        "Seating capacity",
+        "Roofing",
+        "Lighting",
+        "Advertising panel",
+        "Routes served",
+        "Accessibility",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "PD",
+      "label": "Pond",
+      "features": [
+        "Pond type",
+        "Water-spread area (sq.m)",
+        "Depth (m)",
+        "Storage capacity",
+        "Inlet / outlet",
+        "Lining",
+        "Use",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "STP",
+      "label": "Sewage Treatment Plant",
+      "features": [
+        "Capacity (MLD)",
+        "Technology",
+        "Commissioned year",
+        "Operational status",
+        "Inlet / outlet quality",
+        "Reuse arrangement",
+        "Operator",
+        "Power load",
+        "Built by"
+      ]
+    },
+    {
+      "code": "BP",
+      "label": "Boosting Station",
+      "features": [
+        "Station type",
+        "Number of pumps",
+        "Pump capacity",
+        "Total head (m)",
+        "Sump capacity",
+        "Power connection",
+        "Zone served",
+        "Status",
+        "Built by"
+      ]
+    },
+    {
+      "code": "WL",
+      "label": "Water Supply Line",
+      "features": [
+        "Pipe material (DI / CI / HDPE / PVC)",
+        "Diameter (mm)",
+        "Depth of laying (m)",
+        "Pressure zone",
+        "Number of valves",
+        "Connections",
+        "Year laid",
+        "Built by"
+      ]
+    },
+    {
+      "code": "SD",
+      "label": "Storm Water Drain",
+      "features": [
+        "Cross-section",
+        "Material",
+        "Gradient",
+        "Design capacity",
+        "Outfall ID",
+        "Cover type",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "CD",
+      "label": "C&D Waste Site",
+      "features": [
+        "Site type",
+        "Area (sq.m)",
+        "Capacity (TPD)",
+        "Processing facility",
+        "Operator",
+        "Environmental clearance",
+        "Status",
+        "Built by"
+      ]
+    },
+    {
+      "code": "CG",
+      "label": "Cremation Ground",
+      "features": [
+        "Type (wood / CNG / electric)",
+        "Number of platforms",
+        "Shed",
+        "Facilities",
+        "Area (sq.m)",
+        "Ownership",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "GH",
+      "label": "Gaushala",
+      "features": [
+        "Cattle capacity",
+        "Current occupancy",
+        "Area (sq.m)",
+        "Shed area (sq.m)",
+        "Water / fodder arrangement",
+        "Operator",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "CC",
+      "label": "Community Center",
+      "features": [
+        "Hall capacity",
+        "Community hall area (sq.m)",
+        "Plinth area (sq.m)",
+        "Number of floors",
+        "Facilities",
+        "Booking agency",
+        "Year built",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "CP",
+      "label": "Chaupal",
+      "features": [
+        "Village",
+        "Area (sq.m)",
+        "Covered / open",
+        "Facilities",
+        "Ownership",
+        "Heritage value",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "SM",
+      "label": "Stadium",
+      "features": [
+        "Area (sq.m)",
+        "Sport(s)",
+        "Indoor / outdoor",
+        "Spectator capacity",
+        "Playfield type",
+        "Floodlights",
+        "Facilities",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "BC",
+      "label": "Badminton Court",
+      "features": [
+        "Number of courts",
+        "Indoor / outdoor",
+        "Flooring type",
+        "Lighting",
+        "Roofing",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "AP",
+      "label": "Advertisement Pole Site",
+      "features": [
+        "Structure type",
+        "Display size",
+        "Illumination",
+        "Permitted (Y / N)",
+        "Lease / contract ref",
+        "Lessee",
+        "Permit validity",
+        "Revenue",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "SF",
+      "label": "Street Furniture",
+      "features": [
+        "Furniture type",
+        "Material",
+        "Dimensions",
+        "Quantity",
+        "Location context",
+        "Fixing / foundation",
+        "Illuminated (Y / N)",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "TW",
+      "label": "Tubewell",
+      "features": [
+        "Depth (m)",
+        "Discharge capacity (LPH)",
+        "Pump type",
+        "Pump capacity (HP)",
+        "Casing pipe diameter (mm)",
+        "Power source",
+        "Water quality",
+        "Zone served",
+        "Connected to (OHSR / pipeline)",
+        "Year of drilling",
+        "Working status",
+        "Built by"
+      ]
+    },
+    {
+      "code": "SW",
+      "label": "Sewer Line",
+      "features": [
+        "Pipe material (RCC / Stoneware / PVC / HDPE)",
+        "Diameter (mm)",
+        "Depth of laying (m)",
+        "Gradient / slope (%)",
+        "Flow type (gravity / pumped)",
+        "Number of manholes",
+        "Connections",
+        "Year laid",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "TWL",
+      "label": "Treated Water Line",
+      "features": [
+        "Pipe material (DI / HDPE / MS / PVC)",
+        "Diameter (mm)",
+        "Depth of laying (m)",
+        "Source STP",
+        "Use of treated water (horticulture / construction / industry / other)",
+        "Design flow (MLD)",
+        "Number of valves",
+        "Hydrants / tapping points",
+        "Year laid",
+        "Built by"
+      ]
+    },
+    {
+      "code": "WT",
+      "label": "Water Tanker Supply",
+      "features": [
+        "Tanker capacity (litres)",
+        "Number of tankers",
+        "Vehicle registration no(s).",
+        "Tanker body material (MS / SS / HDPE)",
+        "Ownership (MCM-owned / hired)",
+        "Water source / filling point",
+        "Water type (potable / treated / raw)",
+        "Areas / colonies served",
+        "Trips per day",
+        "Supply schedule / timings",
+        "GPS tracking (Y / N)",
+        "Operator / agency",
+        "Working status"
+      ]
+    },
+    {
+      "code": "WE",
+      "label": "Well",
+      "features": [
+        "Well type (open / dug / bore / hand pump)",
+        "Depth (m)",
+        "Diameter (m)",
+        "Lining / masonry type",
+        "Water level (m below ground)",
+        "Water quality",
+        "Use (drinking / irrigation / recharge / defunct)",
+        "Parapet / cover / grill",
+        "Pump installed (Y / N)",
+        "Ownership / custodian",
+        "Year constructed",
+        "Heritage value",
+        "Condition",
+        "Built by"
+      ]
+    },
+    {
+      "code": "RWH",
+      "label": "Rain Water Harvesting",
+      "features": [
+        "Structure type (recharge pit / recharge well / trench / storage tank)",
+        "Catchment type (rooftop / road / open ground)",
+        "Catchment area (sq.m)",
+        "Number of recharge pits / bores",
+        "Pit size (L x B x D, m)",
+        "Recharge bore depth (m)",
+        "Filter media",
+        "Storage capacity (litres)",
+        "Desilting chamber (Y / N)",
+        "Connected building / premises",
+        "Last desilting / cleaning date",
+        "Year constructed",
+        "Condition",
+        "Built by"
+      ]
+    }
+  ],
   "features": [
     {
       "type": "Feature",
