@@ -19138,49 +19138,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000171",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Manesar opposite Polytechnic collge Manesar Pahadi",
-        "ward": "12",
-        "sector": "",
-        "villageName": "Manesar",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "450",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-01T14:14:51.307Z",
-        "photos": [],
-        "createdAt": "2026-10-01T14:14:47.273Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.925083,
-          28.338065
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-SL-000001",
         "ulb": "MCM",
         "assetClass": "SL",
@@ -19217,6 +19174,75 @@
         "coordinates": [
           76.91913,
           28.414805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000171",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Manesar opposite Polytechnic collge Manesar Pahadi",
+        "ward": "12",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "450",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/17D4418",
+          "workName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderDate": "2025-10-21",
+          "estimatedAmount": "82.65",
+          "agencyName": "Bijay Singh",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "64.49",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "64.50",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-02T07:29:25.301Z"
+        },
+        "workId": "MCM-TW-000171-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-02T07:29:23.988Z",
+        "photos": [],
+        "createdAt": "2026-10-01T14:14:47.273Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.925083,
+          28.338065
         ]
       }
     }
