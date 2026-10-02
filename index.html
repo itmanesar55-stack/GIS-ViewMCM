@@ -137,17 +137,22 @@
     const renderedAssetIds = new Set();
 
     function escapeHtml(value) { return String(value == null ? '' : value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+    let CLASS_DEFS = {};  // filled from assets.geojson: code -> { label, features }
     function prettifyKey(key) { return String(key).replace(/^feature_(\d+)$/, (_m, n) => 'Feature ' + (Number(n) + 1)).replace(/([a-z])([A-Z])/g, '$1 $2').replace(/^./, c => c.toUpperCase()); }
     function assetDetailsHtml(properties) {
       const code = properties.assetClass;
       const rows = [
-        ['Asset ID', properties.assetId], ['Asset Name', properties.assetName], ['Asset Class', (ASSET_CLASSES[code] || [null, code])[1]],
+        ['Asset ID', properties.assetId], ['Asset Name', properties.assetName], ['Asset Class', (CLASS_DEFS[code] && CLASS_DEFS[code].label) || (ASSET_CLASSES[code] || [null, code])[1]],
         ['ULB', properties.ulb], ['Ward', properties.ward], ['Sector', properties.sector],
         ['Ownership', properties.ownership], ['Status', properties.status], ['Confidence', properties.confidence],
         ['Length (m)', properties.lengthM], ['Created By', properties.createdBy]
       ];
-      Object.entries(properties.featureData || {}).forEach(([key, value]) => { if (value) rows.push([prettifyKey(key), value]); });
-      const rowsHtml = rows.filter(([, v]) => v !== undefined && v !== null && v !== '')
+      // Every feature heading of the class is listed, blank ones as a dash.
+      const headings = (CLASS_DEFS[code] && CLASS_DEFS[code].features) || [];
+      const featureData = properties.featureData || {};
+      const headingRows = headings.map((label, index) => [label, featureData['feature_' + index] || '—']);
+      Object.entries(featureData).forEach(([key, value]) => { const index = Number(String(key).replace('feature_', '')); if (value && !(index < headings.length)) headingRows.push([prettifyKey(key), value]); });
+      const rowsHtml = rows.filter(([, v]) => v !== undefined && v !== null && v !== '').concat(headingRows)
         .map(([k, v]) => '<div class="popup-row"><span class="popup-label">' + escapeHtml(k) + '</span><span class="popup-value">' + escapeHtml(v) + '</span></div>').join('');
       return '<div class="popup-details">' + rowsHtml + '</div>' + worksHtml(properties);
     }
@@ -220,6 +225,7 @@
     }
 
     fetch('assets.geojson').then(r => r.json()).then(collection => {
+      (collection.assetClasses || []).forEach(c => { CLASS_DEFS[c.code] = c; });
       (collection.features || []).forEach(feature => renderAssetFeature(feature));
       rebuildAssetLegend();
     }).catch(() => { classOptionsBox.innerHTML = '<p class="note" style="margin-top:0">No assets published yet.</p>'; });
