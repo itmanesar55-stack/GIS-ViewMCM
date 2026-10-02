@@ -18579,135 +18579,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000158",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Kukrola In Samshan Ghat Kukrola",
-        "ward": "9",
-        "sector": "",
-        "villageName": "Kukrola",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "600",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-01T12:13:45.664Z",
-        "photos": [],
-        "createdAt": "2026-10-01T12:02:50.115Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.903028,
-          28.325111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000159",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Manesar near Saraswati Vidya Mandir",
-        "ward": "11",
-        "sector": "",
-        "villageName": "Manesar",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "600",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-01T12:36:31.482Z",
-        "photos": [],
-        "createdAt": "2026-10-01T12:35:25.297Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.940779,
-          28.346641
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000160",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Sehrawan near pahadi",
-        "ward": "9",
-        "sector": "",
-        "villageName": "Sehrawan",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "550",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "Good",
-          "feature_7": "",
-          "feature_8": "pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-01T12:39:58.283Z",
-        "photos": [],
-        "createdAt": "2026-10-01T12:39:17.312Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.922396,
-          28.346364
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-SL-000001",
         "ulb": "MCM",
         "assetClass": "SL",
@@ -19503,6 +19374,213 @@
         "coordinates": [
           76.935925,
           28.349315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000160",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Sehrawan near pahadi",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Sehrawan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "550",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/17D4418",
+          "workName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderDate": "2025-10-21",
+          "estimatedAmount": "82.65",
+          "agencyName": "Bijay Singh",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "64.49",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "64.50",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-02T07:29:31.928Z"
+        },
+        "workId": "MCM-TW-000160-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-02T07:29:30.620Z",
+        "photos": [],
+        "createdAt": "2026-10-01T12:39:17.312Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.922396,
+          28.346364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000159",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Manesar near Saraswati Vidya Mandir",
+        "ward": "11",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "600",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/17D4418",
+          "workName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderDate": "2025-10-21",
+          "estimatedAmount": "82.65",
+          "agencyName": "Bijay Singh",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "64.49",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "64.50",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-02T07:29:32.517Z"
+        },
+        "workId": "MCM-TW-000159-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-02T07:29:31.213Z",
+        "photos": [],
+        "createdAt": "2026-10-01T12:35:25.297Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.940779,
+          28.346641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000158",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Kukrola In Samshan Ghat Kukrola",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Kukrola",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "600",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "Good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2024-25/17D4418",
+          "workName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "workCategory": "Water Supply",
+          "componentWorked": "",
+          "workType": "Repair",
+          "workDescription": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderId": "2025_HRY_466224_1",
+          "tenderName": "Operation & Maintenance of water supply Tube wells in all respects in ward 8,9,10,11,12 & 13 under jurisdiction of MCM",
+          "tenderDate": "2025-10-21",
+          "estimatedAmount": "82.65",
+          "agencyName": "Bijay Singh",
+          "workOrderDate": "2025-09-17",
+          "agreementAmount": "64.49",
+          "workStartDate": "2025-09-18",
+          "completionDate": "2026-09-13",
+          "actualExpenditure": "64.50",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "1",
+          "dlpStartDate": "2026-09-13",
+          "dlpEndDate": "2026-10-12",
+          "fundSource": "CFC fund",
+          "remarks": "",
+          "addedAt": "2026-10-02T07:29:33.116Z"
+        },
+        "workId": "MCM-TW-000158-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-02T07:29:31.805Z",
+        "photos": [],
+        "createdAt": "2026-10-01T12:02:50.115Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.903028,
+          28.325111
         ]
       }
     }
