@@ -19698,122 +19698,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-RD-000031",
-        "ulb": "MCM",
-        "assetClass": "RD",
-        "visibility": "public",
-        "assetName": "RMC Road",
-        "ward": "11",
-        "sector": "",
-        "villageName": "Manesar",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "234.37",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "RMC",
-          "feature_2": "",
-          "feature_3": "4",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "No",
-          "feature_7": "",
-          "feature_8": "Poor",
-          "feature_9": "2012",
-          "feature_10": "",
-          "feature_11": "Panchayatraj Department"
-        },
-        "lifecycleData": {
-          "hewpId": "ULB/2026-27/357583",
-          "workName": "Construction of RMC road from mata chowk to chota deepika school Manesar in ward no 11 under MC Manesar",
-          "workCategory": "Civil",
-          "componentWorked": "RMC",
-          "workType": "New Construction",
-          "workDescription": "Construction of RMC road",
-          "workLengthM": "550",
-          "tenderId": "",
-          "tenderName": "",
-          "tenderDate": "",
-          "estimatedAmount": "3519683",
-          "agencyName": "",
-          "workOrderDate": "",
-          "agreementAmount": "",
-          "workStartDate": "",
-          "completionDate": "",
-          "actualExpenditure": "",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "",
-          "dlpPeriod": "",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "",
-          "remarks": "",
-          "addedAt": "2026-10-05T09:53:18.408Z"
-        },
-        "workId": "MCM-RD-000031-W1",
-        "workHistory": [],
-        "updatedAt": "2026-10-05T09:57:18.266Z",
-        "photos": [],
-        "createdAt": "2026-10-05T09:51:05.254Z"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.939284,
-            28.355415
-          ],
-          [
-            76.939397,
-            28.355292
-          ],
-          [
-            76.939584,
-            28.355131
-          ],
-          [
-            76.939676,
-            28.355075
-          ],
-          [
-            76.939836,
-            28.354891
-          ],
-          [
-            76.940158,
-            28.354796
-          ],
-          [
-            76.940346,
-            28.35473
-          ],
-          [
-            76.940389,
-            28.354721
-          ],
-          [
-            76.940298,
-            28.354475
-          ],
-          [
-            76.940335,
-            28.354447
-          ],
-          [
-            76.940722,
-            28.354254
-          ],
-          [
-            76.940877,
-            28.354136
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-CP-000003",
         "ulb": "MCM",
         "assetClass": "CP",
@@ -19892,6 +19776,123 @@
               76.938249,
               28.347291
             ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000031",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "RMC Road",
+        "ward": "11",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "234.37",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "RMC",
+          "feature_2": "",
+          "feature_3": "4",
+          "feature_4": "1",
+          "feature_5": "NA",
+          "feature_6": "No",
+          "feature_7": "",
+          "feature_8": "Poor",
+          "feature_9": "2012",
+          "feature_10": "",
+          "feature_11": "Panchayatraj Department"
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/357583",
+          "workName": "Construction of RMC road from mata chowk to chota deepika school Manesar in ward no 11 under MC Manesar",
+          "workCategory": "Civil",
+          "componentWorked": "RMC",
+          "workType": "New Construction",
+          "workDescription": "Construction of RMC road",
+          "workLengthM": "550",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "3519683",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "",
+          "remarks": "",
+          "addedAt": "2026-10-05T09:53:18.408Z"
+        },
+        "workId": "MCM-RD-000031-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-05T11:49:40.115Z",
+        "photos": [],
+        "createdAt": "2026-10-05T09:51:05.254Z",
+        "featuresUpdatedAt": "2026-10-05T11:49:40.142Z"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.939284,
+            28.355415
+          ],
+          [
+            76.939397,
+            28.355292
+          ],
+          [
+            76.939584,
+            28.355131
+          ],
+          [
+            76.939676,
+            28.355075
+          ],
+          [
+            76.939836,
+            28.354891
+          ],
+          [
+            76.940158,
+            28.354796
+          ],
+          [
+            76.940346,
+            28.35473
+          ],
+          [
+            76.940389,
+            28.354721
+          ],
+          [
+            76.940298,
+            28.354475
+          ],
+          [
+            76.940335,
+            28.354447
+          ],
+          [
+            76.940722,
+            28.354254
+          ],
+          [
+            76.940877,
+            28.354136
           ]
         ]
       }
