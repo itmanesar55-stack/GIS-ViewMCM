@@ -19595,6 +19595,79 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-PK-000002",
+        "ulb": "MCM",
+        "assetClass": "PK",
+        "visibility": "public",
+        "assetName": "Providing Horticulture Composter Machine mannure conversction including one year maintenance in manesar",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "3500",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "16184",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "Good",
+          "feature_8": "Yes"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-05T09:01:10.632Z",
+        "photos": [],
+        "createdAt": "2026-09-25T08:45:46.000Z",
+        "featuresUpdatedAt": "2026-10-05T09:01:11.850Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.893423,
+              28.356
+            ],
+            [
+              76.893016,
+              28.355783
+            ],
+            [
+              76.893241,
+              28.355358
+            ],
+            [
+              76.893579,
+              28.354759
+            ],
+            [
+              76.893627,
+              28.354877
+            ],
+            [
+              76.893676,
+              28.355349
+            ],
+            [
+              76.893681,
+              28.355622
+            ],
+            [
+              76.893423,
+              28.356
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
