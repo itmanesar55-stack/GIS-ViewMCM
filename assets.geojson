@@ -19810,6 +19810,91 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-CP-000003",
+        "ulb": "MCM",
+        "assetClass": "CP",
+        "visibility": "public",
+        "assetName": "Chaupal Village Manesar",
+        "ward": "12",
+        "sector": "",
+        "villageName": "Manesar",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Manesar",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "ULB-built",
+          "feature_5": "",
+          "feature_6": "Fair",
+          "feature_7": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/354933",
+          "workName": "Estimate for renovation of SC Chaupal, Village Manesar, under MC Manesar.",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "Renovation",
+          "workDescription": "Estimate for renovation of SC Chaupal, Village Manesar, under MC Manesar. include eclectrical and plumbing along with Civil work.",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "24.60",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-30T04:17:00.070Z"
+        },
+        "workId": "MCM-CP-000003-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-05T09:59:05.234Z",
+        "photos": [],
+        "createdAt": "2026-09-30T04:13:52.340Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.938249,
+              28.347291
+            ],
+            [
+              76.938356,
+              28.347295
+            ],
+            [
+              76.938356,
+              28.347158
+            ],
+            [
+              76.938243,
+              28.347158
+            ],
+            [
+              76.938249,
+              28.347291
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
