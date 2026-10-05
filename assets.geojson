@@ -3900,92 +3900,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-CG-000002",
-        "ulb": "MCM",
-        "assetClass": "CG",
-        "visibility": "public",
-        "assetName": "Shamshanghat in village wazirpur ward no. 4 MCM",
-        "ward": "4",
-        "sector": "",
-        "villageName": "Wazirpur",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "Wood",
-          "feature_1": "6",
-          "feature_2": "3",
-          "feature_3": "Sitting area",
-          "feature_4": "7830",
-          "feature_5": "ULB-built",
-          "feature_6": "Good",
-          "feature_7": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ulb/2025-26/276008",
-          "workName": "Renovation of Samshan Ghat in Village Wazirpur ward no.04 MCM",
-          "workCategory": "Civil",
-          "componentWorked": "",
-          "workType": "Renovation",
-          "workDescription": "Renovation of Samshan Ghat in Village Wazirpur ward no.04 MCM",
-          "tenderId": "2026_HRY-501746_1",
-          "tenderName": "Renovation of Samshan Ghat in Village Wazirpur ward no.04 MCM",
-          "tenderDate": "2026-01-19",
-          "estimatedAmount": "112.85",
-          "agencyName": "KS Contractor",
-          "workOrderDate": "2026-03-25",
-          "agreementAmount": "8190945",
-          "workStartDate": "2026-03-28",
-          "completionDate": "2026-09-24",
-          "actualExpenditure": "4410653",
-          "timeExtension": "No",
-          "extendedUpto": "",
-          "testingStatus": "Passed",
-          "dlpPeriod": "60",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "MC Fund",
-          "remarks": "",
-          "addedAt": "2026-09-28T09:31:10.038Z"
-        },
-        "workId": "MCM-CG-000002-W1",
-        "workHistory": [],
-        "updatedAt": "2026-09-28T09:39:38.025Z",
-        "photos": [],
-        "createdAt": "2026-09-28T06:44:16.380Z",
-        "featuresUpdatedAt": "2026-09-28T09:23:14.168Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              76.914908,
-              28.425314
-            ],
-            [
-              76.915799,
-              28.425293
-            ],
-            [
-              76.915804,
-              28.424661
-            ],
-            [
-              76.914903,
-              28.424661
-            ],
-            [
-              76.914908,
-              28.425314
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-WL-000004",
         "ulb": "MCM",
         "assetClass": "WL",
@@ -19581,6 +19495,108 @@
         "coordinates": [
           76.903028,
           28.325111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-CG-000002",
+        "ulb": "MCM",
+        "assetClass": "CG",
+        "visibility": "public",
+        "assetName": "Shamshanghat in village wazirpur ward no. 4 MCM",
+        "ward": "4",
+        "sector": "",
+        "villageName": "Wazirpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Wood",
+          "feature_1": "6",
+          "feature_2": "3",
+          "feature_3": "Sitting area",
+          "feature_4": "7830",
+          "feature_5": "ULB-built",
+          "feature_6": "Good",
+          "feature_7": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ulb/2025-26/276008",
+          "workName": "Renovation of Samshan Ghat in Village Wazirpur ward no.04 MCM",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "Renovation",
+          "workDescription": "Renovation of Samshan Ghat in Village Wazirpur ward no.04 MCM",
+          "tenderId": "2026_HRY-501746_1",
+          "tenderName": "Renovation of Samshan Ghat in Village Wazirpur ward no.04 MCM",
+          "tenderDate": "2026-01-19",
+          "estimatedAmount": "112.85",
+          "agencyName": "KS Contractor",
+          "workOrderDate": "2026-03-25",
+          "agreementAmount": "8190945",
+          "workStartDate": "2026-03-28",
+          "completionDate": "2026-09-24",
+          "actualExpenditure": "4410653",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "60",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-28T09:31:10.038Z"
+        },
+        "workId": "MCM-CG-000002-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-05T04:42:26.337Z",
+        "photos": [],
+        "createdAt": "2026-09-28T06:44:16.380Z",
+        "featuresUpdatedAt": "2026-09-28T09:23:14.168Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.914897,
+              28.42466
+            ],
+            [
+              76.915831,
+              28.42465
+            ],
+            [
+              76.915809,
+              28.425693
+            ],
+            [
+              76.915251,
+              28.425664
+            ],
+            [
+              76.914924,
+              28.425476
+            ],
+            [
+              76.914345,
+              28.425169
+            ],
+            [
+              76.914785,
+              28.42516
+            ],
+            [
+              76.914758,
+              28.42466
+            ],
+            [
+              76.914897,
+              28.42466
+            ]
+          ]
         ]
       }
     }
