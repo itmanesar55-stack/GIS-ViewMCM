@@ -3171,94 +3171,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-CG-000001",
-        "ulb": "MCM",
-        "assetClass": "CG",
-        "visibility": "public",
-        "assetName": "Dhorka Samshan Ghat",
-        "ward": "4",
-        "sector": "Sector-92",
-        "villageName": "Dhoka",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "Wood",
-          "feature_1": "2",
-          "feature_2": "2",
-          "feature_3": "Sitting area",
-          "feature_4": "2200",
-          "feature_5": "ULB-built",
-          "feature_6": "Fair",
-          "feature_7": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ulb/2025-26/317133",
-          "workName": "Renovation of Samshan Ghat in Village Dhorka in Ward no-4 MC Manesar",
-          "workCategory": "Civil",
-          "componentWorked": "",
-          "workType": "Renovation",
-          "workDescription": "Renovation of Samshan Ghat in Village Dhorka in Ward no-4 MC Manesar, include Civil, Electrical.",
-          "tenderId": "2026_HRY_518170_1",
-          "tenderName": "Renovation of Samshan Ghat in Village Dhorka in Ward no-4 MC Manesar",
-          "tenderDate": "2026-04-28",
-          "estimatedAmount": "30.07",
-          "agencyName": "The BFL Cooperative Labour & Construction Society ltd Roshankhera",
-          "workOrderDate": "2026-06-12",
-          "agreementAmount": "2478665",
-          "workStartDate": "2026-06-23",
-          "completionDate": "2026-09-14",
-          "actualExpenditure": "2440754",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "Passed",
-          "dlpPeriod": "6",
-          "dlpStartDate": "2026-09-15",
-          "dlpEndDate": "2027-03-14",
-          "fundSource": "MC Fund",
-          "remarks": ""
-        },
-        "workId": "MCM-CG-000001-W1",
-        "workHistory": [],
-        "updatedAt": "2026-09-25T07:02:47.078Z",
-        "photos": [],
-        "createdAt": "2026-09-25T06:45:23.000Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              76.906884,
-              28.407747
-            ],
-            [
-              76.90686,
-              28.408516
-            ],
-            [
-              76.906922,
-              28.408512
-            ],
-            [
-              76.90726,
-              28.408211
-            ],
-            [
-              76.9073,
-              28.407667
-            ],
-            [
-              76.906884,
-              28.407747
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-WL-000002",
         "ulb": "MCM",
         "assetClass": "WL",
@@ -19595,6 +19507,90 @@
             [
               76.960259,
               28.39996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-CG-000001",
+        "ulb": "MCM",
+        "assetClass": "CG",
+        "visibility": "public",
+        "assetName": "Dhorka Samshan Ghat",
+        "ward": "4",
+        "sector": "Sector-92",
+        "villageName": "Dhoka",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Wood",
+          "feature_1": "2",
+          "feature_2": "2",
+          "feature_3": "Sitting area",
+          "feature_4": "2200",
+          "feature_5": "ULB-built",
+          "feature_6": "Fair",
+          "feature_7": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ulb/2025-26/317133",
+          "workName": "Renovation of Samshan Ghat in Village Dhorka in Ward no-4 MC Manesar",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "Renovation",
+          "workDescription": "Renovation of Samshan Ghat in Village Dhorka in Ward no-4 MC Manesar, include Civil, Electrical.",
+          "tenderId": "2026_HRY_518170_1",
+          "tenderName": "Renovation of Samshan Ghat in Village Dhorka in Ward no-4 MC Manesar",
+          "tenderDate": "2026-04-28",
+          "estimatedAmount": "30.07",
+          "agencyName": "The BFL Cooperative Labour & Construction Society ltd Roshankhera",
+          "workOrderDate": "2026-06-12",
+          "agreementAmount": "2478665",
+          "workStartDate": "2026-06-23",
+          "completionDate": "2026-09-14",
+          "actualExpenditure": "2440754",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "6",
+          "dlpStartDate": "2026-09-15",
+          "dlpEndDate": "2027-03-14",
+          "fundSource": "MC Fund",
+          "remarks": ""
+        },
+        "workId": "MCM-CG-000001-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-05T04:47:43.841Z",
+        "photos": [],
+        "createdAt": "2026-09-25T06:45:23.000Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.906883,
+              28.408533
+            ],
+            [
+              76.906878,
+              28.407269
+            ],
+            [
+              76.907312,
+              28.407637
+            ],
+            [
+              76.907275,
+              28.408231
+            ],
+            [
+              76.906883,
+              28.408533
             ]
           ]
         ]
