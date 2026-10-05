@@ -19396,111 +19396,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-CG-000004",
-        "ulb": "MCM",
-        "assetClass": "CG",
-        "visibility": "public",
-        "assetName": "Samshan ghat Sikanderpur",
-        "ward": "19",
-        "sector": "",
-        "villageName": "Siknderpur",
-        "ownership": "ULB-built",
-        "confidence": "High",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "2200",
-          "feature_5": "Other",
-          "feature_6": "Poor",
-          "feature_7": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ulb/2026-27/346266",
-          "workName": "Estimate for Bowndarywall of samshanghat",
-          "workCategory": "Civil",
-          "componentWorked": "",
-          "workType": "New Construction",
-          "workDescription": "Estimate for Bowndarywall of samshanghat",
-          "tenderId": "",
-          "tenderName": "",
-          "tenderDate": "",
-          "estimatedAmount": "9780439",
-          "agencyName": "",
-          "workOrderDate": "",
-          "agreementAmount": "",
-          "workStartDate": "",
-          "completionDate": "",
-          "actualExpenditure": "",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "",
-          "dlpPeriod": "",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "MC Fund",
-          "remarks": "",
-          "addedAt": "2026-09-29T05:34:34.871Z"
-        },
-        "workId": "MCM-CG-000004-W1",
-        "workHistory": [],
-        "updatedAt": "2026-10-05T04:43:37.478Z",
-        "photos": [],
-        "createdAt": "2026-09-29T05:31:30.814Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              76.960259,
-              28.39996
-            ],
-            [
-              76.960109,
-              28.399899
-            ],
-            [
-              76.959937,
-              28.400305
-            ],
-            [
-              76.959824,
-              28.400314
-            ],
-            [
-              76.959744,
-              28.400961
-            ],
-            [
-              76.960361,
-              28.400951
-            ],
-            [
-              76.9602,
-              28.400772
-            ],
-            [
-              76.960146,
-              28.400465
-            ],
-            [
-              76.960195,
-              28.400088
-            ],
-            [
-              76.960259,
-              28.39996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-CG-000002",
         "ulb": "MCM",
         "assetClass": "CG",
@@ -19595,6 +19490,111 @@
             [
               76.914897,
               28.42466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-CG-000004",
+        "ulb": "MCM",
+        "assetClass": "CG",
+        "visibility": "public",
+        "assetName": "Samshan ghat Sikanderpur (Acquired from HSVP)",
+        "ward": "19",
+        "sector": "",
+        "villageName": "Siknderpur",
+        "ownership": "ULB-built",
+        "confidence": "High",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "2200",
+          "feature_5": "Other",
+          "feature_6": "Poor",
+          "feature_7": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ulb/2026-27/346266",
+          "workName": "Estimate for Bowndarywall of samshanghat",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Estimate for Bowndarywall of samshanghat",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "9780439",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-09-29T05:34:34.871Z"
+        },
+        "workId": "MCM-CG-000004-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-05T04:45:23.542Z",
+        "photos": [],
+        "createdAt": "2026-09-29T05:31:30.814Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.960259,
+              28.39996
+            ],
+            [
+              76.960109,
+              28.399899
+            ],
+            [
+              76.959937,
+              28.400305
+            ],
+            [
+              76.959824,
+              28.400314
+            ],
+            [
+              76.959744,
+              28.400961
+            ],
+            [
+              76.960361,
+              28.400951
+            ],
+            [
+              76.9602,
+              28.400772
+            ],
+            [
+              76.960146,
+              28.400465
+            ],
+            [
+              76.960195,
+              28.400088
+            ],
+            [
+              76.960259,
+              28.39996
             ]
           ]
         ]
