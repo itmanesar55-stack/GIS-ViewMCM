@@ -6,8 +6,9 @@
 <title>Asset Portal — MC Manesar</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+<link rel="stylesheet" href="map-layers.css">
 <style>
-  :root { --ink:#17221f; --muted:#687570; --line:#d8e0db; }
+  :root { --ink:#17221f; --muted:#687570; --line:#d8e0db; --paper:#f5f7f3; --shadow:0 18px 48px rgba(19,35,28,.14); }
   * { box-sizing: border-box; }
   body { margin: 0; font-family: 'DM Sans', sans-serif; color: var(--ink); }
   header { display: flex; align-items: center; gap: 16px; padding: 12px 24px; min-height: 84px; background: var(--ink); color: #fff; position: relative; z-index: 20; }
@@ -21,10 +22,6 @@
   .legend-item { display: flex; align-items: center; gap: 8px; margin: 9px 0; font-size: 12px; }
   .legend-item input { width: 15px; height: 15px; }
   .swatch { width: 20px; height: 5px; border-radius: 3px; }
-  .ward-label { background: none; border: none; }
-  .ward-label span { display: inline-block; transform: translate(-50%, -50%); white-space: nowrap; font: 700 12px/1 system-ui, sans-serif; color: #ffd400; text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 5px #000; pointer-events: none; }
-  .village-label { background: none; border: none; }
-  .village-label span { display: inline-block; transform: translate(-50%, 35%); white-space: nowrap; font: italic 600 11px/1 system-ui, sans-serif; color: #fff; text-shadow: 0 0 3px #1b4d1b, 0 0 3px #1b4d1b, 0 0 5px #000; pointer-events: none; }
   .note { margin-top: 16px; padding: 10px; background: #f5f7f3; border-radius: 6px; color: var(--muted); font-size: 11px; line-height: 1.5; }
   .leaflet-popup-content { margin: 10px 12px; }
   .popup-details { display: flex; flex-direction: column; }
@@ -56,9 +53,7 @@
   <div class="layout">
     <div id="map"></div>
     <aside>
-      <h3>Municipal KML layers</h3>
-      <div id="kml-legend"></div>
-      <h3 style="margin-top:18px">Marked assets</h3>
+      <h3>Marked assets</h3>
       <div class="dropdown-check" id="asset-class-dropdown">
         <button type="button" class="dropdown-check-toggle" id="asset-class-toggle">All asset types <span class="chev">&#9662;</span></button>
         <div class="dropdown-check-panel" id="asset-class-panel" hidden>
@@ -66,63 +61,22 @@
           <div id="asset-class-options"></div>
         </div>
       </div>
+      <div class="note">Use the <b>Layers</b> button on the map to show boundaries, land records and other MCM layers.</div>
       <div class="note">This is a read-only view. New assets are marked and saved by municipal staff on the internal portal, then published here.</div>
     </aside>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mapbox/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js" integrity="sha384-C5TjWI9mRUxt0mbkh94XvDiod6mq7+GVybF1eWTozMPt8X6DvzPeFfzpNsVmb1Tu" crossorigin="anonymous"></script>
+  <script src="map-layers.js"></script>
   <script>
     const map = L.map('map', { zoomControl: false }).setView([28.36, 76.94], 13);
     L.control.zoom({ position: 'bottomright' }).addTo(map);
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: 'Tiles &copy; Esri' }).addTo(map);
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 22, maxNativeZoom: 19, attribution: 'Tiles &copy; Esri' }).addTo(map);
 
-    const KML_LAYERS = [
-      { name: 'Municipal Boundary', color: '#e6194b', show: true, files: ['FINALMCM.kml'] },
-      { name: 'Authorized Colonies', color: '#0072b2', show: false, files: ['Bhangrola_B-7954.kml', 'Wazirpur_Enclave_B-44.kml', 'Saheed_Bagat_Singh_Colony.kml'] },
-      { name: 'Lal Dora', color: '#f58231', show: false, files: ['ManesarLalDora.kml'] },
-      { name: 'Zones', color: '#911eb4', show: false, files: ['MCM_ZONE_KML.kml'] },
-      { name: 'Village Boundary', color: '#3cb44b', show: false, files: ['village_boundary.kml'], nameLabels: true },
-      { name: 'Roads', color: '#333333', show: false, files: ['Municipal_Corporation_Manesar.kml'] },
-      { name: 'Ward Boundaries', color: '#ffd400', show: true, files: ['MCM_Wards.kml'], wardLabels: true }
-    ];
-    // Ward number at the point deepest inside each ward (precomputed into the KML as labelLat/labelLng).
-    function escapeLabel(text) { return String(text).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
-  // Area labels at the precomputed point inside each area: ward numbers ("Ward 5") and village names.
-  function addAreaLabels(kmlLayer, layerGroup, group) {
-      kmlLayer.eachLayer(layer => {
-        const p = (layer.feature && layer.feature.properties) || {};
-        const text = group.wardLabels ? (p.ward ? 'Ward ' + p.ward : '') : (p.name || '');
-        if (!text) return;
-        const at = p.labelLat && p.labelLng ? [Number(p.labelLat), Number(p.labelLng)] : layer.getBounds().getCenter();
-        L.marker(at, { interactive: false, keyboard: false, icon: L.divIcon({ className: group.wardLabels ? 'ward-label' : 'village-label', html: '<span>' + escapeLabel(text) + '</span>', iconSize: null }) }).addTo(layerGroup);
-      });
-    }
-    const kmlGroupLayers = {};
+    // Boundaries, land records etc. - the same floating layer panel as the portal (map-layers.js / map-layers.css).
     let boundaryFitted = false;
-    KML_LAYERS.forEach(group => {
-      const layerGroup = L.layerGroup();
-      // Only switched-on layers are fetched at start; the rest are fetched the first time they are ticked.
-      layerGroup.once('add', () => group.files.forEach(file => {
-        omnivore.kml(file)
-          .on('ready', function () {
-            this.eachLayer(layer => { if (layer.setStyle) layer.setStyle({ color: group.color, weight: group.wardLabels ? 2 : 3, fillOpacity: group.wardLabels ? 0 : 0.04, dashArray: group.wardLabels ? '6,4' : null }); });
-            this.addTo(layerGroup);
-            if (group.wardLabels || group.nameLabels) addAreaLabels(this, layerGroup, group);
-            if (group.name === 'Municipal Boundary' && !boundaryFitted) { boundaryFitted = true; map.fitBounds(this.getBounds(), { padding: [20, 20] }); }
-          })
-          .on('error', () => console.warn('KML load failed for ' + file));
-      }));
-      kmlGroupLayers[group.name] = layerGroup;
-      if (group.show) layerGroup.addTo(map);
-    });
-    document.getElementById('kml-legend').innerHTML = KML_LAYERS.map(group =>
-      '<label class="legend-item"><input type="checkbox" data-kml-group="' + group.name + '"' + (group.show ? ' checked' : '') + '><span class="swatch" style="background:' + group.color + '"></span> ' + group.name + '</label>'
-    ).join('');
-    document.querySelectorAll('[data-kml-group]').forEach(input => input.addEventListener('change', () => {
-      const layer = kmlGroupLayers[input.dataset.kmlGroup];
-      if (input.checked) layer.addTo(map); else map.removeLayer(layer);
-    }));
+    loadMunicipalLayers(map, true, layer => { if (!boundaryFitted) { boundaryFitted = true; map.fitBounds(layer.getBounds(), { padding: [20, 20] }); } });
 
     const ASSET_CLASSES = { RD: ['#e33d2f', 'Roads'], DR: ['#1573c8', 'Drains / Sewer'], WL: ['#0c9b9b', 'Water supply'], TWL: ['#8a5a2b', 'Treated water'], WT: ['#0277bd', 'Water tankers'], WE: ['#00695c', 'Wells'], RWH: ['#2e7d32', 'Rain water harvesting'], SD: ['#7b4bb7', 'Storm water'], SL: ['#f0a51a', 'Streetlights'], PK: ['#369d55', 'Parks'] };
     const CLASS_COLOR_PALETTE = ['#e33d2f', '#1573c8', '#0c9b9b', '#7b4bb7', '#f0a51a', '#369d55', '#d6499a', '#5b6bd6', '#c77c1f', '#2e9e7a', '#a5388d', '#4a7d1f'];

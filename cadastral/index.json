@@ -1,0 +1,431 @@
+[
+ {
+  "name": "Badha",
+  "file": "Badha.geojson",
+  "count": 1573,
+  "bbox": [
+   76.935509,
+   28.395667,
+   76.960805,
+   28.416216
+  ]
+ },
+ {
+  "name": "Bar Gujar",
+  "file": "Bar_Gujar.geojson",
+  "count": 359,
+  "bbox": [
+   76.960745,
+   28.326375,
+   76.992172,
+   28.348605
+  ]
+ },
+ {
+  "name": "Basharia",
+  "file": "Basharia.geojson",
+  "count": 1257,
+  "bbox": [
+   76.86876,
+   28.369317,
+   76.900433,
+   28.393571
+  ]
+ },
+ {
+  "name": "Baskusla",
+  "file": "Baskusla.geojson",
+  "count": 1325,
+  "bbox": [
+   76.891501,
+   28.366062,
+   76.917772,
+   28.387414
+  ]
+ },
+ {
+  "name": "Bhangrola",
+  "file": "Bhangrola.geojson",
+  "count": 1669,
+  "bbox": [
+   76.878915,
+   28.382899,
+   76.916692,
+   28.409101
+  ]
+ },
+ {
+  "name": "Budhera",
+  "file": "Budhera.geojson",
+  "count": 1,
+  "bbox": [
+   76.932915,
+   28.470322,
+   76.933468,
+   28.470836
+  ]
+ },
+ {
+  "name": "Chandla Dungarwas",
+  "file": "Chandla_Dungarwas.geojson",
+  "count": 3,
+  "bbox": [
+   76.894707,
+   28.307907,
+   76.897632,
+   28.308289
+  ]
+ },
+ {
+  "name": "Chandu",
+  "file": "Chandu.geojson",
+  "count": 2,
+  "bbox": [
+   76.925105,
+   28.465311,
+   76.925963,
+   28.465463
+  ]
+ },
+ {
+  "name": "Dhana",
+  "file": "Dhana.geojson",
+  "count": 1028,
+  "bbox": [
+   76.86462,
+   28.360335,
+   76.897087,
+   28.385673
+  ]
+ },
+ {
+  "name": "Dhanawas",
+  "file": "Dhanawas.geojson",
+  "count": 1,
+  "bbox": [
+   76.889534,
+   28.407688,
+   76.890723,
+   28.409232
+  ]
+ },
+ {
+  "name": "Dhankot",
+  "file": "Dhankot.geojson",
+  "count": 595,
+  "bbox": [
+   76.932502,
+   28.454678,
+   76.959389,
+   28.472461
+  ]
+ },
+ {
+  "name": "Dhorka",
+  "file": "Dhorka.geojson",
+  "count": 1549,
+  "bbox": [
+   76.890561,
+   28.398282,
+   76.911625,
+   28.421415
+  ]
+ },
+ {
+  "name": "Fazalwas",
+  "file": "Fazalwas.geojson",
+  "count": 735,
+  "bbox": [
+   76.884293,
+   28.305501,
+   76.904089,
+   28.319534
+  ]
+ },
+ {
+  "name": "Gairatpur bas",
+  "file": "Gairatpur_bas.geojson",
+  "count": 1,
+  "bbox": [
+   76.992703,
+   28.349722,
+   76.993152,
+   28.351961
+  ]
+ },
+ {
+  "name": "Garhi Harsaru",
+  "file": "Garhi_Harsaru.geojson",
+  "count": 1418,
+  "bbox": [
+   76.924883,
+   28.432504,
+   76.945918,
+   28.465711
+  ]
+ },
+ {
+  "name": "Garoli Kalan",
+  "file": "Garoli_Kalan.geojson",
+  "count": 1,
+  "bbox": [
+   76.961083,
+   28.45059,
+   76.961339,
+   28.450992
+  ]
+ },
+ {
+  "name": "Gopalpur",
+  "file": "Gopalpur.geojson",
+  "count": 1246,
+  "bbox": [
+   76.928587,
+   28.445643,
+   76.96089,
+   28.470043
+  ]
+ },
+ {
+  "name": "Gwaliar",
+  "file": "Gwaliar.geojson",
+  "count": 11,
+  "bbox": [
+   76.901256,
+   28.318504,
+   76.907115,
+   28.323618
+  ]
+ },
+ {
+  "name": "Harsaru",
+  "file": "Harsaru.geojson",
+  "count": 2089,
+  "bbox": [
+   76.928095,
+   28.41642,
+   76.968198,
+   28.452222
+  ]
+ },
+ {
+  "name": "Hayatpur",
+  "file": "Hayatpur.geojson",
+  "count": 2718,
+  "bbox": [
+   76.926164,
+   28.40207,
+   76.965004,
+   28.42874
+  ]
+ },
+ {
+  "name": "Jhund Sarai Abad",
+  "file": "Jhund_Sarai_Abad.geojson",
+  "count": 548,
+  "bbox": [
+   76.868872,
+   28.38524,
+   76.883902,
+   28.400426
+  ]
+ },
+ {
+  "name": "Jhund Sarai Viran",
+  "file": "Jhund_Sarai_Viran.geojson",
+  "count": 409,
+  "bbox": [
+   76.874509,
+   28.396763,
+   76.890645,
+   28.413259
+  ]
+ },
+ {
+  "name": "Kankrola",
+  "file": "Kankrola.geojson",
+  "count": 1302,
+  "bbox": [
+   76.911588,
+   28.379232,
+   76.934999,
+   28.400226
+  ]
+ },
+ {
+  "name": "Kasan",
+  "file": "Kasan.geojson",
+  "count": 5889,
+  "bbox": [
+   76.858341,
+   28.326915,
+   76.930163,
+   28.382516
+  ]
+ },
+ {
+  "name": "Kherki Dola",
+  "file": "Kherki_Dola.geojson",
+  "count": 1336,
+  "bbox": [
+   76.971711,
+   28.382584,
+   77.001323,
+   28.405587
+  ]
+ },
+ {
+  "name": "Khoh",
+  "file": "Khoh.geojson",
+  "count": 1424,
+  "bbox": [
+   76.916338,
+   28.348859,
+   76.938017,
+   28.373962
+  ]
+ },
+ {
+  "name": "Kukrola",
+  "file": "Kukrola.geojson",
+  "count": 1117,
+  "bbox": [
+   76.88991,
+   28.31642,
+   76.919121,
+   28.336422
+  ]
+ },
+ {
+  "name": "Lakhnola",
+  "file": "Lakhnola.geojson",
+  "count": 1778,
+  "bbox": [
+   76.940467,
+   28.368821,
+   76.959728,
+   28.397694
+  ]
+ },
+ {
+  "name": "Manesar",
+  "file": "Manesar.geojson",
+  "count": 6915,
+  "bbox": [
+   76.917429,
+   28.32541,
+   76.971983,
+   28.373927
+  ]
+ },
+ {
+  "name": "Meoka",
+  "file": "Meoka.geojson",
+  "count": 1244,
+  "bbox": [
+   76.907884,
+   28.398227,
+   76.929157,
+   28.412456
+  ]
+ },
+ {
+  "name": "Naharpur Kasan",
+  "file": "Naharpur_Kasan.geojson",
+  "count": 1172,
+  "bbox": [
+   76.92526,
+   28.368791,
+   76.945272,
+   28.39086
+  ]
+ },
+ {
+  "name": "Nainwal",
+  "file": "Nainwal.geojson",
+  "count": 1156,
+  "bbox": [
+   76.933095,
+   28.319216,
+   76.964927,
+   28.339109
+  ]
+ },
+ {
+  "name": "Naurangpur",
+  "file": "Naurangpur.geojson",
+  "count": 3112,
+  "bbox": [
+   76.95141,
+   28.345667,
+   76.993805,
+   28.380624
+  ]
+ },
+ {
+  "name": "Nawada Fatehpur",
+  "file": "Nawada_Fatehpur.geojson",
+  "count": 1162,
+  "bbox": [
+   76.926663,
+   28.383764,
+   76.944398,
+   28.40678
+  ]
+ },
+ {
+  "name": "Sehrawan",
+  "file": "Sehrawan.geojson",
+  "count": 1102,
+  "bbox": [
+   76.901989,
+   28.330013,
+   76.928349,
+   28.350748
+  ]
+ },
+ {
+  "name": "Shikohpur",
+  "file": "Shikohpur.geojson",
+  "count": 2121,
+  "bbox": [
+   76.95698,
+   28.354062,
+   76.997854,
+   28.394577
+  ]
+ },
+ {
+  "name": "Sihi",
+  "file": "Sihi.geojson",
+  "count": 1200,
+  "bbox": [
+   76.960719,
+   28.391236,
+   76.98004,
+   28.415909
+  ]
+ },
+ {
+  "name": "Sikanderpur Badha",
+  "file": "Sikanderpur_Badha.geojson",
+  "count": 982,
+  "bbox": [
+   76.949912,
+   28.3885,
+   76.962474,
+   28.408207
+  ]
+ },
+ {
+  "name": "Wazirpur",
+  "file": "Wazirpur.geojson",
+  "count": 2653,
+  "bbox": [
+   76.902196,
+   28.405048,
+   76.932873,
+   28.443891
+  ]
+ }
+]
