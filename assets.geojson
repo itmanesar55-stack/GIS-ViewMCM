@@ -21759,6 +21759,50 @@
           28.339944
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000022",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Community center Dhana",
+        "ward": "",
+        "sector": "",
+        "villageName": "Dhana",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "2*2*1",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T10:04:34.094Z",
+        "photos": [],
+        "createdAt": "2026-10-06T10:03:27.084Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.889061,
+          28.373559
+        ]
+      }
     }
   ]
 }
