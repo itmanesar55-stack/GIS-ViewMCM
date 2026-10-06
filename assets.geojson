@@ -21986,7 +21986,7 @@
         "featureData": {
           "feature_0": "",
           "feature_1": "",
-          "feature_2": "",
+          "feature_2": "1344",
           "feature_3": "",
           "feature_4": "2*2*0.600",
           "feature_5": "",
@@ -22002,9 +22002,10 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-10-06T11:14:35.105Z",
+        "updatedAt": "2026-10-06T11:14:54.448Z",
         "photos": [],
-        "createdAt": "2026-10-06T11:12:40.681Z"
+        "createdAt": "2026-10-06T11:12:40.681Z",
+        "featuresUpdatedAt": "2026-10-06T11:14:54.313Z"
       },
       "geometry": {
         "type": "Point",
