@@ -21675,6 +21675,48 @@
           28.339972
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000191",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Bar Gujjar near Govt. School",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar-Gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "497",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T10:03:07.087Z",
+        "photos": [],
+        "createdAt": "2026-10-06T10:02:59.965Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.978917,
+          28.338778
+        ]
+      }
     }
   ]
 }
