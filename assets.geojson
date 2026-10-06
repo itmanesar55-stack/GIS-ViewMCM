@@ -21143,6 +21143,50 @@
           28.351833
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000021",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "SC Chaupal Dhana",
+        "ward": "",
+        "sector": "",
+        "villageName": "Dhana",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "1011",
+          "feature_3": "2",
+          "feature_4": "3*3*4",
+          "feature_5": "55",
+          "feature_6": "",
+          "feature_7": "10000",
+          "feature_8": "Yes",
+          "feature_9": "Pipeline",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T09:39:57.330Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:33:35.101Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.889362,
+          28.374374
+        ]
+      }
     }
   ]
 }
