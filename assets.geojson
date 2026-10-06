@@ -20755,6 +20755,100 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-CG-000005",
+        "ulb": "MCM",
+        "assetClass": "CG",
+        "visibility": "public",
+        "assetName": "Cremation Ground Nawada",
+        "ward": "",
+        "sector": "",
+        "villageName": "Nawada",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "Sitting area",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T08:20:29.005Z",
+        "photos": [],
+        "createdAt": "2026-10-06T08:18:16.705Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.94173,
+              28.398188
+            ],
+            [
+              76.941682,
+              28.39808
+            ],
+            [
+              76.941703,
+              28.397872
+            ],
+            [
+              76.941725,
+              28.397851
+            ],
+            [
+              76.94177,
+              28.39783
+            ],
+            [
+              76.941902,
+              28.397837
+            ],
+            [
+              76.942143,
+              28.397846
+            ],
+            [
+              76.942216,
+              28.397846
+            ],
+            [
+              76.94224,
+              28.397882
+            ],
+            [
+              76.942202,
+              28.398023
+            ],
+            [
+              76.941988,
+              28.398108
+            ],
+            [
+              76.941996,
+              28.398155
+            ],
+            [
+              76.941875,
+              28.398254
+            ],
+            [
+              76.94173,
+              28.398188
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
