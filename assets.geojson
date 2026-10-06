@@ -21717,6 +21717,48 @@
           28.338778
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000192",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell near Samshan Ghat, Bar Gujjar",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar-Gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "499",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T10:04:17.072Z",
+        "photos": [],
+        "createdAt": "2026-10-06T10:04:09.326Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.980389,
+          28.339944
+        ]
+      }
     }
   ]
 }
