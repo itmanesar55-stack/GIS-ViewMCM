@@ -21549,6 +21549,48 @@
           28.33325
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000188",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Bar Gujjar near Baba Ram Mohan ram mandir",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar-gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "550",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T09:59:12.776Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:58:57.833Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.976167,
+          28.336944
+        ]
+      }
     }
   ]
 }
