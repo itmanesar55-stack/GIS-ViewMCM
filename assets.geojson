@@ -21899,6 +21899,50 @@
           28.373282
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000024",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Vatika Baskushla",
+        "ward": "",
+        "sector": "",
+        "villageName": "Baskushla",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "2*2*0.600",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "Pipeline",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T10:53:55.291Z",
+        "photos": [],
+        "createdAt": "2026-10-06T10:52:45.083Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.908479,
+          28.373096
+        ]
+      }
     }
   ]
 }
