@@ -21017,6 +21017,48 @@
           28.354583
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000176",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Aanganwadi, Naurangpur",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Naurangpur",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "550",
+          "feature_1": "-1",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "199",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T09:29:42.336Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:29:27.979Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.968694,
+          28.356528
+        ]
+      }
     }
   ]
 }
