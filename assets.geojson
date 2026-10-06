@@ -21423,6 +21423,48 @@
           28.374374
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000185",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Bar-gujjar near SRM warehouse",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar Gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "550",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T09:52:24.832Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:51:22.335Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.973722,
+          28.341361
+        ]
+      }
     }
   ]
 }
