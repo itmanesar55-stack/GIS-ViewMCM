@@ -583,7 +583,6 @@
         "ward": "9",
         "sector": "7",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "265.48",
         "featureData": {
           "feature_0": "park",
@@ -672,7 +671,6 @@
         "sector": "",
         "villageName": "Sikohpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -757,7 +755,6 @@
         "sector": "",
         "villageName": "Nainwal",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "160",
@@ -825,7 +822,6 @@
         "sector": "",
         "villageName": "Nainwal",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "156",
@@ -893,7 +889,6 @@
         "sector": "",
         "villageName": "Nainwal",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "160",
@@ -961,7 +956,6 @@
         "sector": "",
         "villageName": "Nainwal",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "156",
@@ -1029,7 +1023,6 @@
         "sector": "",
         "villageName": "Nainwal",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "160",
@@ -1097,7 +1090,6 @@
         "sector": "",
         "villageName": "Nainwal",
         "ownership": "ULB-built",
-        "confidence": "Unknown",
         "lengthM": "",
         "featureData": {
           "feature_0": "155",
@@ -1165,7 +1157,6 @@
         "sector": "",
         "villageName": "SIkandeepur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "379.93",
         "featureData": {
           "feature_0": "NP3",
@@ -1253,7 +1244,6 @@
         "sector": "",
         "villageName": "Sikanderpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "338.82",
         "featureData": {
           "feature_0": "Local",
@@ -1335,7 +1325,6 @@
         "sector": "",
         "villageName": "Sikanderpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "974.23",
         "featureData": {
           "feature_0": "Covered",
@@ -1429,7 +1418,6 @@
         "sector": "",
         "villageName": "NAWADA FATEHPUR BADHA",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "3180.34",
         "featureData": {
           "feature_0": "Local",
@@ -1603,7 +1591,6 @@
         "sector": "",
         "villageName": "Sihi",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "640.97",
         "featureData": {
           "feature_0": "Local",
@@ -1701,7 +1688,6 @@
         "sector": "",
         "villageName": "NAWADA FATEHPUR",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "249.46",
         "featureData": {
           "feature_0": "Local",
@@ -1823,7 +1809,6 @@
         "sector": "",
         "villageName": "NAWADA FATEHPUR",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "461.93",
         "featureData": {
           "feature_0": "Local",
@@ -1897,7 +1882,6 @@
         "sector": "",
         "villageName": "NAWADA",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "890.37",
         "featureData": {
           "feature_0": "Local",
@@ -1987,7 +1971,6 @@
         "sector": "",
         "villageName": "nawada fatehpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "68.44",
         "featureData": {
           "feature_0": "local",
@@ -2078,7 +2061,6 @@
         "sector": "",
         "villageName": "Khoh",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "407.51",
         "featureData": {
           "feature_0": "RCC",
@@ -2158,7 +2140,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "106.68",
         "featureData": {
           "feature_0": "Local",
@@ -2232,7 +2213,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "111.62",
         "featureData": {
           "feature_0": "Local",
@@ -2306,7 +2286,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "49.23",
         "featureData": {
           "feature_0": "Local",
@@ -2388,7 +2367,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "108.66",
         "featureData": {
           "feature_0": "Local",
@@ -2490,7 +2468,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "118.71",
         "featureData": {
           "feature_0": "Local",
@@ -2602,7 +2579,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "23.73",
         "featureData": {
           "feature_0": "Local",
@@ -2676,7 +2652,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "70.41",
         "featureData": {
           "feature_0": "Local",
@@ -2766,7 +2741,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "70.74",
         "featureData": {
           "feature_0": "Local",
@@ -2864,7 +2838,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "49.52",
         "featureData": {
           "feature_0": "Local",
@@ -2938,7 +2911,6 @@
         "sector": "",
         "villageName": "Sikanderpur Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "104.68",
         "featureData": {
           "feature_0": "Local",
@@ -3012,7 +2984,6 @@
         "sector": "",
         "villageName": "Sikanderpur Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "242.05",
         "featureData": {
           "feature_0": "Local",
@@ -3061,7 +3032,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "128.30",
         "featureData": {
           "feature_0": "Local",
@@ -3114,7 +3084,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "757.01",
         "featureData": {
           "feature_0": "Local",
@@ -3183,7 +3152,6 @@
         "sector": "",
         "villageName": "Khoh",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "1747.82",
         "featureData": {
           "feature_0": "DI Pipe",
@@ -3556,7 +3524,6 @@
         "sector": "",
         "villageName": "Sikanderpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "158.51",
         "featureData": {
           "feature_0": "Local",
@@ -3634,7 +3601,6 @@
         "sector": "",
         "villageName": "Khoh",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "Wood",
@@ -3740,7 +3706,6 @@
         "sector": "",
         "villageName": "Nakhdola",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "6941.68",
         "featureData": {
           "feature_0": "GI",
@@ -4964,7 +4929,6 @@
         "sector": "",
         "villageName": "Sihi",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "399.66",
         "featureData": {
           "feature_0": "Local",
@@ -5053,7 +5017,6 @@
         "sector": "",
         "villageName": "Sikanderpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "519.39",
         "featureData": {
           "feature_0": "Local",
@@ -5152,7 +5115,6 @@
         "sector": "",
         "villageName": "Sikanderpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "386.52",
         "featureData": {
           "feature_0": "Local",
@@ -5243,7 +5205,6 @@
         "sector": "Sector 84",
         "villageName": "Sihi",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "276.03",
         "featureData": {
           "feature_0": "Local",
@@ -5318,7 +5279,6 @@
         "sector": "",
         "villageName": "Garhi",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "Local",
@@ -5408,7 +5368,6 @@
         "sector": "",
         "villageName": "Badha",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "Local",
@@ -5519,7 +5478,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "Village-origin",
-        "confidence": "High",
         "lengthM": "14657.83",
         "featureData": {
           "feature_0": "GI",
@@ -7070,7 +7028,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "Village-origin",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -7139,7 +7096,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "Village-origin",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "450",
@@ -7208,7 +7164,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "Village-origin",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -7277,7 +7232,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -7346,7 +7300,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -7415,7 +7368,6 @@
         "sector": "",
         "villageName": "Sikanderpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "Kua Pujan",
@@ -7501,7 +7453,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "2209.41",
         "featureData": {
           "feature_0": "DI",
@@ -7588,7 +7539,6 @@
         "sector": "",
         "villageName": "Nainwal",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -7675,7 +7625,6 @@
         "sector": "",
         "villageName": "wAZIRPUR",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -7746,7 +7695,6 @@
         "sector": "",
         "villageName": "Hayatpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "Recharge Pit",
@@ -7817,7 +7765,6 @@
         "sector": "",
         "villageName": "kankrola",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -7888,7 +7835,6 @@
         "sector": "",
         "villageName": "NAHARPUR KASAN",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -7959,7 +7905,6 @@
         "sector": "",
         "villageName": "nawada fatehpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8030,7 +7975,6 @@
         "sector": "",
         "villageName": "wAZIRPUR",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8101,7 +8045,6 @@
         "sector": "",
         "villageName": "BHANGROLA",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "recharge pit",
@@ -8172,7 +8115,6 @@
         "sector": "",
         "villageName": "RAMPURA",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8243,7 +8185,6 @@
         "sector": "",
         "villageName": "Dhorka GPS School, RWH",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8314,7 +8255,6 @@
         "sector": "",
         "villageName": "KANKROLA",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8385,7 +8325,6 @@
         "sector": "",
         "villageName": "NAWADA FATEHPUR",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8456,7 +8395,6 @@
         "sector": "",
         "villageName": "KHOH",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8527,7 +8465,6 @@
         "sector": "",
         "villageName": "KHOH",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8598,7 +8535,6 @@
         "sector": "",
         "villageName": "BAS HARIYA",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8669,7 +8605,6 @@
         "sector": "",
         "villageName": "BAS HARIYA",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8740,7 +8675,6 @@
         "sector": "",
         "villageName": "NAKHDOLA",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8811,7 +8745,6 @@
         "sector": "",
         "villageName": "NAKHDOLA",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8882,7 +8815,6 @@
         "sector": "",
         "villageName": "NAKHDOLA",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -8953,7 +8885,6 @@
         "sector": "",
         "villageName": "BHANGROLA",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "reacharge pit",
@@ -9024,7 +8955,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9093,7 +9023,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9162,7 +9091,6 @@
         "sector": "",
         "villageName": "Sehrawan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9231,7 +9159,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9300,7 +9227,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9369,7 +9295,6 @@
         "sector": "",
         "villageName": "Fazalwas",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "550",
@@ -9438,7 +9363,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9507,7 +9431,6 @@
         "sector": "",
         "villageName": "fazalwas",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9576,7 +9499,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "550",
@@ -9645,7 +9567,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9714,7 +9635,6 @@
         "sector": "",
         "villageName": "kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9783,7 +9703,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9852,7 +9771,6 @@
         "sector": "",
         "villageName": "manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9921,7 +9839,6 @@
         "sector": "",
         "villageName": "kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -9990,7 +9907,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -10059,7 +9975,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -10128,7 +10043,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -10197,7 +10111,6 @@
         "sector": "",
         "villageName": "Kukrola",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -10266,7 +10179,6 @@
         "sector": "",
         "villageName": "Kukrola",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -10335,7 +10247,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -10404,7 +10315,6 @@
         "sector": "",
         "villageName": "Fazalwas",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "550",
@@ -10473,7 +10383,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -10542,7 +10451,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "550",
@@ -10611,7 +10519,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -10680,7 +10587,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "550",
@@ -10749,7 +10655,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -10818,7 +10723,6 @@
         "sector": "",
         "villageName": "Khoh",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "550",
@@ -10887,7 +10791,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -10956,7 +10859,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "550",
@@ -11025,7 +10927,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -11094,7 +10995,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -11163,7 +11063,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -11232,7 +11131,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -11301,7 +11199,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "550",
@@ -11370,7 +11267,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -11439,7 +11335,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -11508,7 +11403,6 @@
         "sector": "",
         "villageName": "Fazalwas",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -11577,7 +11471,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "Village-origin",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "500",
@@ -11675,7 +11568,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -11744,7 +11636,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -11813,7 +11704,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -11882,7 +11772,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -11951,7 +11840,6 @@
         "sector": "",
         "villageName": "Khoh",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12020,7 +11908,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12089,7 +11976,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12158,7 +12044,6 @@
         "sector": "",
         "villageName": "kukrola",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12227,7 +12112,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12296,7 +12180,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12365,7 +12248,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12434,7 +12316,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12503,7 +12384,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12572,7 +12452,6 @@
         "sector": "",
         "villageName": "kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12641,7 +12520,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12710,7 +12588,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12779,7 +12656,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12848,7 +12724,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12917,7 +12792,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -12986,7 +12860,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13055,7 +12928,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13124,7 +12996,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13193,7 +13064,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13263,7 +13133,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13332,7 +13201,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13401,7 +13269,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13470,7 +13337,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13539,7 +13405,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13608,7 +13473,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13677,7 +13541,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13746,7 +13609,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13815,7 +13677,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13884,7 +13745,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -13953,7 +13813,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14022,7 +13881,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14091,7 +13949,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14160,7 +14017,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14229,7 +14085,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14298,7 +14153,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14367,7 +14221,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14436,7 +14289,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14505,7 +14357,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14574,7 +14425,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14643,7 +14493,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14712,7 +14561,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14781,7 +14629,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14850,7 +14697,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14919,7 +14765,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -14988,7 +14833,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15057,7 +14901,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15126,7 +14969,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -15195,7 +15037,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15264,7 +15105,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15333,7 +15173,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15402,7 +15241,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15471,7 +15309,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15540,7 +15377,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15609,7 +15445,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -15678,7 +15513,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15747,7 +15581,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15816,7 +15649,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15885,7 +15717,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -15954,7 +15785,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -16023,7 +15853,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -16092,7 +15921,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -16161,7 +15989,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16230,7 +16057,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16299,7 +16125,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16368,7 +16193,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16437,7 +16261,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16506,7 +16329,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16575,7 +16397,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16644,7 +16465,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16713,7 +16533,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16782,7 +16601,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16851,7 +16669,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16920,7 +16737,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -16989,7 +16805,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -17058,7 +16873,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -17127,7 +16941,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -17196,7 +17009,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -17265,7 +17077,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "69.07",
         "featureData": {
           "feature_0": "",
@@ -17334,7 +17145,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -17403,7 +17213,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -17472,7 +17281,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -17541,7 +17349,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -17610,7 +17417,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -17708,7 +17514,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -17777,7 +17582,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -17846,7 +17650,6 @@
         "sector": "",
         "villageName": "Sehrwan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "519.39",
         "featureData": {
           "feature_0": "200",
@@ -17943,7 +17746,6 @@
         "sector": "",
         "villageName": "Sehrwan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "519.39",
         "featureData": {
           "feature_0": "200",
@@ -18040,7 +17842,6 @@
         "sector": "",
         "villageName": "Sehrwan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "519.39",
         "featureData": {
           "feature_0": "200",
@@ -18137,7 +17938,6 @@
         "sector": "",
         "villageName": "Sehrwan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "519.39",
         "featureData": {
           "feature_0": "200",
@@ -18234,7 +18034,6 @@
         "sector": "",
         "villageName": "",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "Local",
@@ -18276,7 +18075,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "450",
@@ -18345,7 +18143,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "450",
@@ -18414,7 +18211,6 @@
         "sector": "",
         "villageName": "Khoh",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "450",
@@ -18483,7 +18279,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "450",
@@ -18552,7 +18347,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "450",
@@ -18621,7 +18415,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "550",
@@ -18690,7 +18483,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -18759,7 +18551,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -18828,7 +18619,6 @@
         "sector": "",
         "villageName": "Garhi Harsaru",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "450",
@@ -18897,7 +18687,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "550",
@@ -18966,7 +18755,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -19035,7 +18823,6 @@
         "sector": "",
         "villageName": "Sehrawan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "550",
@@ -19104,7 +18891,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -19173,7 +18959,6 @@
         "sector": "",
         "villageName": "Kukrola",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "600",
@@ -19242,7 +19027,6 @@
         "sector": "95",
         "villageName": "Wazirpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "Wood",
@@ -19344,7 +19128,6 @@
         "sector": "",
         "villageName": "Siknderpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "",
@@ -19449,7 +19232,6 @@
         "sector": "Sector-92",
         "villageName": "Dhoka",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "Wood",
@@ -19533,7 +19315,6 @@
         "sector": "",
         "villageName": "Kasan",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "3500",
         "featureData": {
           "feature_0": "Local",
@@ -19632,7 +19413,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "",
         "featureData": {
           "feature_0": "Manesar",
@@ -19717,7 +19497,6 @@
         "sector": "",
         "villageName": "Manesar",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "234.37",
         "featureData": {
           "feature_0": "Local",
@@ -19834,7 +19613,6 @@
         "sector": "",
         "villageName": "Sikanderpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "379.76",
         "featureData": {
           "feature_0": "DI",
@@ -19922,7 +19700,6 @@
         "sector": "Sector 95",
         "villageName": "Wazirpur",
         "ownership": "ULB-built",
-        "confidence": "High",
         "lengthM": "5142.90",
         "featureData": {
           "feature_0": "DI",
