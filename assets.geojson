@@ -20933,6 +20933,48 @@
           28.3535
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000174",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Geetanand ashram naurangpur",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Naurangpur",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "500",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "Pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T09:25:59.678Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:25:50.009Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.977056,
+          28.350222
+        ]
+      }
     }
   ]
 }
