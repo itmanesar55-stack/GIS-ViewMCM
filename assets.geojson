@@ -21829,6 +21829,50 @@
           28.373559
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000023",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Harijan Chaupal Bas aliyar",
+        "ward": "",
+        "sector": "",
+        "villageName": "Bas aliyar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "1454",
+          "feature_3": "",
+          "feature_4": "2*2*0.900",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "Pipeline",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T10:35:56.979Z",
+        "photos": [],
+        "createdAt": "2026-10-06T10:33:41.341Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.905838,
+          28.373282
+        ]
+      }
     }
   ]
 }
