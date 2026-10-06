@@ -20891,6 +20891,48 @@
           28.353679
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000173",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Naurangpur on Sector road MCM land",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Naurangpur",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "500",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC Meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "Pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T09:23:52.278Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:23:31.277Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.974639,
+          28.3535
+        ]
+      }
     }
   ]
 }
