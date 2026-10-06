@@ -21271,6 +21271,48 @@
           28.348694
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000182",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Naurangpur Vatika",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Naurangpur",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "550",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "11",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-06T09:46:02.936Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:45:55.934Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.978028,
+          28.360667
+        ]
+      }
     }
   ]
 }
