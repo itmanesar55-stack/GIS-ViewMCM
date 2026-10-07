@@ -21973,6 +21973,50 @@
     {
       "type": "Feature",
       "properties": {
+        "assetId": "MCM-RWH-000026",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Animal Hospital Sikhopur",
+        "ward": "",
+        "sector": "",
+        "villageName": "Sikhopur",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "2674",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-07T04:18:16.753Z",
+        "photos": [],
+        "createdAt": "2026-10-07T04:16:21.378Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.984413,
+          28.370277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "assetId": "MCM-RWH-000025",
         "ulb": "MCM",
         "assetClass": "RWH",
@@ -22028,7 +22072,7 @@
         },
         "workId": "MCM-RWH-000025-W1",
         "workHistory": [],
-        "updatedAt": "2026-10-06T11:16:14.596Z",
+        "updatedAt": "2026-10-07T04:21:41.091Z",
         "photos": [],
         "createdAt": "2026-10-06T11:12:40.681Z",
         "featuresUpdatedAt": "2026-10-06T11:14:54.313Z"
@@ -22038,50 +22082,6 @@
         "coordinates": [
           76.984948,
           28.370383
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-RWH-000026",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "Animal Hospital Sikhopur",
-        "ward": "",
-        "sector": "",
-        "villageName": "Sikhopur",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "2674",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "",
-          "feature_11": "",
-          "feature_12": "Poor",
-          "feature_13": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-07T04:18:16.753Z",
-        "photos": [],
-        "createdAt": "2026-10-07T04:16:21.378Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.984413,
-          28.370277
         ]
       }
     }
