@@ -22600,6 +22600,50 @@
           28.450824
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000034",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Bosting Station Garhi",
+        "ward": "",
+        "sector": "",
+        "villageName": "Garhi",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "1078",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-07T04:59:51.090Z",
+        "photos": [],
+        "createdAt": "2026-10-07T04:59:24.109Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.935531,
+          28.445175
+        ]
+      }
     }
   ]
 }
