@@ -23063,6 +23063,7 @@
           "workStartDate": "2025-01-13",
           "completionDate": "2026-09-30",
           "actualExpenditure": "74.16",
+          "billStage": "Final Bill",
           "timeExtension": "Yes",
           "extendedUpto": "2026-09-30",
           "testingStatus": "Passed",
@@ -23075,7 +23076,7 @@
         },
         "workId": "MCM-PK-000003-W1",
         "workHistory": [],
-        "updatedAt": "2026-10-07T07:58:33.882Z",
+        "updatedAt": "2026-10-07T08:09:14.922Z",
         "photos": [],
         "createdAt": "2026-10-07T07:50:27.915Z",
         "featuresReviewedForWork": "MCM-PK-000003-W1"
