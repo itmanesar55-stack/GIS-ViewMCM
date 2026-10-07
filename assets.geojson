@@ -23021,6 +23021,100 @@
           28.39296
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-PK-000003",
+        "ulb": "MCM",
+        "assetClass": "PK",
+        "visibility": "public",
+        "assetName": "Nainwal park",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Nainwal",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Park",
+          "feature_1": "4852",
+          "feature_2": "open gym, Canopy, Walking track",
+          "feature_3": "yes",
+          "feature_4": "Brick wall",
+          "feature_5": "Tubewell",
+          "feature_6": "MC Manesar",
+          "feature_7": "Good",
+          "feature_8": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2023-24/90615",
+          "workName": "Construction and development of park in nainwal village near govt school Municipal corporation Manesar",
+          "workCategory": "Civil",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Construction and development of park in nainwal village near govt school Municipal corporation Manesar",
+          "tenderId": "2024_HRY_388606_1",
+          "tenderName": "Construction and development of park in nainwal village near govt school Municipal corporation Manesar",
+          "tenderDate": "2024-07-09",
+          "estimatedAmount": "72.44",
+          "agencyName": "The Ridhi Sidhi Co-Op L and C Society",
+          "workOrderDate": "2025-01-07",
+          "agreementAmount": "72.42",
+          "workStartDate": "2025-01-13",
+          "completionDate": "2026-09-30",
+          "actualExpenditure": "74.16",
+          "timeExtension": "Yes",
+          "extendedUpto": "2026-09-30",
+          "testingStatus": "Passed",
+          "dlpPeriod": "12",
+          "dlpStartDate": "2026-09-30",
+          "dlpEndDate": "2027-09-29",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-10-07T07:57:28.548Z"
+        },
+        "workId": "MCM-PK-000003-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-07T07:58:33.882Z",
+        "photos": [],
+        "createdAt": "2026-10-07T07:50:27.915Z",
+        "featuresReviewedForWork": "MCM-PK-000003-W1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.944428,
+              28.333088
+            ],
+            [
+              76.944423,
+              28.332611
+            ],
+            [
+              76.945243,
+              28.332644
+            ],
+            [
+              76.945313,
+              28.332965
+            ],
+            [
+              76.945335,
+              28.33305
+            ],
+            [
+              76.945147,
+              28.333154
+            ],
+            [
+              76.944428,
+              28.333088
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
