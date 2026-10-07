@@ -23331,6 +23331,50 @@
           28.382412
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000043",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Community Center Nawada",
+        "ward": "",
+        "sector": "",
+        "villageName": "Nawada",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "5805",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-07T10:14:43.467Z",
+        "photos": [],
+        "createdAt": "2026-10-07T10:14:00.320Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.938554,
+          28.39919
+        ]
+      }
     }
   ]
 }
