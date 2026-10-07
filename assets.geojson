@@ -23034,14 +23034,14 @@
         "lengthM": "3500",
         "featureData": {
           "feature_0": "Local",
-          "feature_1": "16184",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "",
+          "feature_1": "10800",
+          "feature_2": "Lawn, park, Walking track",
+          "feature_3": "Yes",
+          "feature_4": "Precast boundary",
+          "feature_5": "Tubewell",
+          "feature_6": "Contractor- Bijay Singh",
           "feature_7": "Good",
-          "feature_8": "Yes"
+          "feature_8": "MCM"
         },
         "lifecycleData": {
           "hewpId": "ULB/2025-26/092300",
@@ -23072,10 +23072,10 @@
         },
         "workId": "MCM-PK-000002-W1",
         "workHistory": [],
-        "updatedAt": "2026-10-07T08:15:51.035Z",
+        "updatedAt": "2026-10-07T08:18:14.915Z",
         "photos": [],
         "createdAt": "2026-09-25T08:45:46.000Z",
-        "featuresUpdatedAt": "2026-10-05T09:01:11.850Z"
+        "featuresUpdatedAt": "2026-10-07T08:18:14.961Z"
       },
       "geometry": {
         "type": "Polygon",
