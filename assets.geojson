@@ -23118,6 +23118,50 @@
           28.39296
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000040",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "SC Chaupal Lakhnola",
+        "ward": "",
+        "sector": "",
+        "villageName": "Lakhnola",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "1220",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-07T09:59:56.149Z",
+        "photos": [],
+        "createdAt": "2026-10-07T09:51:32.176Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.953747,
+          28.3791
+        ]
+      }
     }
   ]
 }
