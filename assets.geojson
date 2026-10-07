@@ -22951,6 +22951,50 @@
           28.43001
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000039",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "PHC Bhangrola",
+        "ward": "",
+        "sector": "",
+        "villageName": "Harsaru",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "14455",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-07T05:59:55.266Z",
+        "photos": [],
+        "createdAt": "2026-10-07T05:42:08.437Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.906234,
+          28.39296
+        ]
+      }
     }
   ]
 }
