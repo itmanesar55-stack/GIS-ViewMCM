@@ -19306,104 +19306,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-PK-000002",
-        "ulb": "MCM",
-        "assetClass": "PK",
-        "visibility": "public",
-        "assetName": "Providing Horticulture Composter Machine mannure conversction including one year maintenance in manesar",
-        "ward": "9",
-        "sector": "",
-        "villageName": "Kasan",
-        "ownership": "ULB-built",
-        "lengthM": "3500",
-        "featureData": {
-          "feature_0": "Local",
-          "feature_1": "16184",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "",
-          "feature_7": "Good",
-          "feature_8": "Yes"
-        },
-        "lifecycleData": {
-          "hewpId": "ULB/2025-26/092300",
-          "workName": "Providing Horticulture Composter Machine mannure conversction including one year maintenance in manesar",
-          "workCategory": "Horticulture",
-          "componentWorked": "",
-          "workType": "Other",
-          "workDescription": "Providing Horticulture Composter Machine mannure conversction including one year maintenance in manesar",
-          "tenderId": "2025_HRY_471643_1",
-          "tenderName": "Providing Horticulture Composter Machine mannure conversction including one year maintenance in manesar",
-          "tenderDate": "2025-09-11",
-          "estimatedAmount": "2483840",
-          "agencyName": "THE SATROD COOPERATIVE LABOUR AND CONSTRUCTION SOCIETY LTD",
-          "workOrderDate": "2025-11-12",
-          "agreementAmount": "2144000",
-          "workStartDate": "2025-11-14",
-          "completionDate": "2026-11-14",
-          "actualExpenditure": "1500800",
-          "timeExtension": "No",
-          "extendedUpto": "",
-          "testingStatus": "Passed",
-          "dlpPeriod": "12",
-          "dlpStartDate": "2026-11-14",
-          "dlpEndDate": "2027-11-13",
-          "fundSource": "MC Fund",
-          "remarks": "",
-          "addedAt": "2026-10-05T09:08:54.197Z"
-        },
-        "workId": "MCM-PK-000002-W1",
-        "workHistory": [],
-        "updatedAt": "2026-10-05T09:08:52.832Z",
-        "photos": [],
-        "createdAt": "2026-09-25T08:45:46.000Z",
-        "featuresUpdatedAt": "2026-10-05T09:01:11.850Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              76.893423,
-              28.356
-            ],
-            [
-              76.893016,
-              28.355783
-            ],
-            [
-              76.893241,
-              28.355358
-            ],
-            [
-              76.893579,
-              28.354759
-            ],
-            [
-              76.893627,
-              28.354877
-            ],
-            [
-              76.893676,
-              28.355349
-            ],
-            [
-              76.893681,
-              28.355622
-            ],
-            [
-              76.893423,
-              28.356
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-CP-000003",
         "ulb": "MCM",
         "assetClass": "CP",
@@ -23112,6 +23014,104 @@
             [
               76.944428,
               28.333088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-PK-000002",
+        "ulb": "MCM",
+        "assetClass": "PK",
+        "visibility": "public",
+        "assetName": "Kasan pond",
+        "ward": "9",
+        "sector": "",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "lengthM": "3500",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "16184",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "Good",
+          "feature_8": "Yes"
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/092300",
+          "workName": "Providing Horticulture Composter Machine mannure conversction including one year maintenance in manesar",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "Other",
+          "workDescription": "Providing Horticulture Composter Machine mannure conversction including one year maintenance in manesar",
+          "tenderId": "2025_HRY_471643_1",
+          "tenderName": "Providing Horticulture Composter Machine mannure conversction including one year maintenance in manesar",
+          "tenderDate": "2025-09-11",
+          "estimatedAmount": "2483840",
+          "agencyName": "THE SATROD COOPERATIVE LABOUR AND CONSTRUCTION SOCIETY LTD",
+          "workOrderDate": "2025-11-12",
+          "agreementAmount": "2144000",
+          "workStartDate": "2025-11-14",
+          "completionDate": "2026-11-14",
+          "actualExpenditure": "1500800",
+          "timeExtension": "No",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "12",
+          "dlpStartDate": "2026-11-14",
+          "dlpEndDate": "2027-11-13",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-10-05T09:08:54.197Z"
+        },
+        "workId": "MCM-PK-000002-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-07T08:15:35.258Z",
+        "photos": [],
+        "createdAt": "2026-09-25T08:45:46.000Z",
+        "featuresUpdatedAt": "2026-10-05T09:01:11.850Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.893423,
+              28.356
+            ],
+            [
+              76.893016,
+              28.355783
+            ],
+            [
+              76.893241,
+              28.355358
+            ],
+            [
+              76.893579,
+              28.354759
+            ],
+            [
+              76.893627,
+              28.354877
+            ],
+            [
+              76.893676,
+              28.355349
+            ],
+            [
+              76.893681,
+              28.355622
+            ],
+            [
+              76.893423,
+              28.356
             ]
           ]
         ]
