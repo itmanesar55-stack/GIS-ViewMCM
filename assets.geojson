@@ -22180,6 +22180,50 @@
           28.373224
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000028",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "General Chaupal Kankrola",
+        "ward": "",
+        "sector": "",
+        "villageName": "Kankrola",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "925",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-07T04:30:47.762Z",
+        "photos": [],
+        "createdAt": "2026-10-07T04:29:43.985Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.918272,
+          28.389075
+        ]
+      }
     }
   ]
 }
