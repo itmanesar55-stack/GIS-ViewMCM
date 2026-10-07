@@ -22897,7 +22897,7 @@
         "featureData": {
           "feature_0": "",
           "feature_1": "",
-          "feature_2": "",
+          "feature_2": "1468",
           "feature_3": "",
           "feature_4": "",
           "feature_5": "",
@@ -22913,9 +22913,10 @@
         "lifecycleData": {},
         "workId": "",
         "workHistory": [],
-        "updatedAt": "2026-10-07T05:26:15.632Z",
+        "updatedAt": "2026-10-07T05:26:29.796Z",
         "photos": [],
-        "createdAt": "2026-10-07T05:23:43.873Z"
+        "createdAt": "2026-10-07T05:23:43.873Z",
+        "featuresUpdatedAt": "2026-10-07T05:26:30.593Z"
       },
       "geometry": {
         "type": "Point",
