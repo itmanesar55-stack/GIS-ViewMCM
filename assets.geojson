@@ -22320,6 +22320,50 @@
           28.416686
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000030",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Gram Sachivalaya Dhorka",
+        "ward": "",
+        "sector": "",
+        "villageName": "Dhorka",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "2833",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-07T04:38:26.912Z",
+        "photos": [],
+        "createdAt": "2026-10-07T04:37:34.204Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.905898,
+          28.40706
+        ]
+      }
     }
   ]
 }
