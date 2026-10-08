@@ -23817,6 +23817,60 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-CP-000005",
+        "ulb": "MCM",
+        "assetClass": "CP",
+        "visibility": "public",
+        "assetName": "Prajpati Chaupal Kukrola",
+        "ward": "09",
+        "sector": "",
+        "villageName": "Kukrola",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Kukrola",
+          "feature_1": "",
+          "feature_2": "Open and Covered both",
+          "feature_3": "",
+          "feature_4": "ULB-built",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "Sukh Enterpries"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-08T08:23:54.106Z",
+        "photos": [],
+        "createdAt": "2026-10-08T08:14:26.446Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.900483,
+              28.321599
+            ],
+            [
+              76.900145,
+              28.321585
+            ],
+            [
+              76.90036,
+              28.321354
+            ],
+            [
+              76.900483,
+              28.321599
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
