@@ -24665,6 +24665,85 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-WL-000009",
+        "ulb": "MCM",
+        "assetClass": "WL",
+        "visibility": "public",
+        "assetName": "Water supply in Nawada",
+        "ward": "20",
+        "sector": "",
+        "villageName": "Nawada Fatehpur",
+        "ownership": "ULB-built",
+        "lengthM": "856.18",
+        "featureData": {
+          "feature_0": "Cement",
+          "feature_1": "100",
+          "feature_2": "",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "0",
+          "feature_8": "Yes",
+          "feature_9": "",
+          "feature_10": "Panchayat"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-09T09:25:48.490Z",
+        "photos": [],
+        "createdAt": "2026-10-09T09:24:40.037Z"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.940529,
+            28.39843
+          ],
+          [
+            76.941001,
+            28.398468
+          ],
+          [
+            76.941044,
+            28.396845
+          ],
+          [
+            76.941054,
+            28.396402
+          ],
+          [
+            76.941763,
+            28.396388
+          ],
+          [
+            76.941773,
+            28.395713
+          ],
+          [
+            76.941806,
+            28.395138
+          ],
+          [
+            76.942868,
+            28.395161
+          ],
+          [
+            76.943136,
+            28.395142
+          ],
+          [
+            76.9432,
+            28.392972
+          ]
+        ]
+      }
     }
   ]
 }
