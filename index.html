@@ -68,6 +68,7 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mapbox/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js" integrity="sha384-C5TjWI9mRUxt0mbkh94XvDiod6mq7+GVybF1eWTozMPt8X6DvzPeFfzpNsVmb1Tu" crossorigin="anonymous"></script>
+  <script>window.PUBLIC_VIEW = true;  // map-layers.js leaves out portal-only layers (e.g. the master plan)</script>
   <script src="map-layers.js"></script>
   <script>
     const map = L.map('map', { zoomControl: false }).setView([28.36, 76.94], 13);
@@ -100,7 +101,7 @@
       const rows = [
         ['Asset ID', properties.assetId], ['Asset Name', properties.assetName], ['Asset Class', (CLASS_DEFS[code] && CLASS_DEFS[code].label) || (ASSET_CLASSES[code] || [null, code])[1]],
         ['ULB', properties.ulb], ['Ward', properties.ward], ['Sector', properties.sector],
-        ['Ownership', properties.ownership], ['Status', properties.status], ['Confidence', properties.confidence],
+        ['Ownership', properties.ownership], ['Status', properties.status],
         ['Length (m)', properties.lengthM], ['Created By', properties.createdBy]
       ];
       // Every feature heading of the class is listed, blank ones as a dash.
