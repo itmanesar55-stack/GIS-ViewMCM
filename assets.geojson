@@ -24307,9 +24307,10 @@
         },
         "workId": "MCM-CP-000004-W1",
         "workHistory": [],
-        "updatedAt": "2026-10-09T06:46:24.544Z",
+        "updatedAt": "2026-10-09T06:46:46.535Z",
         "photos": [],
-        "createdAt": "2026-10-07T10:28:28.320Z"
+        "createdAt": "2026-10-07T10:28:28.320Z",
+        "featuresReviewedForWork": "MCM-CP-000004-W1"
       },
       "geometry": {
         "type": "Polygon",
