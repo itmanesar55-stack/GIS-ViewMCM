@@ -24253,6 +24253,68 @@
           28.33439
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-CP-000004",
+        "ulb": "MCM",
+        "assetClass": "CP",
+        "visibility": "public",
+        "assetName": "General Chaupal in Village Sikanderpur Badha",
+        "ward": "19",
+        "sector": "Div 2",
+        "villageName": "Sikanderpur Badha",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Sikanderpur Badha",
+          "feature_1": "",
+          "feature_2": "Covered",
+          "feature_3": "2 Floor",
+          "feature_4": "ULB-built",
+          "feature_5": "",
+          "feature_6": "Good",
+          "feature_7": "The Shivam Cooperative Labour and Construction Society Limited Gurugram"
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-09T06:38:09.448Z",
+        "photos": [],
+        "createdAt": "2026-10-07T10:28:28.320Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.957697,
+              28.403396
+            ],
+            [
+              76.957696,
+              28.40328
+            ],
+            [
+              76.957697,
+              28.403224
+            ],
+            [
+              76.957861,
+              28.403227
+            ],
+            [
+              76.957857,
+              28.403397
+            ],
+            [
+              76.957697,
+              28.403396
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
