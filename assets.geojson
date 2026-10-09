@@ -24111,6 +24111,50 @@
           28.401882
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000051",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "SC Chaupal Rampura",
+        "ward": "",
+        "sector": "",
+        "villageName": "Rampura",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "1472",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-09T05:58:43.975Z",
+        "photos": [],
+        "createdAt": "2026-10-09T05:57:56.871Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.970737,
+          28.38199
+        ]
+      }
     }
   ]
 }
