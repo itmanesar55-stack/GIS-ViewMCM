@@ -23969,6 +23969,50 @@
           28.401123
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000048",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Community Center Bamdoli",
+        "ward": "",
+        "sector": "",
+        "villageName": "Bamdoli",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "2266",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-09T05:48:02.100Z",
+        "photos": [],
+        "createdAt": "2026-10-09T05:47:11.133Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.956211,
+          28.421727
+        ]
+      }
     }
   ]
 }
