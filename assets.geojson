@@ -24182,6 +24182,50 @@
           28.38199
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000052",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Mandir Chaupal Nainwal",
+        "ward": "",
+        "sector": "",
+        "villageName": "Nainwal",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "2082",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-09T06:02:18.713Z",
+        "photos": [],
+        "createdAt": "2026-10-09T06:01:54.683Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.946661,
+          28.33439
+        ]
+      }
     }
   ]
 }
