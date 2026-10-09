@@ -398,3 +398,46 @@ function loadMunicipalLayers(targetMap, layerPanel, onBoundaryReady, autoAdd = t
   }
   return groupLayers;
 }
+// Esri basemaps stop at different zooms in different places (around Manesar the imagery has zoom 19 for only part
+// of the area). Above `fullZoom` - the deepest level present everywhere here - Esri's tilemap is asked which tiles
+// exist, and a missing tile is drawn from its nearest parent instead of the grey "Map data not yet available" tile.
+// If the tilemap can't be reached, tiles come from fullZoom.
+const EsriTileLayer = L.GridLayer.extend({
+  initialize(url, options) { this._url = url; this._blocks = {}; L.GridLayer.prototype.initialize.call(this, options); },
+  createTile(coords, done) {
+    const tile = document.createElement('div'), size = this.getTileSize();
+    tile.style.overflow = 'hidden';
+    this._availableZoom(coords).then(z => {
+      const d = coords.z - z, f = 1 << d, img = document.createElement('img');
+      img.alt = ''; img.setAttribute('role', 'presentation');
+      img.style.cssText = 'position:absolute;max-width:none;width:' + size.x * f + 'px;height:' + size.y * f + 'px;left:' +
+        -(coords.x % f) * size.x + 'px;top:' + -(coords.y % f) * size.y + 'px';
+      img.onload = () => done(null, tile); img.onerror = e => done(e, tile);
+      img.src = L.Util.template(this._url, { z, x: coords.x >> d, y: coords.y >> d });
+      tile.appendChild(img);
+    });
+    return tile;
+  },
+  async _availableZoom(coords) {
+    for (let z = coords.z; z > this.options.fullZoom; z--) {
+      const d = coords.z - z;
+      if (await this._has(z, coords.x >> d, coords.y >> d)) return z;
+    }
+    return Math.min(coords.z, this.options.fullZoom);
+  },
+  _has(z, x, y) {   // tilemap is fetched in 16x16 blocks and cached
+    const B = 16, bx = Math.floor(x / B) * B, by = Math.floor(y / B) * B, key = z + '/' + bx + '/' + by;
+    if (!this._blocks[key]) this._blocks[key] = fetch(this._url.replace('/tile/{z}/{y}/{x}', '/tilemap/' + z + '/' + by + '/' + bx + '/' + B + '/' + B))
+      .then(r => r.json()).catch(() => null);
+    return this._blocks[key].then(t => {
+      const loc = t && t.location;
+      if (!loc) return false;
+      const col = x - loc.left, row = y - loc.top;
+      return col >= 0 && row >= 0 && col < loc.width && row < loc.height && t.data[row * loc.width + col] === 1;
+    });
+  }
+});
+const ESRI_TILES = 'https://server.arcgisonline.com/ArcGIS/rest/services/';
+function esriBasemap(service, fullZoom, maxZoom) {
+  return new EsriTileLayer(ESRI_TILES + service + '/MapServer/tile/{z}/{y}/{x}', { maxZoom, maxNativeZoom: 19, fullZoom, attribution: 'Tiles &copy; Esri' });
+}

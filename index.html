@@ -73,7 +73,7 @@
   <script>
     const map = L.map('map', { zoomControl: false }).setView([28.36, 76.94], 13);
     L.control.zoom({ position: 'bottomright' }).addTo(map);
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 22, maxNativeZoom: 19, attribution: 'Tiles &copy; Esri' }).addTo(map);
+    esriBasemap('World_Imagery', 18, 22).addTo(map);   // from map-layers.js
 
     // Boundaries, land records etc. - the same floating layer panel as the portal (map-layers.js / map-layers.css).
     let boundaryFitted = false;
