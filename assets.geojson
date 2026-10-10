@@ -28279,6 +28279,50 @@
           28.319998
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000055",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Gram Sachivalya Fazalwas",
+        "ward": "",
+        "sector": "",
+        "villageName": "Fazalwas",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "2580",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-10T06:52:09.385Z",
+        "photos": [],
+        "createdAt": "2026-10-10T06:51:42.235Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9006,
+          28.313306
+        ]
+      }
     }
   ]
 }
