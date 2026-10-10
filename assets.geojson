@@ -28208,6 +28208,50 @@
           28.330705
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000054",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Power Grid Kukdola",
+        "ward": "",
+        "sector": "",
+        "villageName": "Kukdola",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "5412",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-10T06:48:06.113Z",
+        "photos": [],
+        "createdAt": "2026-10-10T06:47:31.551Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.900153,
+          28.319998
+        ]
+      }
     }
   ]
 }
