@@ -28705,6 +28705,50 @@
           28.35631
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000061",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Khati Chaupal Nainwal",
+        "ward": "",
+        "sector": "",
+        "villageName": "Nainwal",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "1384",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-10T07:29:15.108Z",
+        "photos": [],
+        "createdAt": "2026-10-10T07:28:31.191Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.942677,
+          28.329743
+        ]
+      }
     }
   ]
 }
