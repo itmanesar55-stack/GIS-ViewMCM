@@ -28973,6 +28973,82 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RD-000032",
+        "ulb": "MCM",
+        "assetClass": "RD",
+        "visibility": "public",
+        "assetName": "PWD road from kota khandewla to baba Mohan ram mandir",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar Gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "707.34",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "falxibale Road",
+          "feature_2": "black top",
+          "feature_3": "5.15",
+          "feature_4": "1",
+          "feature_5": "No",
+          "feature_6": "No",
+          "feature_7": "No",
+          "feature_8": "Good",
+          "feature_9": "2026",
+          "feature_10": "",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-12T11:23:17.008Z",
+        "photos": [],
+        "createdAt": "2026-10-12T11:19:48.802Z"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.969224,
+            28.336766
+          ],
+          [
+            76.970111,
+            28.336787
+          ],
+          [
+            76.970811,
+            28.336804
+          ],
+          [
+            76.97204,
+            28.336849
+          ],
+          [
+            76.973046,
+            28.336872
+          ],
+          [
+            76.973743,
+            28.336903
+          ],
+          [
+            76.974736,
+            28.336936
+          ],
+          [
+            76.975573,
+            28.336964
+          ],
+          [
+            76.976446,
+            28.336945
+          ]
+        ]
+      }
     }
   ]
 }
