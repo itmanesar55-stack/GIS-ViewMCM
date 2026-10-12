@@ -28847,6 +28847,105 @@
           28.318884
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-PK-000004",
+        "ulb": "MCM",
+        "assetClass": "PK",
+        "visibility": "public",
+        "assetName": "Kasan lake maintenance  of lawn and operation of  STP",
+        "ward": "09",
+        "sector": "07",
+        "villageName": "Kasan",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Park, Roads",
+          "feature_1": "10800",
+          "feature_2": "Lawn STP",
+          "feature_3": "",
+          "feature_4": "Prcast",
+          "feature_5": "Boring",
+          "feature_6": "Bijay Singh",
+          "feature_7": "Good",
+          "feature_8": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-12T10:37:12.690Z",
+        "photos": [],
+        "createdAt": "2026-10-12T10:35:29.674Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.892968,
+              28.355743
+            ],
+            [
+              76.89344,
+              28.356026
+            ],
+            [
+              76.893623,
+              28.355856
+            ],
+            [
+              76.893698,
+              28.355393
+            ],
+            [
+              76.893623,
+              28.354695
+            ],
+            [
+              76.893279,
+              28.353968
+            ],
+            [
+              76.892517,
+              28.354006
+            ],
+            [
+              76.891401,
+              28.353977
+            ],
+            [
+              76.891777,
+              28.354468
+            ],
+            [
+              76.891981,
+              28.354553
+            ],
+            [
+              76.892249,
+              28.354176
+            ],
+            [
+              76.892721,
+              28.354119
+            ],
+            [
+              76.893279,
+              28.354185
+            ],
+            [
+              76.893526,
+              28.354865
+            ],
+            [
+              76.892968,
+              28.355743
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
