@@ -11,6 +11,10 @@ const KML_LAYERS = [
   // All roads from GMDA OneMap ("Roads Under MC Manesar"), one sub-layer per road type, from tools/import_roads_kml.py.
   { name: 'Roads (All)', category: 'Colonies & Infrastructure', color: 'linear-gradient(90deg, #4ce600 25%, #ff00c5 25% 50%, #00c5ff 50% 75%, #ffaa00 75%)', show: false,
     groupLayer: 'layers/MCM_Roads_All.geojson', legend: true },
+  // Driishya drone survey road inventory (topology checked 30-01-2026): road surface, footpath, berms, central verge,
+  // centrelines; from tools/import_driishya_roads.py.
+  { name: 'Road Inventory (Driishya 2026)', category: 'Colonies & Infrastructure', portalOnly: true, color: 'linear-gradient(90deg, #ffff00 25%, #d500f9 25% 50%, #8d6e63 50% 75%, #2e7d32 75%)', show: false,
+    groupLayer: 'layers/MCM_Road_Inventory.geojson', legend: true },
   { name: 'Ward Boundaries', category: 'Boundaries', color: '#ffd400', show: true, files: ['MCM_Wards.kml'], wardLabels: true },
   // Khasra-level land parcels from GMDA OneMap (rebuilt by tools/export_gmda_mcm.py).
   { name: 'MCM Land (Khasra)', category: 'Land Records', color: '#00e5ff', show: false, geojson: 'MCM_Land.geojson' },
@@ -24,10 +28,15 @@ const KML_LAYERS = [
     groupLayer: 'layers/Sultanpur_CLU.geojson', legend: true },
   // Proposed metro Sector 56 - Panchgaon (CAD alignment KMZ of 16-09-2024), from tools/import_metro_kmz.py.
   { name: 'Metro Alignment (Sec 56 - Panchgaon)', category: 'Planning', color: 'linear-gradient(90deg, #e6007e 60%, #00e676 60%)', show: false,
-    groupLayer: 'layers/Metro_Sector56_Panchgaon.geojson', legend: true }
+    groupLayer: 'layers/Metro_Sector56_Panchgaon.geojson', legend: true },
+  // From the Driishya drone survey DTM, by tools/build_survey_rasters.py (contours / lowspots steps).
+  { name: 'Contours (1 m / 5 m)', category: 'Terrain', portalOnly: true, color: 'linear-gradient(90deg, #6d4c41 50%, #a1887f 50%)', show: false,
+    groupLayer: 'layers/MCM_Contours.geojson', legend: true },
+  { name: 'Low-lying spots (water collects)', category: 'Terrain', portalOnly: true, color: 'linear-gradient(90deg, #90caf9 33%, #1e88e5 33% 66%, #0d47a1 66%)', show: false,
+    groupLayer: 'layers/MCM_Low_Lying.geojson', legend: true }
 ];
 // Order of the groups in the layer dropdown (like OneMap's layer list).
-const KML_LAYER_CATEGORIES = ['Boundaries', 'Planning', 'Land Records', 'Colonies & Infrastructure'];
+const KML_LAYER_CATEGORIES = ['Boundaries', 'Planning', 'Land Records', 'Colonies & Infrastructure', 'Terrain'];
 const KHASRA_LABEL_MIN_ZOOM = 17;
 const CADASTRAL_MIN_ZOOM = 15, CADASTRAL_LABEL_MIN_ZOOM = 18;
 function cadastralPopupHtml(p) {
@@ -276,8 +285,10 @@ function addAreaLabels(kmlLayer, layerGroup, group) {
 // Only the Municipal Boundary (needed to fit the map) is fetched up front; every other KML is fetched the first time its layer is switched on.
 function loadMunicipalLayers(targetMap, layerPanel, onBoundaryReady, autoAdd = true, passive = false) {
   const groupLayers = {};
-  // The public GitHub Pages view sets window.PUBLIC_VIEW; portal-only layers (e.g. the master plan) are left out there.
-  const layers = KML_LAYERS.filter(g => !(window.PUBLIC_VIEW && g.portalOnly));
+  // Public views - the GitHub Pages copy (window.PUBLIC_VIEW) and the portal's ?public=1 map - leave out portal-only
+  // layers and the whole Planning group (master plan, CLU, metro); tools/sync_public_view.py also keeps their files off GitHub.
+  const isPublicView = window.PUBLIC_VIEW || new URLSearchParams(location.search).get('public') === '1';
+  const layers = KML_LAYERS.filter(g => !(isPublicView && (g.portalOnly || g.category === 'Planning')));
   layers.forEach(group => {
     const layerGroup = L.layerGroup();
     const fetchFiles = group.groupLayer ? () => loadGroupLayer(targetMap, group, layerGroup, passive)
