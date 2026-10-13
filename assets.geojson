@@ -20755,76 +20755,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-RWH-000034",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "Bosting Station Garhi",
-        "ward": "",
-        "sector": "",
-        "villageName": "Garhi",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "1078",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "",
-          "feature_11": "",
-          "feature_12": "Poor",
-          "feature_13": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ULB/2026-27/356832",
-          "workName": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 1 in MCM",
-          "workCategory": "Horticulture",
-          "componentWorked": "",
-          "workType": "New Construction",
-          "workDescription": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 1 in MCM",
-          "tenderId": "",
-          "tenderName": "",
-          "tenderDate": "",
-          "estimatedAmount": "7813114",
-          "agencyName": "",
-          "workOrderDate": "",
-          "agreementAmount": "",
-          "workStartDate": "",
-          "completionDate": "",
-          "actualExpenditure": "",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "",
-          "dlpPeriod": "",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "MC Fund",
-          "remarks": "",
-          "addedAt": "2026-10-07T05:00:59.233Z"
-        },
-        "workId": "MCM-RWH-000034-W1",
-        "workHistory": [],
-        "updatedAt": "2026-10-07T05:00:57.960Z",
-        "photos": [],
-        "createdAt": "2026-10-07T04:59:24.109Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.935531,
-          28.445175
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RWH-000035",
         "ulb": "MCM",
         "assetClass": "RWH",
@@ -31253,6 +31183,77 @@
         "coordinates": [
           76.938262,
           28.450824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000034",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Bosting Station Garhi",
+        "ward": "",
+        "sector": "",
+        "villageName": "Garhi",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "1078",
+          "feature_3": "1",
+          "feature_4": "3*3*4",
+          "feature_5": "55",
+          "feature_6": "",
+          "feature_7": "10000",
+          "feature_8": "Yes",
+          "feature_9": "Pipeline",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/356832",
+          "workName": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 1 in MCM",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 1 in MCM",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "7813114",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-10-07T05:00:59.233Z"
+        },
+        "workId": "MCM-RWH-000034-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T10:19:18.544Z",
+        "photos": [],
+        "createdAt": "2026-10-07T04:59:24.109Z",
+        "featuresUpdatedAt": "2026-10-13T10:19:17.983Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.935531,
+          28.445175
         ]
       }
     }
