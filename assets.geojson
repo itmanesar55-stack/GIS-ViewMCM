@@ -31567,6 +31567,48 @@
           28.3984
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-BN-000005",
+        "ulb": "MCM",
+        "assetClass": "BN",
+        "visibility": "public",
+        "assetName": "Mandir Park Nawada",
+        "ward": "20",
+        "sector": "",
+        "villageName": "Nawada",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Park",
+          "feature_1": "RCC",
+          "feature_2": "1.8",
+          "feature_3": "3",
+          "feature_4": "Yes",
+          "feature_5": "Yes",
+          "feature_6": "No",
+          "feature_7": "Fixing",
+          "feature_8": "10",
+          "feature_9": "",
+          "feature_10": "Poor",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T11:27:07.862Z",
+        "photos": [],
+        "createdAt": "2026-10-13T11:26:46.331Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.941701,
+          28.39394
+        ]
+      }
     }
   ]
 }
