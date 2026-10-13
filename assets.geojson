@@ -20755,76 +20755,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-RWH-000022",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "Community center Dhana",
-        "ward": "",
-        "sector": "",
-        "villageName": "Dhana",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "Local",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "",
-          "feature_4": "2*2*1",
-          "feature_5": "",
-          "feature_6": "",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "",
-          "feature_11": "",
-          "feature_12": "",
-          "feature_13": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ULB/2026-27/356832",
-          "workName": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 1 in MCM",
-          "workCategory": "Horticulture",
-          "componentWorked": "",
-          "workType": "New Construction",
-          "workDescription": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 1 in MCM",
-          "tenderId": "",
-          "tenderName": "",
-          "tenderDate": "",
-          "estimatedAmount": "7813114",
-          "agencyName": "",
-          "workOrderDate": "",
-          "agreementAmount": "",
-          "workStartDate": "",
-          "completionDate": "",
-          "actualExpenditure": "",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "",
-          "dlpPeriod": "",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "MC Fund",
-          "remarks": "",
-          "addedAt": "2026-10-06T10:28:18.924Z"
-        },
-        "workId": "MCM-RWH-000022-W1",
-        "workHistory": [],
-        "updatedAt": "2026-10-06T10:28:18.633Z",
-        "photos": [],
-        "createdAt": "2026-10-06T10:03:27.084Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.889061,
-          28.373559
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RWH-000023",
         "ulb": "MCM",
         "assetClass": "RWH",
@@ -31242,6 +31172,77 @@
         "coordinates": [
           76.889362,
           28.374374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000022",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Community center Dhana",
+        "ward": "7",
+        "sector": "",
+        "villageName": "Dhana",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Local",
+          "feature_1": "",
+          "feature_2": "925",
+          "feature_3": "1",
+          "feature_4": "3*3*4",
+          "feature_5": "55",
+          "feature_6": "",
+          "feature_7": "10000",
+          "feature_8": "Yes",
+          "feature_9": "Pipeline",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/356832",
+          "workName": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 1 in MCM",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 1 in MCM",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "7813114",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-10-06T10:28:18.924Z"
+        },
+        "workId": "MCM-RWH-000022-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T10:08:03.603Z",
+        "photos": [],
+        "createdAt": "2026-10-06T10:03:27.084Z",
+        "featuresUpdatedAt": "2026-10-13T10:08:03.675Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.889061,
+          28.373559
         ]
       }
     }
