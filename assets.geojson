@@ -20949,77 +20949,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-RWH-000044",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "Gram Sachivalaya Nawada",
-        "ward": "",
-        "sector": "",
-        "villageName": "Nawada",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "2982",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "",
-          "feature_11": "",
-          "feature_12": "Poor",
-          "feature_13": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ULB/2026-27/355732",
-          "workName": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
-          "workCategory": "Horticulture",
-          "componentWorked": "",
-          "workType": "New Construction",
-          "workDescription": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
-          "tenderId": "",
-          "tenderName": "",
-          "tenderDate": "",
-          "estimatedAmount": "8993602",
-          "agencyName": "",
-          "workOrderDate": "",
-          "agreementAmount": "",
-          "workStartDate": "",
-          "completionDate": "",
-          "actualExpenditure": "",
-          "billStage": "",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "",
-          "dlpPeriod": "",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "MC Fund",
-          "remarks": "",
-          "addedAt": "2026-10-08T05:35:02.206Z"
-        },
-        "workId": "MCM-RWH-000044-W1",
-        "workHistory": [],
-        "updatedAt": "2026-10-08T05:35:03.987Z",
-        "photos": [],
-        "createdAt": "2026-10-08T05:33:11.938Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.939362,
-          28.399139
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RWH-000045",
         "ulb": "MCM",
         "assetClass": "RWH",
@@ -31263,6 +31192,77 @@
         "coordinates": [
           76.938554,
           28.39919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000044",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Gram Sachivalaya Nawada",
+        "ward": "",
+        "sector": "",
+        "villageName": "Nawada",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "2982",
+          "feature_3": "",
+          "feature_4": "",
+          "feature_5": "",
+          "feature_6": "",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/355732",
+          "workName": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "8993602",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "billStage": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-10-08T05:35:02.206Z"
+        },
+        "workId": "MCM-RWH-000044-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T10:28:49.760Z",
+        "photos": [],
+        "createdAt": "2026-10-08T05:33:11.938Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.939362,
+          28.399139
         ]
       }
     }
