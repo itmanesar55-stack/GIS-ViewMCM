@@ -21623,48 +21623,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000192",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell near Samshan Ghat, Bar Gujjar",
-        "ward": "16",
-        "sector": "",
-        "villageName": "Bar-Gujjar",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "499",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-06T10:04:17.072Z",
-        "photos": [],
-        "createdAt": "2026-10-06T10:04:09.326Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.980389,
-          28.339944
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RWH-000022",
         "ulb": "MCM",
         "assetClass": "RWH",
@@ -30702,6 +30660,75 @@
             76.918127,
             28.344135
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000192",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell near Samshan Ghat, Bar Gujjar",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar-Gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "499",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/248947",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "workCategory": "Water Supply",
+          "componentWorked": "O&M",
+          "workType": "Maintenance",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderId": "2025_HRY_458349_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderDate": "2025-07-03",
+          "estimatedAmount": "13.93",
+          "agencyName": "Pawan Kumar Contractor",
+          "workOrderDate": "2025-08-04",
+          "agreementAmount": "1033423",
+          "workStartDate": "2025-08-05",
+          "completionDate": "2026-08-05",
+          "actualExpenditure": "10.33",
+          "billStage": "Final Bill",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "-2",
+          "dlpStartDate": "2026-08-05",
+          "dlpEndDate": "",
+          "fundSource": "MC fund",
+          "remarks": "",
+          "addedAt": "2026-10-13T09:43:33.768Z"
+        },
+        "workId": "MCM-TW-000192-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T09:43:33.693Z",
+        "photos": [],
+        "createdAt": "2026-10-06T10:04:09.326Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.980389,
+          28.339944
         ]
       }
     }
