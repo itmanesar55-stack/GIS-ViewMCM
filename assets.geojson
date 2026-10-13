@@ -31609,6 +31609,48 @@
           28.39394
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-BN-000006",
+        "ulb": "MCM",
+        "assetClass": "BN",
+        "visibility": "public",
+        "assetName": "General Chaupal",
+        "ward": "20",
+        "sector": "",
+        "villageName": "Nawada",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Chaupal",
+          "feature_1": "Cast Iron",
+          "feature_2": "1.8",
+          "feature_3": "3",
+          "feature_4": "Yes",
+          "feature_5": "Yes",
+          "feature_6": "No",
+          "feature_7": "Fixing",
+          "feature_8": "5",
+          "feature_9": "",
+          "feature_10": "Poor",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T11:28:59.397Z",
+        "photos": [],
+        "createdAt": "2026-10-13T11:28:39.109Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.939982,
+          28.39465
+        ]
+      }
     }
   ]
 }
