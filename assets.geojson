@@ -31372,6 +31372,48 @@
           28.318884
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-BN-000001",
+        "ulb": "MCM",
+        "assetClass": "BN",
+        "visibility": "public",
+        "assetName": "Cremation Ground Nawada",
+        "ward": "20",
+        "sector": "",
+        "villageName": "Nawada",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Ground",
+          "feature_1": "RCC",
+          "feature_2": "1.8",
+          "feature_3": "3",
+          "feature_4": "Yes",
+          "feature_5": "Yes",
+          "feature_6": "No",
+          "feature_7": "Fixing",
+          "feature_8": "10",
+          "feature_9": "",
+          "feature_10": "Poor",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T11:18:03.041Z",
+        "photos": [],
+        "createdAt": "2026-10-13T11:17:31.141Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.941983,
+          28.39801
+        ]
+      }
     }
   ]
 }
