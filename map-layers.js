@@ -285,9 +285,12 @@ function addAreaLabels(kmlLayer, layerGroup, group) {
 // Only the Municipal Boundary (needed to fit the map) is fetched up front; every other KML is fetched the first time its layer is switched on.
 function loadMunicipalLayers(targetMap, layerPanel, onBoundaryReady, autoAdd = true, passive = false) {
   const groupLayers = {};
-  // Public views - the GitHub Pages copy (window.PUBLIC_VIEW) and the portal's ?public=1 map - leave out portal-only
-  // layers and the whole Planning group (master plan, CLU, metro); tools/sync_public_view.py also keeps their files off GitHub.
-  const isPublicView = window.PUBLIC_VIEW || new URLSearchParams(location.search).get('public') === '1';
+  // Public views - the GitHub Pages copy (window.PUBLIC_VIEW), and the portal's ?public=1 map when nobody is signed in -
+  // leave out portal-only layers and the whole Planning group (master plan, CLU, metro); tools/sync_public_view.py also
+  // keeps their files off GitHub. Signed-in staff open ?public=1 from "View All GIS Assets" and must still see them.
+  let signedIn = false;
+  try { signedIn = !!(sessionStorage.getItem('roadmark:token') || localStorage.getItem('roadmark:token')); } catch (_) {}
+  const isPublicView = window.PUBLIC_VIEW || (new URLSearchParams(location.search).get('public') === '1' && !signedIn);
   const layers = KML_LAYERS.filter(g => !(isPublicView && (g.portalOnly || g.category === 'Planning')));
   layers.forEach(group => {
     const layerGroup = L.layerGroup();
