@@ -25116,77 +25116,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-RWH-000062",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "Sahid Vatika Kukdola",
-        "ward": "",
-        "sector": "",
-        "villageName": "Kukdola",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "2869",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "",
-          "feature_11": "",
-          "feature_12": "Poor",
-          "feature_13": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ULB/2026-27/355732",
-          "workName": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
-          "workCategory": "Horticulture",
-          "componentWorked": "",
-          "workType": "New Construction",
-          "workDescription": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
-          "tenderId": "",
-          "tenderName": "",
-          "tenderDate": "",
-          "estimatedAmount": "8993602",
-          "agencyName": "",
-          "workOrderDate": "",
-          "agreementAmount": "",
-          "workStartDate": "",
-          "completionDate": "",
-          "actualExpenditure": "",
-          "billStage": "",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "",
-          "dlpPeriod": "",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "MC Fund",
-          "remarks": "",
-          "addedAt": "2026-10-10T07:34:08.629Z"
-        },
-        "workId": "MCM-RWH-000062-W1",
-        "workHistory": [],
-        "updatedAt": "2026-10-10T07:34:07.664Z",
-        "photos": [],
-        "createdAt": "2026-10-10T07:32:17.198Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.897144,
-          28.318884
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-PK-000004",
         "ulb": "MCM",
         "assetClass": "PK",
@@ -31351,6 +31280,78 @@
         "coordinates": [
           76.942677,
           28.329743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000062",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "Sahid Vatika Kukdola",
+        "ward": "",
+        "sector": "",
+        "villageName": "Kukdola",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "2869",
+          "feature_3": "1",
+          "feature_4": "",
+          "feature_5": "55",
+          "feature_6": "",
+          "feature_7": "10000",
+          "feature_8": "Yes",
+          "feature_9": "Pipeline",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/355732",
+          "workName": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "8993602",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "billStage": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-10-10T07:34:08.629Z"
+        },
+        "workId": "MCM-RWH-000062-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T10:42:31.507Z",
+        "photos": [],
+        "createdAt": "2026-10-10T07:32:17.198Z",
+        "featuresUpdatedAt": "2026-10-13T10:42:31.463Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.897144,
+          28.318884
         ]
       }
     }
