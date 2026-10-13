@@ -21175,90 +21175,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-TW-000183",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Naurangpur near Panchyat Chowk",
-        "ward": "16",
-        "sector": "",
-        "villageName": "Naurangpur",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "547",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "",
-          "feature_6": "good",
-          "feature_7": "",
-          "feature_8": "Pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-06T09:47:31.872Z",
-        "photos": [],
-        "createdAt": "2026-10-06T09:47:24.789Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.969167,
-          28.35475
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000184",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Naurangpur stadium",
-        "ward": "16",
-        "sector": "",
-        "villageName": "Naurangpur",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "600",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "good",
-          "feature_7": "",
-          "feature_8": "Pipeline",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-06T09:49:13.791Z",
-        "photos": [],
-        "createdAt": "2026-10-06T09:49:08.155Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.979472,
-          28.357417
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RWH-000021",
         "ulb": "MCM",
         "assetClass": "RWH",
@@ -21323,300 +21239,6 @@
         "coordinates": [
           76.889362,
           28.374374
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000185",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Bar-gujjar near SRM warehouse",
-        "ward": "16",
-        "sector": "",
-        "villageName": "Bar Gujjar",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "550",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "",
-          "feature_6": "good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-06T09:52:24.832Z",
-        "photos": [],
-        "createdAt": "2026-10-06T09:51:22.335Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.973722,
-          28.341361
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000186",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in BPL Colony, Bar-Gujjar",
-        "ward": "16",
-        "sector": "",
-        "villageName": "Bar-Gujjar",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "549",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "14",
-          "feature_4": "200",
-          "feature_5": "MC meter",
-          "feature_6": "good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-06T09:55:49.127Z",
-        "photos": [],
-        "createdAt": "2026-10-06T09:55:37.030Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.969819,
-          28.331858
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000187",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Bar-Gujjar near BPL Colony",
-        "ward": "16",
-        "sector": "",
-        "villageName": "Bar-Gujjar",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "600",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-06T09:57:22.672Z",
-        "photos": [],
-        "createdAt": "2026-10-06T09:57:15.643Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.970167,
-          28.33325
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000188",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Bar Gujjar near Baba Ram Mohan ram mandir",
-        "ward": "16",
-        "sector": "",
-        "villageName": "Bar-gujjar",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "550",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-06T09:59:12.776Z",
-        "photos": [],
-        "createdAt": "2026-10-06T09:58:57.833Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.976167,
-          28.336944
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000189",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Bar-gujjar near pappi Sarpanch house",
-        "ward": "16",
-        "sector": "",
-        "villageName": "Bar- Gujjar",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "598",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-06T10:00:37.408Z",
-        "photos": [],
-        "createdAt": "2026-10-06T10:00:27.906Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.978361,
-          28.341389
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000190",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Samshan Ghat, Bar-Gujjar",
-        "ward": "16",
-        "sector": "",
-        "villageName": "Bar- Gujjar",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "445",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "MC meter",
-          "feature_6": "good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-06T10:01:52.784Z",
-        "photos": [],
-        "createdAt": "2026-10-06T10:01:39.052Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.979694,
-          28.339972
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-TW-000191",
-        "ulb": "MCM",
-        "assetClass": "TW",
-        "visibility": "public",
-        "assetName": "Tubewell in Bar Gujjar near Govt. School",
-        "ward": "16",
-        "sector": "",
-        "villageName": "Bar-Gujjar",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "497",
-          "feature_1": "",
-          "feature_2": "",
-          "feature_3": "15",
-          "feature_4": "203",
-          "feature_5": "",
-          "feature_6": "good",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "Working",
-          "feature_11": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-06T10:03:07.087Z",
-        "photos": [],
-        "createdAt": "2026-10-06T10:02:59.965Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.978917,
-          28.338778
         ]
       }
     },
@@ -30729,6 +30351,627 @@
         "coordinates": [
           76.980389,
           28.339944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000191",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Bar Gujjar near Govt. School",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar-Gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "497",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/248947",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "workCategory": "Water Supply",
+          "componentWorked": "O&M",
+          "workType": "Maintenance",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderId": "2025_HRY_458349_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderDate": "2025-07-03",
+          "estimatedAmount": "13.93",
+          "agencyName": "Pawan Kumar Contractor",
+          "workOrderDate": "2025-08-04",
+          "agreementAmount": "1033423",
+          "workStartDate": "2025-08-05",
+          "completionDate": "2026-08-05",
+          "actualExpenditure": "10.33",
+          "billStage": "Final Bill",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "-2",
+          "dlpStartDate": "2026-08-05",
+          "dlpEndDate": "",
+          "fundSource": "MC fund",
+          "remarks": "",
+          "addedAt": "2026-10-13T09:43:34.042Z"
+        },
+        "workId": "MCM-TW-000191-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T09:43:33.975Z",
+        "photos": [],
+        "createdAt": "2026-10-06T10:02:59.965Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.978917,
+          28.338778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000190",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Samshan Ghat, Bar-Gujjar",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar- Gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "445",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/248947",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "workCategory": "Water Supply",
+          "componentWorked": "O&M",
+          "workType": "Maintenance",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderId": "2025_HRY_458349_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderDate": "2025-07-03",
+          "estimatedAmount": "13.93",
+          "agencyName": "Pawan Kumar Contractor",
+          "workOrderDate": "2025-08-04",
+          "agreementAmount": "1033423",
+          "workStartDate": "2025-08-05",
+          "completionDate": "2026-08-05",
+          "actualExpenditure": "10.33",
+          "billStage": "Final Bill",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "-2",
+          "dlpStartDate": "2026-08-05",
+          "dlpEndDate": "",
+          "fundSource": "MC fund",
+          "remarks": "",
+          "addedAt": "2026-10-13T09:43:34.307Z"
+        },
+        "workId": "MCM-TW-000190-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T09:43:34.244Z",
+        "photos": [],
+        "createdAt": "2026-10-06T10:01:39.052Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.979694,
+          28.339972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000189",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Bar-gujjar near pappi Sarpanch house",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar- Gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "598",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/248947",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "workCategory": "Water Supply",
+          "componentWorked": "O&M",
+          "workType": "Maintenance",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderId": "2025_HRY_458349_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderDate": "2025-07-03",
+          "estimatedAmount": "13.93",
+          "agencyName": "Pawan Kumar Contractor",
+          "workOrderDate": "2025-08-04",
+          "agreementAmount": "1033423",
+          "workStartDate": "2025-08-05",
+          "completionDate": "2026-08-05",
+          "actualExpenditure": "10.33",
+          "billStage": "Final Bill",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "-2",
+          "dlpStartDate": "2026-08-05",
+          "dlpEndDate": "",
+          "fundSource": "MC fund",
+          "remarks": "",
+          "addedAt": "2026-10-13T09:43:34.587Z"
+        },
+        "workId": "MCM-TW-000189-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T09:43:34.525Z",
+        "photos": [],
+        "createdAt": "2026-10-06T10:00:27.906Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.978361,
+          28.341389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000188",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Bar Gujjar near Baba Ram Mohan ram mandir",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar-gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "550",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/248947",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "workCategory": "Water Supply",
+          "componentWorked": "O&M",
+          "workType": "Maintenance",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderId": "2025_HRY_458349_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderDate": "2025-07-03",
+          "estimatedAmount": "13.93",
+          "agencyName": "Pawan Kumar Contractor",
+          "workOrderDate": "2025-08-04",
+          "agreementAmount": "1033423",
+          "workStartDate": "2025-08-05",
+          "completionDate": "2026-08-05",
+          "actualExpenditure": "10.33",
+          "billStage": "Final Bill",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "-2",
+          "dlpStartDate": "2026-08-05",
+          "dlpEndDate": "",
+          "fundSource": "MC fund",
+          "remarks": "",
+          "addedAt": "2026-10-13T09:43:34.875Z"
+        },
+        "workId": "MCM-TW-000188-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T09:43:34.799Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:58:57.833Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.976167,
+          28.336944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000187",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Bar-Gujjar near BPL Colony",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar-Gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "600",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/248947",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "workCategory": "Water Supply",
+          "componentWorked": "O&M",
+          "workType": "Maintenance",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderId": "2025_HRY_458349_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderDate": "2025-07-03",
+          "estimatedAmount": "13.93",
+          "agencyName": "Pawan Kumar Contractor",
+          "workOrderDate": "2025-08-04",
+          "agreementAmount": "1033423",
+          "workStartDate": "2025-08-05",
+          "completionDate": "2026-08-05",
+          "actualExpenditure": "10.33",
+          "billStage": "Final Bill",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "-2",
+          "dlpStartDate": "2026-08-05",
+          "dlpEndDate": "",
+          "fundSource": "MC fund",
+          "remarks": "",
+          "addedAt": "2026-10-13T09:43:35.147Z"
+        },
+        "workId": "MCM-TW-000187-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T09:43:35.089Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:57:15.643Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.970167,
+          28.33325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000186",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in BPL Colony, Bar-Gujjar",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar-Gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "549",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "14",
+          "feature_4": "200",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/248947",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "workCategory": "Water Supply",
+          "componentWorked": "O&M",
+          "workType": "Maintenance",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderId": "2025_HRY_458349_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderDate": "2025-07-03",
+          "estimatedAmount": "13.93",
+          "agencyName": "Pawan Kumar Contractor",
+          "workOrderDate": "2025-08-04",
+          "agreementAmount": "1033423",
+          "workStartDate": "2025-08-05",
+          "completionDate": "2026-08-05",
+          "actualExpenditure": "10.33",
+          "billStage": "Final Bill",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "-2",
+          "dlpStartDate": "2026-08-05",
+          "dlpEndDate": "",
+          "fundSource": "MC fund",
+          "remarks": "",
+          "addedAt": "2026-10-13T09:43:35.415Z"
+        },
+        "workId": "MCM-TW-000186-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T09:43:35.358Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:55:37.030Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.969819,
+          28.331858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000185",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Bar-gujjar near SRM warehouse",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bar Gujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "550",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/248947",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "workCategory": "Water Supply",
+          "componentWorked": "O&M",
+          "workType": "Maintenance",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderId": "2025_HRY_458349_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderDate": "2025-07-03",
+          "estimatedAmount": "13.93",
+          "agencyName": "Pawan Kumar Contractor",
+          "workOrderDate": "2025-08-04",
+          "agreementAmount": "1033423",
+          "workStartDate": "2025-08-05",
+          "completionDate": "2026-08-05",
+          "actualExpenditure": "10.33",
+          "billStage": "Final Bill",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "-2",
+          "dlpStartDate": "2026-08-05",
+          "dlpEndDate": "",
+          "fundSource": "MC fund",
+          "remarks": "",
+          "addedAt": "2026-10-13T09:43:35.685Z"
+        },
+        "workId": "MCM-TW-000185-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T09:43:35.633Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:51:22.335Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.973722,
+          28.341361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000184",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Naurangpur stadium",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Naurangpur",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "600",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "MC meter",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "Pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/248947",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "workCategory": "Water Supply",
+          "componentWorked": "O&M",
+          "workType": "Maintenance",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderId": "2025_HRY_458349_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderDate": "2025-07-03",
+          "estimatedAmount": "13.93",
+          "agencyName": "Pawan Kumar Contractor",
+          "workOrderDate": "2025-08-04",
+          "agreementAmount": "1033423",
+          "workStartDate": "2025-08-05",
+          "completionDate": "2026-08-05",
+          "actualExpenditure": "10.33",
+          "billStage": "Final Bill",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "-2",
+          "dlpStartDate": "2026-08-05",
+          "dlpEndDate": "",
+          "fundSource": "MC fund",
+          "remarks": "",
+          "addedAt": "2026-10-13T09:43:35.973Z"
+        },
+        "workId": "MCM-TW-000184-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T09:43:35.909Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:49:08.155Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.979472,
+          28.357417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-TW-000183",
+        "ulb": "MCM",
+        "assetClass": "TW",
+        "visibility": "public",
+        "assetName": "Tubewell in Naurangpur near Panchyat Chowk",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Naurangpur",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "547",
+          "feature_1": "",
+          "feature_2": "",
+          "feature_3": "15",
+          "feature_4": "203",
+          "feature_5": "",
+          "feature_6": "good",
+          "feature_7": "",
+          "feature_8": "Pipeline",
+          "feature_9": "",
+          "feature_10": "Working",
+          "feature_11": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2025-26/248947",
+          "workName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "workCategory": "Water Supply",
+          "componentWorked": "O&M",
+          "workType": "Maintenance",
+          "workDescription": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderId": "2025_HRY_458349_1",
+          "tenderName": "OPERATION AND MAINTENANCE OF WATER SUPPLY TUBEWELLS IN VILLAGE NAURANGPUR AND BAR GUJJAR IN WARD-16 UNDER MC MANESAR",
+          "tenderDate": "2025-07-03",
+          "estimatedAmount": "13.93",
+          "agencyName": "Pawan Kumar Contractor",
+          "workOrderDate": "2025-08-04",
+          "agreementAmount": "1033423",
+          "workStartDate": "2025-08-05",
+          "completionDate": "2026-08-05",
+          "actualExpenditure": "10.33",
+          "billStage": "Final Bill",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "Passed",
+          "dlpPeriod": "-2",
+          "dlpStartDate": "2026-08-05",
+          "dlpEndDate": "",
+          "fundSource": "MC fund",
+          "remarks": "",
+          "addedAt": "2026-10-13T09:43:36.271Z"
+        },
+        "workId": "MCM-TW-000183-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T09:43:36.208Z",
+        "photos": [],
+        "createdAt": "2026-10-06T09:47:24.789Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.969167,
+          28.35475
         ]
       }
     }
