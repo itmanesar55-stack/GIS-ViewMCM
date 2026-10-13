@@ -569,6 +569,24 @@
         "Condition",
         "Built by"
       ]
+    },
+    {
+      "code": "BN",
+      "label": "Benches",
+      "features": [
+        "Bench type (park / footpath / bus stop / memorial)",
+        "Material (concrete / stone / steel / wood / GRC)",
+        "Length (m)",
+        "Seating capacity",
+        "Backrest (Y / N)",
+        "Armrests (Y / N)",
+        "Shade / canopy (Y / N)",
+        "Fixing / foundation",
+        "Quantity at this location",
+        "Year installed",
+        "Condition",
+        "Built by"
+      ]
     }
   ],
   "features": [
