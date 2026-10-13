@@ -31525,6 +31525,48 @@
           28.40027
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-BN-000004",
+        "ulb": "MCM",
+        "assetClass": "BN",
+        "visibility": "public",
+        "assetName": "Park Nawada",
+        "ward": "20",
+        "sector": "",
+        "villageName": "Nawada",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "Park",
+          "feature_1": "RCC",
+          "feature_2": "1.8",
+          "feature_3": "3",
+          "feature_4": "Yes",
+          "feature_5": "Yes",
+          "feature_6": "No",
+          "feature_7": "Fixing",
+          "feature_8": "10",
+          "feature_9": "",
+          "feature_10": "Poor",
+          "feature_11": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T11:26:03.074Z",
+        "photos": [],
+        "createdAt": "2026-10-13T11:25:08.262Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.941309,
+          28.3984
+        ]
+      }
     }
   ]
 }
