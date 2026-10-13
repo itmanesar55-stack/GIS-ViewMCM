@@ -30606,6 +30606,59 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-DR-000002",
+        "ulb": "MCM",
+        "assetClass": "DR",
+        "visibility": "public",
+        "assetName": "Water Drain In Village Sehrawan",
+        "ward": "09",
+        "sector": "",
+        "villageName": "Sehrawan",
+        "ownership": "ULB-built",
+        "lengthM": "144.75",
+        "featureData": {
+          "feature_0": "Box Type",
+          "feature_1": "U shape",
+          "feature_2": "RCC",
+          "feature_3": "1.450",
+          "feature_4": ".800",
+          "feature_5": "Covered",
+          "feature_6": "Good",
+          "feature_7": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T09:13:26.336Z",
+        "photos": [],
+        "createdAt": "2026-10-13T08:53:17.991Z",
+        "featuresUpdatedAt": "2026-10-13T09:10:05.992Z"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.918173,
+            28.345455
+          ],
+          [
+            76.918169,
+            28.345117
+          ],
+          [
+            76.918145,
+            28.344756
+          ],
+          [
+            76.918095,
+            28.344155
+          ]
+        ]
+      }
     }
   ]
 }
