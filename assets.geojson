@@ -20949,77 +20949,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-RWH-000041",
-        "ulb": "MCM",
-        "assetClass": "RWH",
-        "visibility": "public",
-        "assetName": "PHC Center Lakhnola",
-        "ward": "",
-        "sector": "",
-        "villageName": "Lakhnola",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "",
-          "feature_1": "",
-          "feature_2": "5069",
-          "feature_3": "",
-          "feature_4": "",
-          "feature_5": "",
-          "feature_6": "",
-          "feature_7": "",
-          "feature_8": "",
-          "feature_9": "",
-          "feature_10": "",
-          "feature_11": "",
-          "feature_12": "Poor",
-          "feature_13": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ULB/2026-27/355732",
-          "workName": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
-          "workCategory": "Horticulture",
-          "componentWorked": "",
-          "workType": "New Construction",
-          "workDescription": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
-          "tenderId": "",
-          "tenderName": "",
-          "tenderDate": "",
-          "estimatedAmount": "8993599",
-          "agencyName": "",
-          "workOrderDate": "",
-          "agreementAmount": "",
-          "workStartDate": "",
-          "completionDate": "",
-          "actualExpenditure": "",
-          "billStage": "",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "",
-          "dlpPeriod": "",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "MC Fund",
-          "remarks": "",
-          "addedAt": "2026-10-07T10:08:02.490Z"
-        },
-        "workId": "MCM-RWH-000041-W1",
-        "workHistory": [],
-        "updatedAt": "2026-10-07T10:08:03.078Z",
-        "photos": [],
-        "createdAt": "2026-10-07T10:05:38.311Z"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.956167,
-          28.381117
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-RWH-000042",
         "ulb": "MCM",
         "assetClass": "RWH",
@@ -31260,6 +31189,78 @@
         "coordinates": [
           76.953747,
           28.3791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-RWH-000041",
+        "ulb": "MCM",
+        "assetClass": "RWH",
+        "visibility": "public",
+        "assetName": "PHC Center Lakhnola",
+        "ward": "",
+        "sector": "",
+        "villageName": "Lakhnola",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "",
+          "feature_1": "",
+          "feature_2": "5069",
+          "feature_3": "1",
+          "feature_4": "3*3*4",
+          "feature_5": "55",
+          "feature_6": "",
+          "feature_7": "10000",
+          "feature_8": "Yes",
+          "feature_9": "Pipeline",
+          "feature_10": "",
+          "feature_11": "",
+          "feature_12": "Poor",
+          "feature_13": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/355732",
+          "workName": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
+          "workCategory": "Horticulture",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Rainwater harvesting roof top and ground water recharge structure in MC Buildings Division 2 in MCM",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "8993599",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "billStage": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-10-07T10:08:02.490Z"
+        },
+        "workId": "MCM-RWH-000041-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-13T10:26:30.345Z",
+        "photos": [],
+        "createdAt": "2026-10-07T10:05:38.311Z",
+        "featuresUpdatedAt": "2026-10-13T10:26:30.658Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.956167,
+          28.381117
         ]
       }
     }
