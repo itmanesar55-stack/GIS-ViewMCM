@@ -30661,10 +30661,11 @@
         },
         "workId": "MCM-DR-000002-W1",
         "workHistory": [],
-        "updatedAt": "2026-10-13T09:30:25.811Z",
+        "updatedAt": "2026-10-13T09:30:27.329Z",
         "photos": [],
         "createdAt": "2026-10-13T08:53:17.991Z",
-        "featuresUpdatedAt": "2026-10-13T09:10:05.992Z"
+        "featuresUpdatedAt": "2026-10-13T09:10:05.992Z",
+        "featuresReviewedForWork": "MCM-DR-000002-W1"
       },
       "geometry": {
         "type": "LineString",
