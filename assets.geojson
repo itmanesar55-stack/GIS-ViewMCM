@@ -31655,147 +31655,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-SL-000005",
-        "ulb": "MCM",
-        "assetClass": "SL",
-        "visibility": "public",
-        "assetName": "Tiranga Lights in Ward No. 16 Rampura to Naurangpur",
-        "ward": "16",
-        "sector": "",
-        "villageName": "",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "GI",
-          "feature_1": "9",
-          "feature_2": "LED",
-          "feature_3": "35",
-          "feature_4": "110",
-          "feature_5": "Pole Mounted",
-          "feature_6": "Rampura to Naurangpur",
-          "feature_7": "Panel/MCB based",
-          "feature_8": "Working",
-          "feature_9": "",
-          "feature_10": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-14T06:05:48.397Z",
-        "photos": [],
-        "createdAt": "2026-10-14T06:04:28.063Z"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            76.961409,
-            28.378533
-          ],
-          [
-            76.967693,
-            28.358296
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-SL-000006",
-        "ulb": "MCM",
-        "assetClass": "SL",
-        "visibility": "public",
-        "assetName": "Tiranga Lights in Ward No. 16 Naurangpur to Bargujjar",
-        "ward": "16",
-        "sector": "",
-        "villageName": "",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "GI",
-          "feature_1": "9",
-          "feature_2": "LED",
-          "feature_3": "35",
-          "feature_4": "80",
-          "feature_5": "Pole Mounted",
-          "feature_6": "Naurangpur to Bargujjar",
-          "feature_7": "Panel/MCB based",
-          "feature_8": "Working",
-          "feature_9": "",
-          "feature_10": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-14T06:08:33.445Z",
-        "photos": [],
-        "createdAt": "2026-10-14T06:07:14.538Z"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            76.969779,
-            28.352355
-          ],
-          [
-            76.967413,
-            28.332474
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "assetId": "MCM-SL-000007",
-        "ulb": "MCM",
-        "assetClass": "SL",
-        "visibility": "public",
-        "assetName": "Tiranga Lights in Ward No. 16 Bargujjar to Ramesh rathi warehouse",
-        "ward": "16",
-        "sector": "",
-        "villageName": "",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "GI",
-          "feature_1": "6",
-          "feature_2": "LED",
-          "feature_3": "35",
-          "feature_4": "105",
-          "feature_5": "Pole Mounted",
-          "feature_6": "Bargujjar",
-          "feature_7": "Panel/MCB based",
-          "feature_8": "Working",
-          "feature_9": "",
-          "feature_10": ""
-        },
-        "lifecycleData": {},
-        "workId": "",
-        "workHistory": [],
-        "updatedAt": "2026-10-14T06:12:04.066Z",
-        "photos": [],
-        "createdAt": "2026-10-14T06:10:40.577Z"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            76.970895,
-            28.344723
-          ],
-          [
-            76.977581,
-            28.338289
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-SL-000004",
         "ulb": "MCM",
         "assetClass": "SL",
@@ -31942,6 +31801,228 @@
           [
             76.948966,
             28.333813
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SL-000007",
+        "ulb": "MCM",
+        "assetClass": "SL",
+        "visibility": "public",
+        "assetName": "Tiranga Lights in Ward No. 16 Bargujjar to Ramesh rathi warehouse",
+        "ward": "16",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "GI",
+          "feature_1": "6",
+          "feature_2": "LED",
+          "feature_3": "35",
+          "feature_4": "105",
+          "feature_5": "Pole Mounted",
+          "feature_6": "Bargujjar",
+          "feature_7": "Panel/MCB based",
+          "feature_8": "Working",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/357445",
+          "workName": "Estimate for installation of Tiranga Lights in ward no.15,16 in MCM",
+          "workCategory": "Electrical",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Estimate for installation of Tiranga Lights in ward no.15,16 in MCM",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "6625252",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "billStage": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC FUND",
+          "remarks": "",
+          "addedAt": "2026-10-14T06:20:23.500Z"
+        },
+        "workId": "MCM-SL-000007-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-14T06:20:24.438Z",
+        "photos": [],
+        "createdAt": "2026-10-14T06:10:40.577Z"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            76.970895,
+            28.344723
+          ],
+          [
+            76.977581,
+            28.338289
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SL-000006",
+        "ulb": "MCM",
+        "assetClass": "SL",
+        "visibility": "public",
+        "assetName": "Tiranga Lights in Ward No. 16 Naurangpur to Bargujjar",
+        "ward": "16",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "GI",
+          "feature_1": "9",
+          "feature_2": "LED",
+          "feature_3": "35",
+          "feature_4": "80",
+          "feature_5": "Pole Mounted",
+          "feature_6": "Naurangpur to Bargujjar",
+          "feature_7": "Panel/MCB based",
+          "feature_8": "Working",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/357445",
+          "workName": "Estimate for installation of Tiranga Lights in ward no.15,16 in MCM",
+          "workCategory": "Electrical",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Estimate for installation of Tiranga Lights in ward no.15,16 in MCM",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "6625252",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "billStage": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC FUND",
+          "remarks": "",
+          "addedAt": "2026-10-14T06:20:23.650Z"
+        },
+        "workId": "MCM-SL-000006-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-14T06:20:24.627Z",
+        "photos": [],
+        "createdAt": "2026-10-14T06:07:14.538Z"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            76.969779,
+            28.352355
+          ],
+          [
+            76.967413,
+            28.332474
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SL-000005",
+        "ulb": "MCM",
+        "assetClass": "SL",
+        "visibility": "public",
+        "assetName": "Tiranga Lights in Ward No. 16 Rampura to Naurangpur",
+        "ward": "16",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "GI",
+          "feature_1": "9",
+          "feature_2": "LED",
+          "feature_3": "35",
+          "feature_4": "110",
+          "feature_5": "Pole Mounted",
+          "feature_6": "Rampura to Naurangpur",
+          "feature_7": "Panel/MCB based",
+          "feature_8": "Working",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/357445",
+          "workName": "Estimate for installation of Tiranga Lights in ward no.15,16 in MCM",
+          "workCategory": "Electrical",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Estimate for installation of Tiranga Lights in ward no.15,16 in MCM",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "6625252",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "billStage": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC FUND",
+          "remarks": "",
+          "addedAt": "2026-10-14T06:20:23.846Z"
+        },
+        "workId": "MCM-SL-000005-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-14T06:20:24.817Z",
+        "photos": [],
+        "createdAt": "2026-10-14T06:04:28.063Z"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            76.961409,
+            28.378533
+          ],
+          [
+            76.967693,
+            28.358296
           ]
         ]
       }
