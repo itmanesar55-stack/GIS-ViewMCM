@@ -31773,6 +31773,53 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SL-000006",
+        "ulb": "MCM",
+        "assetClass": "SL",
+        "visibility": "public",
+        "assetName": "Tiranga Lights in Ward No. 16 Naurangpur to Bargujjar",
+        "ward": "16",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "GI",
+          "feature_1": "9",
+          "feature_2": "LED",
+          "feature_3": "35",
+          "feature_4": "80",
+          "feature_5": "Pole Mounted",
+          "feature_6": "Naurangpur to Bargujjar",
+          "feature_7": "Panel/MCB based",
+          "feature_8": "Working",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-14T06:08:33.445Z",
+        "photos": [],
+        "createdAt": "2026-10-14T06:07:14.538Z"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            76.969779,
+            28.352355
+          ],
+          [
+            76.967413,
+            28.332474
+          ]
+        ]
+      }
     }
   ]
 }
