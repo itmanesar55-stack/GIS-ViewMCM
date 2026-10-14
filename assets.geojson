@@ -32026,6 +32026,61 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SL-000009",
+        "ulb": "MCM",
+        "assetClass": "SL",
+        "visibility": "public",
+        "assetName": "Street Light in Bargujjar",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Bargujjar",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "GI",
+          "feature_1": "16",
+          "feature_2": "LED",
+          "feature_3": "1800",
+          "feature_4": "5",
+          "feature_5": "Pole Mounted",
+          "feature_6": "Bargujjar",
+          "feature_7": "Panel/MCB based",
+          "feature_8": "Not working",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-14T06:27:31.144Z",
+        "photos": [],
+        "createdAt": "2026-10-14T06:25:46.739Z"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            76.974607,
+            28.335951
+          ],
+          [
+            76.97522,
+            28.33698
+          ],
+          [
+            76.97477,
+            28.336943
+          ],
+          [
+            76.975478,
+            28.336961
+          ]
+        ]
+      }
     }
   ]
 }
