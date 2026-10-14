@@ -31820,6 +31820,53 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SL-000007",
+        "ulb": "MCM",
+        "assetClass": "SL",
+        "visibility": "public",
+        "assetName": "Tiranga Lights in Ward No. 16 Bargujjar to Ramesh rathi warehouse",
+        "ward": "16",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "GI",
+          "feature_1": "6",
+          "feature_2": "LED",
+          "feature_3": "35",
+          "feature_4": "105",
+          "feature_5": "Pole Mounted",
+          "feature_6": "Bargujjar",
+          "feature_7": "Panel/MCB based",
+          "feature_8": "Working",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-14T06:12:04.066Z",
+        "photos": [],
+        "createdAt": "2026-10-14T06:10:40.577Z"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            76.970895,
+            28.344723
+          ],
+          [
+            76.977581,
+            28.338289
+          ]
+        ]
+      }
     }
   ]
 }
