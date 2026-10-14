@@ -3,192 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Asset Portal — MC Manesar</title>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
-<link rel="stylesheet" href="map-layers.css">
+<title>MCM GIS Map - moved</title>
+<meta http-equiv="refresh" content="3; url=https://gis.mcmanesar.in/index.html?public=1">
+<link rel="canonical" href="https://gis.mcmanesar.in/index.html?public=1">
 <style>
-  :root { --ink:#17221f; --muted:#687570; --line:#d8e0db; --paper:#f5f7f3; --shadow:0 18px 48px rgba(19,35,28,.14); }
-  * { box-sizing: border-box; }
-  body { margin: 0; font-family: 'DM Sans', sans-serif; color: var(--ink); }
-  header { display: flex; align-items: center; gap: 16px; padding: 12px 24px; min-height: 84px; background: var(--ink); color: #fff; position: relative; z-index: 20; }
-  header .mark { height: 56px; width: auto; border-radius: 5px; }
-  header strong { font: 700 18px 'Space Grotesk', sans-serif; }
-  header span.tag { color: #aebbb4; font-size: 12px; margin-left: 4px; }
-  .layout { display: grid; grid-template-columns: 1fr 250px; height: calc(100vh - 84px); }
-  #map { height: 100%; }
-  aside { padding: 16px; border-left: 1px solid var(--line); overflow-y: auto; }
-  aside h3 { margin: 0 0 10px; font: 600 13px 'Space Grotesk', sans-serif; }
-  .legend-item { display: flex; align-items: center; gap: 8px; margin: 9px 0; font-size: 12px; }
-  .legend-item input { width: 15px; height: 15px; }
-  .swatch { width: 20px; height: 5px; border-radius: 3px; }
-  .note { margin-top: 16px; padding: 10px; background: #f5f7f3; border-radius: 6px; color: var(--muted); font-size: 11px; line-height: 1.5; }
-  .leaflet-popup-content { margin: 10px 12px; }
-  .popup-details { display: flex; flex-direction: column; }
-  .popup-row { display: flex; gap: 10px; padding: 5px 0; border-bottom: 1px solid var(--line); }
-  .popup-row:last-child { border-bottom: 0; }
-  .popup-works { margin-top: 8px; padding-top: 8px; border-top: 2px solid var(--line); }
-  .popup-works-title { font-weight: 700; font-size: 12px; margin-bottom: 4px; }
-  .popup-work-link { display: block; padding: 5px 0; border-bottom: 1px solid var(--line); font-size: 12px; color: #1469df; text-decoration: none; }
-  .popup-work-link:hover { text-decoration: underline; }
-  .popup-work-link .work-pill { display: inline-block; margin-left: 4px; padding: 0 5px; border-radius: 8px; font-size: 10px; font-weight: 700; background: #e6f4ea; color: #1e6b3a; }
-  .popup-work-link .work-pill.done { background: #eef0f2; color: #5b6770; }
-  .popup-work-rows { padding: 2px 0 6px 10px; border-bottom: 1px solid var(--line); }
-  .popup-label { flex: 0 0 42%; min-width: 0; color: var(--muted); font-weight: 600; font-size: 11.5px; word-break: break-word; }
-  .popup-value { flex: 1 1 auto; min-width: 0; font-size: 11.5px; word-break: break-word; overflow-wrap: anywhere; }
-  .dropdown-check { position: relative; }
-  .dropdown-check-toggle { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 9px 11px; background: #fff; border: 1px solid var(--line); border-radius: 6px; font: 600 12px 'DM Sans', sans-serif; color: var(--ink); cursor: pointer; text-align: left; }
-  .dropdown-check-toggle .chev { color: var(--muted); font-size: 10px; }
-  .dropdown-check-panel { position: absolute; top: calc(100% + 4px); left: 0; right: 0; z-index: 20; background: #fff; border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 18px 44px rgba(0,0,0,.2); max-height: 260px; overflow-y: auto; padding: 6px; }
-  .dropdown-check-item { display: flex; align-items: center; gap: 8px; padding: 6px 7px; font-size: 12px; color: var(--ink); border-radius: 4px; cursor: pointer; }
-  .dropdown-check-item:hover { background: #f5f7f3; }
-  .dropdown-check-item input { width: 15px; height: 15px; flex-shrink: 0; }
-  @media (max-width: 760px) { .layout { grid-template-columns: 1fr; grid-template-rows: 60vh 1fr; } aside { border-left: 0; border-top: 1px solid var(--line); } }
+  :root { --ink:#17221f; --muted:#5f6b66; --bg:#f4f6f3; --card:#fff; --accent:#126b68; }
+  body { margin:0; min-height:100vh; display:grid; place-items:center; background:var(--bg); color:var(--ink);
+         font:16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; padding:16px; box-sizing:border-box; }
+  main { max-width:480px; background:var(--card); border-radius:10px; padding:28px 24px; box-shadow:0 2px 12px rgba(0,0,0,.08); text-align:center; }
+  img { width:84px; }
+  h1 { font-size:20px; margin:14px 0 8px; }
+  p { color:var(--muted); margin:0 0 18px; }
+  a.btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:10px 18px; border-radius:6px; font-weight:600; }
 </style>
 </head>
 <body>
-  <header>
-    <img class="mark" src="mcm-logo.png" alt="Municipal Corporation Manesar"><strong>Municipal Corporation Manesar</strong><span class="tag">Asset Portal — public view</span>
-  </header>
-  <div class="layout">
-    <div id="map"></div>
-    <aside>
-      <h3>Marked assets</h3>
-      <div class="dropdown-check" id="asset-class-dropdown">
-        <button type="button" class="dropdown-check-toggle" id="asset-class-toggle">All asset types <span class="chev">&#9662;</span></button>
-        <div class="dropdown-check-panel" id="asset-class-panel" hidden>
-          <label class="dropdown-check-item"><input type="checkbox" value="ALL" checked> All asset types</label>
-          <div id="asset-class-options"></div>
-        </div>
-      </div>
-      <div class="note">Use the <b>Layers</b> button on the map to show boundaries, land records and other MCM layers.</div>
-      <div class="note">This is a read-only view. New assets are marked and saved by municipal staff on the internal portal, then published here.</div>
-    </aside>
-  </div>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@mapbox/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js" integrity="sha384-C5TjWI9mRUxt0mbkh94XvDiod6mq7+GVybF1eWTozMPt8X6DvzPeFfzpNsVmb1Tu" crossorigin="anonymous"></script>
-  <script>window.PUBLIC_VIEW = true;  // map-layers.js leaves out portal-only layers (e.g. the master plan)</script>
-  <script src="map-layers.js"></script>
-  <script>
-    const map = L.map('map', { zoomControl: false }).setView([28.36, 76.94], 13);
-    L.control.zoom({ position: 'bottomright' }).addTo(map);
-    esriBasemap('World_Imagery', 18, 22).addTo(map);   // from map-layers.js
-
-    // Boundaries, land records etc. - the same floating layer panel as the portal (map-layers.js / map-layers.css).
-    let boundaryFitted = false;
-    loadMunicipalLayers(map, true, layer => { if (!boundaryFitted) { boundaryFitted = true; map.fitBounds(layer.getBounds(), { padding: [20, 20] }); } });
-
-    const ASSET_CLASSES = { RD: ['#e33d2f', 'Roads'], DR: ['#1573c8', 'Drains / Sewer'], WL: ['#0c9b9b', 'Water supply'], TWL: ['#8a5a2b', 'Treated water'], WT: ['#0277bd', 'Water tankers'], WE: ['#00695c', 'Wells'], RWH: ['#2e7d32', 'Rain water harvesting'], SD: ['#7b4bb7', 'Storm water'], SL: ['#f0a51a', 'Streetlights'], PK: ['#369d55', 'Parks'] };
-    const CLASS_COLOR_PALETTE = ['#e33d2f', '#1573c8', '#0c9b9b', '#7b4bb7', '#f0a51a', '#369d55', '#d6499a', '#5b6bd6', '#c77c1f', '#2e9e7a', '#a5388d', '#4a7d1f'];
-    const classColorCache = {};
-    function colorForClass(code) {
-      if (ASSET_CLASSES[code]) return ASSET_CLASSES[code][0];
-      if (!classColorCache[code]) {
-        let hash = 0; for (const ch of code) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
-        classColorCache[code] = CLASS_COLOR_PALETTE[hash % CLASS_COLOR_PALETTE.length];
-      }
-      return classColorCache[code];
-    }
-    const assetLayers = {};
-    const renderedAssetIds = new Set();
-
-    function escapeHtml(value) { return String(value == null ? '' : value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
-    let CLASS_DEFS = {};  // filled from assets.geojson: code -> { label, features }
-    function prettifyKey(key) { return String(key).replace(/^feature_(\d+)$/, (_m, n) => 'Feature ' + (Number(n) + 1)).replace(/([a-z])([A-Z])/g, '$1 $2').replace(/^./, c => c.toUpperCase()); }
-    function assetDetailsHtml(properties) {
-      const code = properties.assetClass;
-      const rows = [
-        ['Asset ID', properties.assetId], ['Asset Name', properties.assetName], ['Asset Class', (CLASS_DEFS[code] && CLASS_DEFS[code].label) || (ASSET_CLASSES[code] || [null, code])[1]],
-        ['ULB', properties.ulb], ['Ward', properties.ward], ['Sector', properties.sector],
-        ['Ownership', properties.ownership], ['Status', properties.status],
-        ['Length (m)', properties.lengthM], ['Created By', properties.createdBy]
-      ];
-      // Every feature heading of the class is listed, blank ones as a dash.
-      const headings = (CLASS_DEFS[code] && CLASS_DEFS[code].features) || [];
-      const featureData = properties.featureData || {};
-      const headingRows = headings.map((label, index) => [label, featureData['feature_' + index] || '—']);
-      Object.entries(featureData).forEach(([key, value]) => { const index = Number(String(key).replace('feature_', '')); if (value && !(index < headings.length)) headingRows.push([prettifyKey(key), value]); });
-      const rowsHtml = rows.filter(([, v]) => v !== undefined && v !== null && v !== '').concat(headingRows)
-        .map(([k, v]) => '<div class="popup-row"><span class="popup-label">' + escapeHtml(k) + '</span><span class="popup-value">' + escapeHtml(v) + '</span></div>').join('');
-      return '<div class="popup-details">' + rowsHtml + '</div>' + worksHtml(properties);
-    }
-    // Shown under each work link in the popup, one per line.
-    const POPUP_WORK_FIELDS = [['hewpId', 'HEWP ID'], ['tenderName', 'Tender Name'], ['workOrderDate', 'Work Order Date'], ['agreementAmount', 'Agreement Amount (Rs.)']];
-    // One link per work (current + completed); each opens the read-only work page in a new tab.
-    function worksHtml(properties) {
-      const works = [];
-      if (properties.workId) works.push({ ...(properties.lifecycleData || {}), workId: properties.workId, current: true });
-      (Array.isArray(properties.workHistory) ? properties.workHistory : []).forEach(w => { if (w && w.workId) works.push({ ...w, current: false }); });
-      const base = 'work-view.html?id=' + encodeURIComponent(properties.assetId);
-      const links = works.map(w => '<a class="popup-work-link" target="_blank" rel="noopener" href="' + base + '&workId=' + encodeURIComponent(w.workId) + '">' +
-        escapeHtml(w.workName || w.workId) + '<span class="work-pill' + (w.current ? '' : ' done') + '">' + (w.current ? 'CURRENT' : 'COMPLETED') + '</span></a>' +
-        '<div class="popup-work-rows">' + POPUP_WORK_FIELDS.map(([key, label]) => '<div class="popup-row"><span class="popup-label">' + label + '</span><span class="popup-value">' + escapeHtml(w[key] || '—') + '</span></div>').join('') + '</div>').join('');
-      return '<div class="popup-works"><div class="popup-works-title">Works (' + works.length + ')</div>' +
-        (links || '<div style="font-size:12px;color:var(--muted)">No work recorded yet.</div>') + '</div>';
-    }
-    function renderAssetFeature(feature) {
-      const code = feature.properties && feature.properties.assetClass;
-      const id = feature.properties && feature.properties.assetId;
-      if (!id || renderedAssetIds.has(id)) return;
-      renderedAssetIds.add(id);
-      if (!assetLayers[code]) assetLayers[code] = L.layerGroup();
-      L.geoJSON(feature, {
-        style: { color: colorForClass(code), weight: 5, opacity: .9 },
-        pointToLayer: (_f, latlng) => L.circleMarker(latlng, { radius: 7, color: '#fff', weight: 2, fillColor: colorForClass(code), fillOpacity: 1 })
-      }).bindPopup('<strong>' + escapeHtml(feature.properties.assetName || id) + '</strong>' + assetDetailsHtml(feature.properties), { maxWidth: 280, minWidth: 220, maxHeight: 320, autoPanPadding: [20, 20] })
-        .addTo(assetLayers[code]);
-    }
-
-    const classToggle = document.getElementById('asset-class-toggle');
-    const classPanel = document.getElementById('asset-class-panel');
-    const classOptionsBox = document.getElementById('asset-class-options');
-    const allCheckbox = classPanel.querySelector('input[value="ALL"]');
-    classToggle.addEventListener('click', () => { classPanel.hidden = !classPanel.hidden; });
-    document.addEventListener('click', event => { if (!classPanel.hidden && !document.getElementById('asset-class-dropdown').contains(event.target)) classPanel.hidden = true; });
-    function updateClassToggleLabel() {
-      const checked = [...classPanel.querySelectorAll('input[type="checkbox"]:checked')];
-      let label = 'All asset types';
-      if (!checked.some(box => box.value === 'ALL')) {
-        label = checked.length === 0 ? 'No asset types shown' : checked.length === 1 ? checked[0].parentElement.textContent.trim() : checked.length + ' asset types selected';
-      }
-      classToggle.firstChild.textContent = label + ' ';
-    }
-    function renderAssetVisibility() {
-      const selected = new Set([...classPanel.querySelectorAll('input[type="checkbox"]:checked')].map(box => box.value));
-      Object.entries(assetLayers).forEach(([key, layer]) => { if (selected.has('ALL') || selected.has(key)) layer.addTo(map); else map.removeLayer(layer); });
-    }
-    classPanel.addEventListener('change', event => {
-      if (!event.target.matches('input[type="checkbox"]')) return;
-      const target = event.target;
-      const boxes = [...classPanel.querySelectorAll('input[type="checkbox"]')];
-      // Ticking "All" clears the single types and vice versa. Unticking everything (including "All") shows no assets.
-      if (target === allCheckbox && target.checked) boxes.forEach(box => { if (box !== allCheckbox) box.checked = false; });
-      else if (target !== allCheckbox && target.checked) allCheckbox.checked = false;
-      updateClassToggleLabel();
-      renderAssetVisibility();
-    });
-    function rebuildAssetLegend() {
-      const keys = Object.keys(assetLayers);
-      const previousSelection = [...classPanel.querySelectorAll('input[type="checkbox"]:checked')].map(box => box.value);
-      if (!keys.length) { classOptionsBox.innerHTML = '<p class="note" style="margin-top:0">No assets published yet.</p>'; return; }
-      classOptionsBox.innerHTML = keys.map(code => {
-        const label = (ASSET_CLASSES[code] || [null, code])[1];
-        const swatch = '<span class="swatch" style="background:' + colorForClass(code) + '"></span>';
-        return '<label class="dropdown-check-item"><input type="checkbox" value="' + code + '">' + swatch + ' ' + label + '</label>';
-      }).join('');
-      const keptSelection = previousSelection.filter(value => value === 'ALL' || keys.includes(value));
-      [...classPanel.querySelectorAll('input[type="checkbox"]')].forEach(box => { box.checked = keptSelection.includes(box.value); });
-      if (!keptSelection.length) allCheckbox.checked = true;
-      updateClassToggleLabel();
-      renderAssetVisibility();
-    }
-
-    fetch('assets.geojson', { cache: 'no-cache' }).then(r => r.json()).then(collection => {
-      (collection.assetClasses || []).forEach(c => { CLASS_DEFS[c.code] = c; });
-      (collection.features || []).forEach(feature => renderAssetFeature(feature));
-      rebuildAssetLegend();
-    }).catch(() => { classOptionsBox.innerHTML = '<p class="note" style="margin-top:0">No assets published yet.</p>'; });
-  </script>
+<main>
+  <img src="mcm-logo.png" alt="Municipal Corporation Manesar">
+  <h1>The MCM GIS map has moved</h1>
+  <p>Municipal Corporation Manesar's public asset map is now at <b>gis.mcmanesar.in</b>. Taking you there&hellip;</p>
+  <a class="btn" id="go" href="https://gis.mcmanesar.in/index.html?public=1">Open the GIS map</a>
+</main>
+<script>
+  // Keep a shared asset link working: ...?view=<asset id> -> the same asset on the new site.
+  var q = new URLSearchParams(location.search), url = 'https://gis.mcmanesar.in/index.html?public=1';
+  if (q.get('view')) url += '&view=' + encodeURIComponent(q.get('view'));
+  document.getElementById('go').href = url;
+  setTimeout(function () { location.replace(url); }, 1500);
+</script>
 </body>
 </html>
