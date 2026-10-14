@@ -31867,6 +31867,57 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SL-000008",
+        "ulb": "MCM",
+        "assetClass": "SL",
+        "visibility": "public",
+        "assetName": "Tiranga Lights in Ward No. 16 Nainwal",
+        "ward": "16",
+        "sector": "",
+        "villageName": "Nainwal",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "GI",
+          "feature_1": "9",
+          "feature_2": "LED",
+          "feature_3": "35",
+          "feature_4": "220",
+          "feature_5": "Pole Mounted",
+          "feature_6": "Nainwal",
+          "feature_7": "Panel/MCB based",
+          "feature_8": "Working",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-14T06:18:26.981Z",
+        "photos": [],
+        "createdAt": "2026-10-14T06:15:36.133Z"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            76.938125,
+            28.337806
+          ],
+          [
+            76.952519,
+            28.330894
+          ],
+          [
+            76.948966,
+            28.333813
+          ]
+        ]
+      }
     }
   ]
 }
