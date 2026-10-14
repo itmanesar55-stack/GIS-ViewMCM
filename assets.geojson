@@ -31651,6 +31651,54 @@
           28.39465
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SL-000004",
+        "ulb": "MCM",
+        "assetClass": "SL",
+        "visibility": "public",
+        "assetName": "Tiranga Lights in Ward No. 15 Nakhdola",
+        "ward": "15",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "GI",
+          "feature_1": "9",
+          "feature_2": "LED",
+          "feature_3": "35",
+          "feature_4": "60",
+          "feature_5": "Pole Mounted",
+          "feature_6": "",
+          "feature_7": "Panel/MCB based",
+          "feature_8": "Working",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-14T05:58:16.714Z",
+        "photos": [],
+        "createdAt": "2026-10-14T05:40:45.004Z",
+        "featuresUpdatedAt": "2026-10-14T05:56:11.296Z"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            76.946046,
+            28.371651
+          ],
+          [
+            76.960395,
+            28.37892
+          ]
+        ]
+      }
     }
   ]
 }
