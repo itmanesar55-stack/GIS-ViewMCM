@@ -31655,81 +31655,6 @@
     {
       "type": "Feature",
       "properties": {
-        "assetId": "MCM-SL-000004",
-        "ulb": "MCM",
-        "assetClass": "SL",
-        "visibility": "public",
-        "assetName": "Tiranga Lights in Ward No. 15 Nakhdola",
-        "ward": "15",
-        "sector": "",
-        "villageName": "",
-        "ownership": "ULB-built",
-        "lengthM": "",
-        "featureData": {
-          "feature_0": "GI",
-          "feature_1": "9",
-          "feature_2": "LED",
-          "feature_3": "35",
-          "feature_4": "60",
-          "feature_5": "Pole Mounted",
-          "feature_6": "",
-          "feature_7": "Panel/MCB based",
-          "feature_8": "Working",
-          "feature_9": "",
-          "feature_10": ""
-        },
-        "lifecycleData": {
-          "hewpId": "ULB/2026-27/357445",
-          "workName": "Estimate for Tiranga Lights in ward no.15,16 in MCM",
-          "workCategory": "Electrical",
-          "componentWorked": "",
-          "workType": "New Construction",
-          "workDescription": "Estimate for Tiranga Lights in ward no.15,16 in MCM",
-          "tenderId": "",
-          "tenderName": "",
-          "tenderDate": "",
-          "estimatedAmount": "6625252",
-          "agencyName": "",
-          "workOrderDate": "",
-          "agreementAmount": "",
-          "workStartDate": "",
-          "completionDate": "",
-          "actualExpenditure": "",
-          "billStage": "",
-          "timeExtension": "",
-          "extendedUpto": "",
-          "testingStatus": "",
-          "dlpPeriod": "",
-          "dlpStartDate": "",
-          "dlpEndDate": "",
-          "fundSource": "MC Fund",
-          "remarks": "",
-          "addedAt": "2026-10-14T06:01:34.863Z"
-        },
-        "workId": "MCM-SL-000004-W1",
-        "workHistory": [],
-        "updatedAt": "2026-10-14T06:01:35.698Z",
-        "photos": [],
-        "createdAt": "2026-10-14T05:40:45.004Z",
-        "featuresUpdatedAt": "2026-10-14T05:56:11.296Z"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            76.946046,
-            28.371651
-          ],
-          [
-            76.960395,
-            28.37892
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "assetId": "MCM-SL-000005",
         "ulb": "MCM",
         "assetClass": "SL",
@@ -31864,6 +31789,81 @@
           [
             76.977581,
             28.338289
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SL-000004",
+        "ulb": "MCM",
+        "assetClass": "SL",
+        "visibility": "public",
+        "assetName": "Tiranga Lights in Ward No. 15 Nakhdola",
+        "ward": "15",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "GI",
+          "feature_1": "9",
+          "feature_2": "LED",
+          "feature_3": "35",
+          "feature_4": "60",
+          "feature_5": "Pole Mounted",
+          "feature_6": "",
+          "feature_7": "Panel/MCB based",
+          "feature_8": "Working",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {
+          "hewpId": "ULB/2026-27/357445",
+          "workName": "Estimate for installation of Tiranga Lights in ward no.15,16 in MCM",
+          "workCategory": "Electrical",
+          "componentWorked": "",
+          "workType": "New Construction",
+          "workDescription": "Estimate for installation of Tiranga Lights in ward no.15,16 in MCM",
+          "tenderId": "",
+          "tenderName": "",
+          "tenderDate": "",
+          "estimatedAmount": "6625252",
+          "agencyName": "",
+          "workOrderDate": "",
+          "agreementAmount": "",
+          "workStartDate": "",
+          "completionDate": "",
+          "actualExpenditure": "",
+          "billStage": "",
+          "timeExtension": "",
+          "extendedUpto": "",
+          "testingStatus": "",
+          "dlpPeriod": "",
+          "dlpStartDate": "",
+          "dlpEndDate": "",
+          "fundSource": "MC Fund",
+          "remarks": "",
+          "addedAt": "2026-10-14T06:01:34.863Z"
+        },
+        "workId": "MCM-SL-000004-W1",
+        "workHistory": [],
+        "updatedAt": "2026-10-14T06:15:20.031Z",
+        "photos": [],
+        "createdAt": "2026-10-14T05:40:45.004Z",
+        "featuresUpdatedAt": "2026-10-14T05:56:11.296Z"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            76.946046,
+            28.371651
+          ],
+          [
+            76.960395,
+            28.37892
           ]
         ]
       }
