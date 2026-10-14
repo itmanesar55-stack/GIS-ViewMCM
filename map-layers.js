@@ -26,10 +26,6 @@ const KML_LAYERS = [
   // A whole OneMap group (several sub-layers, each with its own style), from tools/export_gmda_group.py --portal.
   { name: 'Sultanpur CLU', category: 'Planning', color: 'linear-gradient(90deg, #00a9e6 50%, #ffbebe 50%)', show: false,
     groupLayer: 'layers/Sultanpur_CLU.geojson', legend: true },
-  // Sector roads (150 / 75 / 60 / 24 m) traced from the DTCP sectoral plans, georeferenced on the cadastral map (~+/-50 m);
-  // from tools/sectoral_plan_roads.py. Planning group, so staff-only.
-  { name: 'Sector Roads (Sectoral Plans)', category: 'Planning', color: 'linear-gradient(90deg, #0d47a1 25%, #2e7d32 25% 50%, #ef6c00 50% 75%, #c2185b 75%)', show: false,
-    groupLayer: 'layers/MCM_Sector_Roads.geojson', legend: true },
   // Proposed metro Sector 56 - Panchgaon (CAD alignment KMZ of 16-09-2024), from tools/import_metro_kmz.py.
   { name: 'Metro Alignment (Sec 56 - Panchgaon)', category: 'Planning', color: 'linear-gradient(90deg, #e6007e 60%, #00e676 60%)', show: false,
     groupLayer: 'layers/Metro_Sector56_Panchgaon.geojson', legend: true },
