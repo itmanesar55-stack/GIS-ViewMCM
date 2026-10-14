@@ -31726,6 +31726,53 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "assetId": "MCM-SL-000005",
+        "ulb": "MCM",
+        "assetClass": "SL",
+        "visibility": "public",
+        "assetName": "Tiranga Lights in Ward No. 16 Rampura to Naurangpur",
+        "ward": "16",
+        "sector": "",
+        "villageName": "",
+        "ownership": "ULB-built",
+        "lengthM": "",
+        "featureData": {
+          "feature_0": "GI",
+          "feature_1": "9",
+          "feature_2": "LED",
+          "feature_3": "35",
+          "feature_4": "110",
+          "feature_5": "Pole Mounted",
+          "feature_6": "Rampura to Naurangpur",
+          "feature_7": "Panel/MCB based",
+          "feature_8": "Working",
+          "feature_9": "",
+          "feature_10": ""
+        },
+        "lifecycleData": {},
+        "workId": "",
+        "workHistory": [],
+        "updatedAt": "2026-10-14T06:05:48.397Z",
+        "photos": [],
+        "createdAt": "2026-10-14T06:04:28.063Z"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            76.961409,
+            28.378533
+          ],
+          [
+            76.967693,
+            28.358296
+          ]
+        ]
+      }
     }
   ]
 }
